@@ -21,40 +21,100 @@
     <![endif]-->
 
 
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">MoreGrasp Registration Form</h3>
-      </div>
-
-      <div class="jumbotron">
-
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-      </div>
-
-        <div class="row center-aligned">
-            <p class="my-class"><button type="button" class="btn btn-default">Go to registration</button></p>
+      <div class="container">
+        <div class="header">
+            <ul class="nav nav-pills pull-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+            <h3 class="text-muted">MoreGrasp Registration Form</h3>
         </div>
-      <!--<div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
 
-          <h4>Sass</h4>
-          <p>Sass is a mature, stable, and powerful professional grade CSS extension language.</p>
+        <!-- Welcome Panel -->
+
+        <div class="row center-aligned input-panel" id="panel-1">
+            <div class="jumbotron">
+                <p class="lead">Welcome to MoreGrasp...</p>
+            </div>
+            <p class="margin-l"><button type="button" class="btn btn-default continue" to="panel-2">Go to registration</button></p>
+        </div>
 
 
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
+        <!-- Personal Data Panel -->
+        <div class="row center-aligned input-panel" id="panel-2" style="display:none;">
+            <form class="form-inline">
+                <!-- 1st row -->
+                <div class="form-group">
+                    <label for="inputFirstame">First Name</label>
+                    <input type="text" class="form-control" id="inputFirstname" placeholder="Jane">
+                </div>
+                <div class="form-group">
+                    <label for="inputLastname">Last Name</label>
+                    <input type="text" class="form-control" id="inputLastname" placeholder="Doe">
+                </div>
+                <!-- 2nd row -->
+                <div class="form-group">
+                    <label for="ddCountry">Country</label>
+                    <div class="dropdown" id="ddCountry">
+                        <button id="dLabel" type="button" class="btn btn-default" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Austria
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dLabel">
+                            <li><a href="#">Austria</a></li>
+                            <li><a href="#">Germany</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="sm" for="ddCity">City</label>
+                    <div class="dropdown" id="ddCity">
+                        <button id="dLabel" type="button" class="btn btn-default" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Graz
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dLabel">
+                            <li><a href="#">Graz</a></li>
+                            <li><a href="#">Wien</a></li>
+                        </ul>
+                    </div>
+                    <label class="sm" for="inputZip">ZIP</label>
+                    <input type="text" class="form-control sm" id="inputZip" placeholder="6">
+                </div>
+                <!-- 3rd row -->
+                <div class="form-group">
+                    <label for="inputStreet">Street</label>
+                    <input type="text" class="form-control" id="inputStreet" placeholder="Inffeldgasse">
+                </div>
+                <div class="form-group">
+                    <label for="inputNumber">Number</label>
+                    <input type="text" class="form-control sm" id="inputNumber" placeholder="13">
+                </div>
+                <div class="form-group right">
+                    <label class="sm" for="inputDoor">Door</label>
+                    <input type="text" class="form-control sm" id="inputDoor" placeholder="6">
+                </div>
+                <!-- 4th row -->
+                <div class="form-group">
+                    <label for="inputTelHome">Tel. Home</label>
+                    <input type="text" class="form-control" id="inputTelHome" placeholder="134 5678">
+                </div>
+                <div class="form-group">
+                    <label for="inputTelMobile">Tel. Mobile</label>
+                    <input type="text" class="form-control" id="inputTelMobile" placeholder="0680 5555 999">
+                </div>
+
+                <p class="margin-l"><button type="button" class="btn btn-default continue" to="panel-2">Continue</button></p>
+            </form>
+
+
 
 
         </div>
-      </div>
--->
+
+
+
       <div class="footer">
         <p>MoreGrasp 2015</p>
       </div>

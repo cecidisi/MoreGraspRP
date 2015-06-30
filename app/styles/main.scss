@@ -10,15 +10,16 @@ $icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bo
   padding: 0.2em 0;
 }
 
-
-.my-class {
-    margin: 50px;
+html {
+  height: 100%;
 }
 
 /* Space out content a bit */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+    $padding-body: 20px;
+    /*height: calc(100% - $padding-body - $padding-body);*/
+    height: calc(100% - 40px);
+    padding: $padding-body 0px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -49,6 +50,10 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
+.container {
+    height: 90%;
+}
+
 .container-narrow > hr {
   margin: 30px 0;
 }
@@ -71,10 +76,6 @@ body {
   }
 }
 
-
-.center-aligned {
-    text-align: center;
-}
 
 
 /* Responsive: Portrait tablets and up */
@@ -101,3 +102,71 @@ body {
     border-bottom: 0;
   }
 }
+
+
+/*******************************************************************************************************/
+
+@import "mixins/custom-mixins";
+
+$marginLarge: 50px;
+
+.center-aligned {
+    text-align: center;
+}
+
+.margin-l {
+    @include margin($marginLarge);
+}
+
+
+.input-panel {
+    height: 90%;
+    text-align: left;
+
+    .form-group {
+        padding: 5px;
+        width: auto;
+
+        label {
+            min-width: 85px;
+            text-align: right;
+            padding-right: 5px;
+
+            &.sm {
+                min-width: 50px;
+            }
+        }
+
+        .form-control {
+            width: 240px;
+
+            &.sm {
+                width: 60px;
+            }
+
+            &.lg {
+                width: 240px;
+            }
+        }
+
+
+        .dropdown {
+            display: inline-block;
+            width: 200px;
+
+            button {
+                width: 100%;
+                text-align: left;
+            }
+        }
+
+        &.right {
+            text-align: right;
+        }
+    }
+
+    p {
+        text-align: center;
+    }
+}
+

@@ -5456,13 +5456,14 @@ button.close {
   color: #000;
   padding: 0.2em 0; }
 
-.my-class {
-  margin: 50px; }
+html {
+  height: 100%; }
 
 /* Space out content a bit */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  /*height: calc(100% - $padding-body - $padding-body);*/
+  height: calc(100% - 40px);
+  padding: 20px 0px; }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -5487,6 +5488,9 @@ body {
   color: #777;
   border-top: 1px solid #e5e5e5; }
 
+.container {
+  height: 90%; }
+
 .container-narrow > hr {
   margin: 30px 0; }
 
@@ -5504,9 +5508,6 @@ body {
   .marketing p + h4 {
     margin-top: 28px; }
 
-.center-aligned {
-  text-align: center; }
-
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
@@ -5523,5 +5524,41 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0; } }
+
+/*******************************************************************************************************/
+.center-aligned {
+  text-align: center; }
+
+.margin-l {
+  margin: 50px; }
+
+.input-panel {
+  height: 90%;
+  text-align: left; }
+  .input-panel .form-group {
+    padding: 5px;
+    width: auto; }
+    .input-panel .form-group label {
+      min-width: 85px;
+      text-align: right;
+      padding-right: 5px; }
+      .input-panel .form-group label.sm {
+        min-width: 50px; }
+    .input-panel .form-group .form-control {
+      width: 240px; }
+      .input-panel .form-group .form-control.sm {
+        width: 60px; }
+      .input-panel .form-group .form-control.lg {
+        width: 240px; }
+    .input-panel .form-group .dropdown {
+      display: inline-block;
+      width: 200px; }
+      .input-panel .form-group .dropdown button {
+        width: 100%;
+        text-align: left; }
+    .input-panel .form-group.right {
+      text-align: right; }
+  .input-panel p {
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
