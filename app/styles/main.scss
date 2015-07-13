@@ -118,10 +118,30 @@ $marginLarge: 50px;
     @include margin($marginLarge);
 }
 
+.logo {
+    display: inline-block;
+    width: 200px;
+    height: 132px;
+    background-image: url(../media/moregrasp-logo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 
 .input-panel {
     height: 90%;
     text-align: left;
+
+    .jumbotron {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .info {
+        padding: 15px;
+        border-radius: 6px;
+    }
 
     .form-group {
         padding: 5px;
@@ -138,12 +158,11 @@ $marginLarge: 50px;
         }
 
         .form-control {
-            width: 240px;
+            width: 146px;
 
             &.sm {
-                width: 60px;
+                width: 86px;
             }
-
             &.lg {
                 width: 240px;
             }
@@ -152,7 +171,7 @@ $marginLarge: 50px;
 
         .dropdown {
             display: inline-block;
-            width: 200px;
+            width: 240px;
 
             button {
                 width: 100%;
@@ -160,8 +179,26 @@ $marginLarge: 50px;
             }
         }
 
+        .question {
+            width: 350px;
+            text-align: left;
+        }
+
+        .toggle-on,
+        .toggle-off {
+            text-align: left;
+        }
+
         &.right {
             text-align: right;
+        }
+
+        &.centered {
+            width: 450px;
+            margin: auto;
+            &.cbx-toggle {
+                float: right;
+            }
         }
     }
 

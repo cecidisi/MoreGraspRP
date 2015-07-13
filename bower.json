@@ -2,7 +2,8 @@
   "name": "moregrasprp",
   "private": true,
   "dependencies": {
-    "bootstrap-sass-official": "~3.2.0"
+    "bootstrap-sass-official": "~3.2.0",
+    "bootstrap-toggle": "~2.2.0"
   },
   "devDependencies": {
     "chai": "~3.0.0",

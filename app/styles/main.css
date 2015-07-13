@@ -5532,9 +5532,24 @@ body {
 .margin-l {
   margin: 50px; }
 
+.logo {
+  display: inline-block;
+  width: 200px;
+  height: 132px;
+  background-image: url(../media/moregrasp-logo.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
 .input-panel {
   height: 90%;
   text-align: left; }
+  .input-panel .jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .input-panel .info {
+    padding: 15px;
+    border-radius: 6px; }
   .input-panel .form-group {
     padding: 5px;
     width: auto; }
@@ -5545,19 +5560,30 @@ body {
       .input-panel .form-group label.sm {
         min-width: 50px; }
     .input-panel .form-group .form-control {
-      width: 240px; }
+      width: 146px; }
       .input-panel .form-group .form-control.sm {
-        width: 60px; }
+        width: 86px; }
       .input-panel .form-group .form-control.lg {
         width: 240px; }
     .input-panel .form-group .dropdown {
       display: inline-block;
-      width: 200px; }
+      width: 240px; }
       .input-panel .form-group .dropdown button {
         width: 100%;
         text-align: left; }
+    .input-panel .form-group .question {
+      width: 350px;
+      text-align: left; }
+    .input-panel .form-group .toggle-on,
+    .input-panel .form-group .toggle-off {
+      text-align: left; }
     .input-panel .form-group.right {
       text-align: right; }
+    .input-panel .form-group.centered {
+      width: 450px;
+      margin: auto; }
+      .input-panel .form-group.centered.cbx-toggle {
+        float: right; }
   .input-panel p {
     text-align: center; }
 
