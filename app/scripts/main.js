@@ -1,13 +1,8 @@
 (function(){
 
-var $inputPanels = $('.input-panel');
+    'use strict';
 
-
-
-
-
-
-
+    var $inputPanels = $('.input-panel');
 
 
     $inputPanels.each(function(i, panel){
