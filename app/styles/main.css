@@ -5577,6 +5577,9 @@ body {
     .input-panel .form-group .toggle-on,
     .input-panel .form-group .toggle-off {
       text-align: left; }
+    .input-panel .form-group p.explanation {
+      text-align: left;
+      font-size: 0.9em; }
     .input-panel .form-group.right {
       text-align: right; }
     .input-panel .form-group.centered {
@@ -5584,6 +5587,9 @@ body {
       margin: auto; }
       .input-panel .form-group.centered.cbx-toggle {
         float: right; }
+    .input-panel .form-group.top-hline {
+      margin-top: 20px;
+      border-top: 1px solid #e5e5e5; }
   .input-panel p {
     text-align: center; }
 

@@ -2,6 +2,8 @@
 
     'use strict';
 
+
+    /* input panels */
     var $inputPanels = $('.input-panel');
 
 
@@ -21,6 +23,28 @@
         $(panel).find('.previous').click(goTo);
     });
 
+    /* file uploades */
+
+    var uploadSettings = {
+        url: "",
+        dragDrop: true,
+        fileName: "myfile",
+        allowedTypes: ['avi', 'mkv', 'asf', 'mp4', 'm4p', 'mpg', 'mpeg'],
+        returnType: "json",
+        showDone: false,
+        showDelete: true,
+        showFileCounter: false,
+        onSuccess: function(files,data,xhr){},
+        onError: function(files, status, message){},
+        deleteCallback: function(filesToDelete){},
+        afterUploadAll: function(){}
+    };
+
+    $('#fileupload').fileupload({
+        url: 'http://localhost:8888'
+    });
+
+    /* checkboxes */
 
     $('.cbx-toggle').bootstrapToggle(
         { on: 'Yes', off: 'No' }

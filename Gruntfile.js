@@ -210,7 +210,27 @@ module.exports = function (grunt) {
       app: {
       //  ignorePath: /^\/|\.\.\//,
         src: ['<%= config.app %>/index.html'],
-        exclude: ['bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js']
+        exclude: ['bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js'],
+        overrides: {
+          'jquery-file-upload': {
+              main: [
+                  "css/jquery.fileupload.css",
+                  "css/jquery.fileupload-ui.css",
+                  "js/cors/jquery.postmessage-transport.js",
+                  "js/cors/jquery.xdr-transport.js",
+                  "js/vendor/jquery.ui.widget.js",
+                  "js/jquery.fileupload.js",
+                  "js/jquery.fileupload-process.js",
+                  "js/jquery.fileupload-validate.js",
+                  "js/jquery.fileupload-image.js",
+                  "js/jquery.fileupload-audio.js",
+                  "js/jquery.fileupload-video.js",
+                  "js/jquery.fileupload-ui.js",
+                  "js/jquery.fileupload-jquery-ui.js",
+                  "js/jquery.iframe-transport.js"
+              ]
+          }
+        }
       },
       sass: {
         src: ['<%= config.app %>/styles/{,*/}*.{scss,sass}'],

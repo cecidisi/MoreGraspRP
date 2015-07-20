@@ -189,6 +189,11 @@ $marginLarge: 50px;
             text-align: left;
         }
 
+        p.explanation {
+            text-align: left;
+            font-size: 0.9em;
+        }
+
         &.right {
             text-align: right;
         }
@@ -200,10 +205,18 @@ $marginLarge: 50px;
                 float: right;
             }
         }
+
+        &.top-hline {
+            margin-top: 20px;
+            border-top: 1px solid #e5e5e5;
+        }
     }
 
     p {
         text-align: center;
     }
+
+
 }
+
 
