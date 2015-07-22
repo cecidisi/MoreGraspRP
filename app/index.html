@@ -198,23 +198,41 @@
                   <input type="checkbox" class="cbx-toggle" id="cbxImproveGrasp" />
               </div>
 
+              <p class="margin-l">
+                  <button type="button" class="btn btn-default previous" to="panel-3">Previous</button>
+                  <button type="button" class="btn btn-default continue" to="panel-5">Continue</button>
+              </p>
+          </form>
+      </div>
+
+
+
+
+
+      <!--  Injury Data -->
+      <div class="row center-aligned input-panel" id="panel-5" style="display:none;">
+
+
               <!-- 5th row VIDEO -->
               <div class="form-group centered top-hline">
                   <h4>Please upload demo video</h4>
                   <p class="explanation">We can have a better idea of your condition if you provide demonstrative video/s</p>
-                  <form id="fileupload">
-                    <!--<form id="fileupload" action="http://localhost/8888" method="post" enctype="multipart/form-data">-->
+
+                  <form id="fileupload" action="//jquery-file-upload.appspot.com/" method="POST" enctype="multipart/form-data">
+                      <!-- Redirect browsers with JavaScript disabled to the origin page -->
+                      <!--<noscript><input type="hidden" name="redirect" value="https://blueimp.github.io/jQuery-File-Upload/"></noscript>-->
+                      <!-- The fileupload-buttonbar contains buttons to add/delete files and start/cancel the upload -->
                       <div class="row fileupload-buttonbar">
-                          <div class="col-lg-7 centered">
+                          <div class="col-lg-7">
+                              <!-- The fileinput-button span is used to style the file input field as button -->
                               <span class="btn btn-success fileinput-button">
-                                  <i class="glyphicon glyphicon-plus">
-                                  </i>
-                                  <span>Add file/s</span>
-                                  <input type="file" name="files[]" multiple >
+                                  <i class="glyphicon glyphicon-plus"></i>
+                                  <span>Add files...</span>
+                                  <input type="file" name="files[]" multiple>
                               </span>
                               <button type="submit" class="btn btn-primary start">
-                                <i class="glyphicon glyphicon-upload"></i>
-                                <span>Start upload</span>
+                                  <i class="glyphicon glyphicon-upload"></i>
+                                  <span>Start upload</span>
                               </button>
                               <button type="button" class="btn btn-danger delete">
                                   <i class="glyphicon glyphicon-trash"></i>
@@ -231,23 +249,19 @@
                               <div class="progress-extended">&nbsp;</div>
                           </div>
                       </div>
+                      <!-- The table listing the files available for upload/download -->
+                      <table role="presentation" class="table table-striped"><tbody class="files"></tbody></table>
                   </form>
+
               </div>
 
-<!--              <div class="text-center">
-
-
-
-              </div>-->
 
               <p class="margin-l">
-                  <button type="button" class="btn btn-default previous" to="panel-3">Previous</button>
-                  <button type="button" class="btn btn-default continue" to="panel-4">Continue</button>
+                  <button type="button" class="btn btn-default previous" to="panel-4">Previous</button>
+                  <button type="button" class="btn btn-default continue" to="panel-5">Continue</button>
               </p>
-          </form>
+
       </div>
-
-
 
 
       <div class="footer">
