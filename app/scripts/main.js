@@ -2,98 +2,76 @@
 
     'use strict';
 
+    var numberPanels = $('.input-panel').length,
+        currentPanel = 1;
 
-    /* input panels */
-    var $inputPanels = $('.input-panel');
 
 
-    $inputPanels.each(function(i, panel){
+    function enableButtons() {
 
-        var goTo = function(){
-            $(panel).slideUp('slow');
-            var nextPanel = $(this).attr('to');
-            $('#'+nextPanel).slideDown('slow');
+        $('#btn-previous').css('visibility', 'visible');
+        $('#btn-continue').css('visibility', 'visible');
+        if(currentPanel == 1)
+            $('#btn-previous').css('visibility', 'hidden');
+        else if(currentPanel == numberPanels)
+            $('#btn-continue').css('visibility', 'hidden');
+    }
 
-//            $(panel).toggle('slide', {direction: 'left'});
-//            var nextPanel = $(this).attr('to');
-//            $('#'+nextPanel).toggle('slide', {direction: 'right'});
 
-        };
-        $(panel).find('.continue').click(goTo);
-        $(panel).find('.previous').click(goTo);
+
+    $('#btn-previous, #btn-continue').click(function(event){
+        $('#panel-' + currentPanel).slideUp('slow');
+        currentPanel = $(this).attr('move') == 'forward' ? currentPanel + 1 : currentPanel - 1;
+        $('#panel-' + currentPanel).slideDown('slow');
+        enableButtons();
     });
 
-    /* file uploades */
-
-    var uploadSettings = {
-        url: "",
-        dragDrop: true,
-        fileName: "myfile",
-        allowedTypes: ['avi', 'mkv', 'asf', 'mp4', 'm4p', 'mpg', 'mpeg'],
-        returnType: "json",
-        showDone: false,
-        showDelete: true,
-        showFileCounter: false,
-        onSuccess: function(files,data,xhr){},
-        onError: function(files, status, message){},
-        deleteCallback: function(filesToDelete){},
-        afterUploadAll: function(){}
-    };
-
-    console.log($('#fileupload'));
-    $('#fileupload').fileupload({
-        filesContainer: $('table.files')
-    });
-
-
-
-/*    $('#fileupload').fileupload({
-        url: '../server/php/',
-        filesContainer: $('table.files'),
-        uploadTemplateId: null,
-        uploadTemplate: function (o) {
-            var rows = $();
-            $.each(o.files, function (index, file) {
-                var row = $('<tr class="template-upload fade">' +
-                            '<td><span class="preview"></span></td>' +
-                            '<td><p class="name"></p>' +
-                            '<div class="error"></div>' +
-                            '</td>' +
-                            '<td><p class="size"></p>' +
-                            '<div class="progress"></div>' +
-                            '</td>' +
-                            '<td>' +
-                            (!index && !o.options.autoUpload ?
-                             '<button class="start" disabled>Start</button>' : '') +
-                            (!index ? '<button class="cancel">Cancel</button>' : '') +
-                            '</td>' +
-                            '</tr>');
-                row.find('.name').text(file.name);
-                row.find('.size').text(o.formatFileSize(file.size));
-                if (file.error) {
-                    row.find('.error').text(file.error);
-                }
-                rows = rows.add(row);
-            });
-            return rows;
-        }
-    });*/
-
-    // Enable iframe cross-domain access via redirect option:
-/*    $('#fileupload').fileupload(
-        'option',
-        'redirect',
-        window.location.href.replace(
-            /\/[^\/]*$/,
-            '/cors/result.html?%s'
-        )
-    );*/
 
     /* checkboxes */
 
     $('.cbx-toggle').bootstrapToggle(
         { on: 'Yes', off: 'No' }
     );
+
+
+    /* file uploader */
+    var uploadSettings = {
+        url: 'http://localhost/MoreGraspRP/server-test/upload.php',
+        dragDrop: true,
+        dragdropWidth: '100%',
+        statusBarWidth: '100%',
+        fileName: "myfile",
+        uploadStr: 'Select',
+        acceptFiles: 'video/*',
+        maxFileSize: 1000000000,
+        showFileCounter: true,
+        showDone: false,
+        showDelete: true,
+        returnType: "json",
+        extraHTML: function(){
+            return "<div class='loading'></div>";
+        },
+        onSuccess: function(files,data,xhr, pd){
+            var video = "<video width='120' height='80' src='http://localhost/MoreGraspRP/server-test/uploads/" + files[0] + "' controls></video>";
+            $(pd.statusbar[0]).find('.extrahtml').empty().html(video);
+        },
+        onError: function(files, status, message){},
+        deleteCallback: function(filesToDelete){},
+        afterUploadAll: function(){}
+    };
+
+
+    $("#mulitplefileuploader").uploadFile(uploadSettings);
+
+    /*$('#fileupload').fileupload({
+        filesContainer: $('table.files')
+    });
+*/
+
+
+
+
+
 
 
 })();

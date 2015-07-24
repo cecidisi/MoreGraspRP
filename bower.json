@@ -4,7 +4,7 @@
   "dependencies": {
     "bootstrap-sass-official": "~3.2.0",
     "bootstrap-toggle": "~2.2.0",
-    "jquery-file-upload": "~9.10.4"
+    "jquery-uploadfile": "~4.0.2"
   },
   "devDependencies": {
     "chai": "~3.0.0",

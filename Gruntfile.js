@@ -209,7 +209,8 @@ module.exports = function (grunt) {
     wiredep: {
       app: {
       //  ignorePath: /^\/|\.\.\//,
-        src: ['<%= config.app %>/index.html'],
+        src: ['<%= config.app %>/*.html'],
+//          src: ['<%= config.app %>/index.html'],
         exclude: ['bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js'],
         overrides: {
           'jquery-file-upload': {
@@ -228,6 +229,12 @@ module.exports = function (grunt) {
                   "js/jquery.fileupload-ui.js",
                   "js/jquery.fileupload-jquery-ui.js",
                   "js/jquery.iframe-transport.js"
+              ]
+          },
+          'jquery-uploadfile': {
+              main: [
+                  "css/uploadfile.css",
+                  "js/jquery.uploadfile.min.js"
               ]
           }
         }
