@@ -1,0 +1,242 @@
+$icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "../../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import "file-upload";
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+html {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Space out content a bit */
+body {
+    width: calc(100% - 8px);
+    height: calc(100% - 78px);
+    margin: 4px;
+    overflow: hidden;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin: 15px 0px;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+/* Custom page footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #f5f5f5;
+    padding-left: 15px;
+    padding-right: 15px;padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+
+.container {
+    /*height: 100%;*/
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: $screen-sm-min) {
+    .container {
+        width: 100%;
+        margin: 0px 0px;
+
+        .panel#panel-filters > .panel-body {
+            overflow-y: auto;
+        }
+    }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+
+@media (min-width: $screen-md-min) {
+    .container {
+        width: calc(100% - 10px);
+        margin: 0px 5px;
+    }
+}
+
+
+@media (min-width: $screen-lg-min) {
+    .container {
+        width: calc(100% - 20px);
+        margin: 0px 10px;
+    }
+}
+
+
+
+
+/*******************************************************************************************************/
+
+@import "mixins/custom-mixins";
+
+$marginLarge: 50px;
+
+
+.container-main {
+    height: calc(100% - 90px);
+    overflow-y: auto;
+
+    .row {
+        height: 100%;
+
+        .col {
+            height: 100%;
+            padding-bottom: 10px;
+
+            &.col-70 {
+                height: 70%;
+            }
+            &.col-30 {
+                height: 30%;
+            }
+        }
+    }
+
+    .panel {
+        margin: 0px !important;
+        height: 100%;
+        float: left;
+        display: inline-block;
+        width: 100%;
+
+        &#panel-filters > .panel-body {
+            overflow-y: hidden;
+        }
+
+        &#panel-filters .row {
+            display: block;
+            margin: 5px 0px;
+            width: 100%;
+
+
+            label.filter-label {
+                @extend .col-xs-12, .col-sm-12, .col-md-12, .col-lg-5;
+                padding: 5px 2px 0px 2px;
+                color: #AF1336;
+            }
+
+            div.filter-element {
+                @extend .col-xs-12, .col-sm-12, .col-md-12, .col-lg-7;
+                padding: 0px 2px;
+
+                .btn-group-small {
+                    padding: 1px 0px;
+                }
+
+                div.slider {
+                    width: 80%;
+                    max-width: 200px;
+                    height: 10px;
+                    margin-top: 11px;
+                }
+
+                span.map {
+                    display: block;
+                    background-image: url(../media/map-32.png);
+                    background-repeat: no-repeat;
+                    width: 30px;
+                    height: 32px;
+
+                    &:hover {
+                        transform: scale(1.05);
+                    }
+                }
+            }
+
+        }
+
+
+        &#panel-details {
+
+            & .panel-body {
+                overflow-y: auto;
+            }
+
+            .tab-content {
+                padding: 4px;
+            }
+
+            .media-left {
+                display: table-cell;
+                vertical-align: top;
+                padding-right: 10px;
+            }
+
+            .media-body {
+                display: table-cell;
+            }
+
+            span.photo-placeholder {
+                background-image: url(../media/photo-placeholder.png);
+                background-repeat: no-repeat;
+                width: 64px;
+                height: 64px;
+            }
+
+        }
+
+    }
+}
+
+
+
+

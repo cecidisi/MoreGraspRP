@@ -18,7 +18,7 @@ module.exports = function (grunt) {
 
   // Configurable paths
   var config = {
-    app: 'app',
+    app: 'app-expert',
     dist: 'dist'
   };
 
@@ -207,6 +207,13 @@ module.exports = function (grunt) {
 
     // Automatically inject Bower components into the HTML file
     wiredep: {
+      options: {
+        overrides: {
+            'jquery-ui': {
+                main: [ "jquery-ui.min.js", "themes/base/jquery-ui.min.css" ]
+            }
+        }
+      },
       app: {
       //  ignorePath: /^\/|\.\.\//,
         src: ['<%= config.app %>/*.html'],

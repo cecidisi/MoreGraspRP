@@ -1,0 +1,93 @@
+.ajax-upload-dragdrop {
+
+    border:2px dotted #ddd;
+    /*color: #DADCE3;*/
+    color: #bbb;
+    text-align:left;
+    vertical-align:middle;
+    padding: 15px 10px;
+    border-radius: 4px;
+    //  margin: @line-height-computed;
+    @include center-block();
+
+    .ajax-file-upload {
+        @extend .btn, .btn-primary;
+        height: 34px;
+        width: 81px;
+        margin: 0px 20px 0px 0px; // For input.btn
+        box-shadow: none;
+    }
+}
+
+
+.ajax-file-upload-statusbar {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    @include center-block();
+
+
+    .ajax-file-upload-filename {
+        display: inline-block;
+        width: calc(100% - 70px);
+        height: auto;
+        margin: 0px 5px 5px 10px;
+        font-size: .9em;
+        text-align: left;
+    }
+
+    .extrahtml {
+        display: inline-block;
+        margin: 2px 12px;
+        width: 120px;
+        height: 80px;
+
+        div.loading {
+            width: 120px;
+            height: 80px;
+            background-image: url(../media/preload.gif);
+            background-position: -72px -56px;
+            background-color: white;
+            border: 1px solid #ddd;
+        }
+    }
+
+    .ajax-file-upload-progress {
+        @extend .progress;
+        display: inline-block;
+        position: relative;
+        width: 250px;
+
+    }
+
+    .ajax-file-upload-bar {
+        @extend .progress-bar;
+    }
+
+    .ajax-file-upload-percent {
+        position: absolute;
+        display: inline-block;
+        top: 3px;
+        left: 48%;
+    }
+
+    .ajax-file-upload {
+        @extend .btn, .btn-xs;
+        display: inline-block;
+        margin-top: -54px;
+        box-shadow: none;
+    }
+
+    .ajax-file-upload-red {
+        @extend .btn-danger, .ajax-file-upload;
+    }
+
+    .ajax-file-upload-green {
+        @extend .btn-success, .ajax-file-upload;
+    }
+
+
+}
+

@@ -10,19 +10,26 @@
     function enableButtons() {
 
         $('#btn-previous').css('visibility', 'visible');
-        $('#btn-continue').css('visibility', 'visible');
+        $('#btn-continue').show().css('visibility', 'visible');
+        $('#btn-submit').hide();
+
         if(currentPanel == 1)
             $('#btn-previous').css('visibility', 'hidden');
-        else if(currentPanel == numberPanels)
+        else if(currentPanel == numberPanels) {
             $('#btn-continue').css('visibility', 'hidden');
+            $('#btn-continue').hide();
+            $('#btn-submit').show();
+        }
     }
 
 
 
     $('#btn-previous, #btn-continue').click(function(event){
-        $('#panel-' + currentPanel).slideUp('slow');
+        $('#panel-' + currentPanel).hide();//slideUp('slow');
         currentPanel = $(this).attr('move') == 'forward' ? currentPanel + 1 : currentPanel - 1;
         $('#panel-' + currentPanel).slideDown('slow');
+//        $('#panel-' + currentPanel).fadeIn('slow');
+
         enableButtons();
     });
 
