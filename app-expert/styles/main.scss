@@ -338,8 +338,8 @@ $screen-xl-min: 1530px;
     }
 
     #user-photo {
-        width: 48px !important;
-        height: 48px !important;
+        width: 36px !important;
+        height: 36px !important;
     }
 }
 
@@ -350,17 +350,22 @@ $screen-xl-min: 1530px;
         width: calc(100% - 20px);
         margin: 0px 10px;
     }
-
     #user-photo {
-        width: 64px !important;
-        height: 64px !important;
+        width: 48px !important;
+        height: 48px !important;
     }
+
+
 }
 
 
 @media (min-width: $screen-xl-min) {
 
 
+    #user-photo {
+        width: 64px !important;
+        height: 64px !important;
+    }
 }
 
 

@@ -3,7 +3,7 @@
   "private": true,
   "dependencies": {
     "bootstrap-sass-official": "~3.2.0",
-    "bootstrap-toggle": "~2.2.0",
+    "bootstrap-toggle": "~2.2.1",
     "d3": "~3.5.6",
     "d3pie": "~0.1.9",
     "eonasdan-bootstrap-datetimepicker": "~4.17.37",
