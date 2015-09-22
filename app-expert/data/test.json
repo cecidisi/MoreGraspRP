@@ -1,0 +1,77 @@
+[
+    {
+        "id": "user-1",
+        "personal": {
+            "firstName": "John",
+            "lastName": "Doe",
+            "gender": "male",
+            "phone": "+43 111 1111 111"
+        },
+        "ellegible": false,
+        "colors": {
+            "injury": "rgba(0,153,0,1)",
+            "movements": "rgba(0,153,0,1)",
+            "personal": "rgba(204,0,0,1)"
+        }
+    },
+    {
+        "id": "user-2",
+        "personal": {
+            "firstName": "Fred",
+            "lastName": "Muhn",
+            "gender": "male",
+            "phone": "+43 222 2222 222"
+        },
+        "ellegible": false,
+        "colors": {
+            "injury": "rgba(204,0,0,1)",
+            "movements": "rgba(0,153,0,1)",
+            "personal": "rgba(204,0,0,1)"
+        }
+    },
+    {
+        "id": "user-3",
+        "personal": {
+            "firstName": "Monica",
+            "lastName": "Smith",
+            "gender": "female",
+            "phone": "+43 333 3333 333"
+        },
+        "ellegible": true,
+        "colors": {
+            "injury": "rgba(0,153,0,1)",
+            "movements": "rgba(0,153,0,1)",
+            "personal": "rgba(0,153,0,1)"
+        }
+    },
+    {
+        "id": "user-4",
+        "personal": {
+            "firstName": "Tom",
+            "lastName": "Jones",
+            "gender": "male",
+            "phone": "+43 444 4444 444"
+        },
+        "ellegible": true,
+        "colors" : {
+            "injury": "rgba(0,153,0,1)",
+            "movements": "rgba(0,153,0,1)",
+            "personal": "rgba(0,153,0,1)"
+        }
+    },
+    {
+        "id": "user-5",
+        "personal": {
+            "firstName": "Helena",
+            "lastName": "Fischer",
+            "gender": "female",
+            "phone": "+43 555 5555 555"
+        },
+        "ellegible": false,
+        "colors": {
+            "injury": "rgba(204,0,0,1)",
+            "movements": "rgba(204,0,0,1)",
+            "personal": "rgba(204,0,0,1)"
+        }
+    }
+]
