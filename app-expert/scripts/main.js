@@ -50,7 +50,7 @@
     });
 
     /**********************************************************************************************/
-    var overview, fiterView, detailView;
+    var overview, filterView, detailView;
     var callbacks = {
         filters: {},
         overview: {
@@ -61,10 +61,9 @@
         details: {}
     };
 
-
-
     overview = new Overview({ root: '#panel-overview .panel-body', callbacks: callbacks.overview });
     detailView = new DetailView({ callbacks: callbacks.details });
+    filterView = new FilterView({ root: '#filters-container' , callbacks: callbacks.filters });
 
 
     setTimeout(function(){

@@ -84,7 +84,8 @@ $marginLarge: 50px;
 
 .container-main {
     height: calc(100% - 80px);
-    overflow-y: auto;
+//    overflow-y: auto;
+    overflow-y: hidden;
 
     .row {
         height: auto;
@@ -172,7 +173,7 @@ $marginLarge: 50px;
                     min-width: 100px;
                     max-width: 200px;
                     height: 10px;
-                    margin-top: 11px;
+                    margin: 14px 0px;
 
                     .ui-slider-handle {
                         left: 66.6667%;
@@ -270,8 +271,9 @@ $screen-xl-min: 1530px;
                 }
             }
 
-            &.panel#panel-filters > .panel-body {
-                overflow-y: auto;
+            &#panel-filters > .panel-body {
+                width: calc(100%);
+                height: calc(100% - 38px);
             }
         }
     }

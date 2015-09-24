@@ -18,7 +18,7 @@ module.exports = function (grunt) {
 
   // Configurable paths
   var config = {
-    app: 'app-expert',
+    app: 'app',
     dist: 'dist'
   };
 
@@ -242,7 +242,7 @@ module.exports = function (grunt) {
           'jquery-uploadfile': {
               main: [
                   "css/uploadfile.css",
-                  "js/jquery.uploadfile.min.js"
+                  "js/jquery.uploadfile.js"
               ]
           }
         }
@@ -250,6 +250,17 @@ module.exports = function (grunt) {
       sass: {
         src: ['<%= config.app %>/styles/{,*/}*.{scss,sass}'],
       //  ignorePath: /(\.\.\/){1,2}bower_components\//
+      }
+    },
+
+    injector: {
+      options: {},
+      file_uploader: {
+          options: {
+          },
+          files: {
+              '<%= config.app %>/index.html': ['bower_components/jquery-uploadfile/js/jquery.uploadfile.min.js', 'bower_components/jquery-uploadfile/css/uploadfile.css'],
+          }
       }
     },
 
@@ -433,6 +444,7 @@ module.exports = function (grunt) {
     grunt.task.run([
       'clean:server',
       'wiredep',
+      'injector',
       'concurrent:server',
       'autoprefixer',
       'connect:livereload',

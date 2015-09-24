@@ -7,11 +7,15 @@
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="media/moregrasp-logo.jpg">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- injector:css -->
+    <link rel="stylesheet" href="/bower_components/jquery-uploadfile/css/uploadfile.css">
+    <!-- endinjector -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="../bower_components/bootstrap-toggle/css/bootstrap-toggle.min.css" />
     <link rel="stylesheet" href="../bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
     <link rel="stylesheet" href="../bower_components/jquery-ui/themes/base/jquery-ui.min.css" />
+    <link rel="stylesheet" href="../bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -34,155 +38,218 @@
             <h3 class="text-muted">MoreGrasp</h3>
         </div>
 
-        <!-- Welcome Panel -->
+        <div class="panel-container">
 
-          <div class="input-panel center-aligned" id="panel-1">
-            <div class="row">
-                <div class="jumbotron sizable">
-                    <p class="lead">Welcome to our registration portal</p>
-                    <span class="logo center-aligned"></span>
+            <!-- Welcome Panel -->
+            <div class="input-panel center-aligned" id="panel-1">
+                <div class="row">
+                    <div class="jumbotron sizable">
+                        <p class="lead">Welcome to our registration portal</p>
+                        <span class="logo center-aligned"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="alert alert-danger sizable">
+                        <p><strong>Disclaimer:</strong> Participation in our trials does not entail the lose of ellegilibilty for economical support</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Personal Data Panel -->
+            <div class="center-aligned input-panel" id="panel-2" style="display:none;">
+                <h4>Personal Data</h4><br>
+                <!-- 1st row -->
+                <div class="row">
+                    <label class="default" for="inputFirstame">First Name</label>
+                    <input type="text" class="form-control" id="inputFirstname" placeholder="Jane">
+                    <label class="default" for="inputLastname">Last Name</label>
+                    <input type="text" class="form-control" id="inputLastname" placeholder="Doe">
+                </div>
+                <!-- 2nd row -->
+                <div class="row">
+                    <label class="default" for="selCountry">Country</label>
+                    <select class="form-control" id="selCountry">
+                        <option>Austria</option>
+                        <option>Germany</option>
+                    </select>
+                    <label class="default" for="selCity">City</label>
+                    <select class="form-control" id="selCity">
+                        <option>Wien</option>
+                        <option>Graz</option>
+                    </select>
+                </div>
+                <!-- 3rd row -->
+                <div class="row">
+                    <label class="default" for="inputStreet">Street</label>
+                    <input type="text" class="form-control" id="inputStreet" placeholder="Inffeldgasse">
+                    <label class="default sm" for="inputDoor">Door</label>
+                    <input type="text" class="form-control sm" id="inputDoor" placeholder="6">
+                    <label class="default sm" for="inputDoor">ZIP</label>
+                    <input type="text" class="form-control sm" id="inputDoor" placeholder="8010">
+                </div>
+                <!-- 4th row -->
+                <div class="row">
+                    <label class="default" for="inputTelHome">Tel. Home</label>
+                    <input type="text" class="form-control" id="inputTelHome" placeholder="134 5678">
+                    <label class="default" for="inputTelMobile">Tel. Mobile</label>
+                    <input type="text" class="form-control" id="inputTelMobile" placeholder="0680 5555 999">
                 </div>
             </div>
 
-            <div class="row">
-                <div class="alert alert-danger sizable">
-                    <p><strong>Disclaimer:</strong> Participation in our trials does not entail the lose of ellegilibilty for economical support</p>
+            <!--  Pre-Injury -->
+            <div class="center-aligned input-panel" id="panel-3" style="display:none;">
+              <h4>Pre-Injury Conditions</h4>
+              <p class="explanation">Please indicate if any of the following conditions apply in the present or the past</p>
+              <br>
+              <!-- 1st row -->
+              <div class="row">
+                  <label class="question" for="cbxMetal">Pacemaker, medication pump or metal implant</label>
+                  <input type="checkbox" class="cbx-toggle" id="cbxMetal" />
+              </div>
+              <!-- 2nd row -->
+              <div class="row">
+                  <label class="question" for="cbxStroke">Stroke</label>
+                  <input type="checkbox" class="cbx-toggle" id="cbxStroke" />
+              </div>
+              <!-- 3rd row -->
+              <div class="row">
+                  <label class="question" for="cbxEpilepsy">Epilepsy</label>
+                  <input type="checkbox" class="cbx-toggle" id="cbxEpilepsy" />
+              </div>
+              <!-- 4th row -->
+              <div class="row">
+                  <label class="question" for="cbxCancer">Cancer</label>
+                  <input type="checkbox" class="cbx-toggle" id="cbxCancer" />
+              </div>
+              <!-- 5th row -->
+              <div class="row">
+                  <label class="question" for="cbxLongTemrCare">Long term care</label>
+                  <input type="checkbox" class="cbx-toggle" id="cbxLongTemrCare" />
+              </div>
+              <!-- 6th row -->
+              <div class="row">
+                  <label class="question" for="cbxDrugAlcohol">Drug or alcohol abuse</label>
+                  <input type="checkbox" class="cbx-toggle" id="cbxDrugAlcohol" />
+              </div>
+          </div>
+
+            <!--  Injury Data -->
+            <div class="center-aligned input-panel" id="panel-4" style="display:none;">
+              <h4>Current abilities</h4>
+              <!-- 1st row -->
+              <div class="row">
+                  <label class="question" for="cbxHandToMouth">Can you bring your hand to your mouth?</label>
+                  <input type="checkbox" class="cbx-toggle" id="cbxHandToMouth" />
+              </div>
+              <!-- 2nd row -->
+              <div class="row">
+                  <label class="question" for="cbxGlassToMouth">Can you bring a glass to your mouth?</label>
+                  <input type="checkbox" class="cbx-toggle" id="cbxGlassToMouth" />
+              </div>
+              <!-- 3rd row -->
+              <div class="row">
+                  <label class="question" for="cbxWristExtension">Can you extend your wrist?</label>
+                  <input type="checkbox" class="cbx-toggle" id="cbxWristExtension" />
+              </div>
+              <!-- 4th row -->
+              <div class="row">
+                  <label class="question" for="cbxImproveGrasp">Do you need to imporve grasp function?</label>
+                  <input type="checkbox" class="cbx-toggle" id="cbxImproveGrasp" />
+              </div>
+          </div>
+
+            <!--  Video -->
+            <div class="center-aligned input-panel" id="panel-5" style="display:none;">
+              <h4>Please upload demo video</h4>
+              <p class="explanation">We can have a better idea of your condition if you provide demonstrative video/s</p>
+
+              <div id="mulitplefileuploader">Select</div>
+              <div id="status"></div>
+          </div>
+
+            <!--  Miscellaneous -->
+            <div class="center-aligned input-panel" id="panel-6" style="display:none;">
+                <h4>How did you find us?</h4>
+                <!-- 1st row -->
+                <div class="row">
+<!--
+                    <label class="question" for="cbxHandToMouth">How did you find us?</label>
+                    <div class="btn-group-vertical" data-toggle="buttons">
+                        <label class="btn btn-lg btn-primary active">
+                            <input type="radio" name="options" id="option1" autocomplete="off" checked> My Doctor told me
+                        </label>
+                        <label class="btn btn-lg btn-primary">
+                            <input type="radio" name="options" id="option2" autocomplete="off"> A Caregiver told me
+                        </label>
+                        <label class="btn btn-lg btn-primary">
+                            <input type="radio" name="options" id="option3" autocomplete="off"> A Relative told me
+                        </label>
+                        <label class="btn btn-lg btn-primary">
+                            <input type="radio" name="options" id="option4" autocomplete="off"> I heard or read an advertisement
+                        </label>
+                        <label class="btn btn-lg btn-primary">
+                            <input type="radio" name="options" id="option5" autocomplete="off"> Other
+                        </label>
+                    </div>
+
+-->
+                    <!-- 1st row -->
+                    <div class="row">
+                        <label class="question" for="cbxHandToMouth">My Doctor told me</label>
+                        <input type="checkbox" class="cbx-toggle" id="cbxDoctor" />
+                    </div>
+                    <!-- 2nd row -->
+                    <div class="row">
+                        <label class="question" for="cbxGlassToMouth">A Caregiver told me</label>
+                        <input type="checkbox" class="cbx-toggle" id="cbxCaregiver" />
+                    </div>
+                    <!-- 3rd row -->
+                    <div class="row">
+                        <label class="question" for="cbxWristExtension">A Relative told me</label>
+                        <input type="checkbox" class="cbx-toggle" id="cbxRelative" />
+                    </div>
+                    <!-- 4th row -->
+                    <div class="row">
+                        <label class="question" for="cbxImproveGrasp">On the Internet</label>
+                        <input type="checkbox" class="cbx-toggle" id="cbxInternet" />
+                    </div>
+                    <!-- 5th row -->
+                    <div class="row">
+                        <label class="question" for="cbxImproveGrasp">On T.V. or Advertisement</label>
+                        <input type="checkbox" class="cbx-toggle" id="cbxTV" />
+                    </div>
+                    <!-- 6th row -->
+                    <div class="row">
+                        <label class="question" for="cbxImproveGrasp">Other</label>
+                        <input type="checkbox" class="cbx-toggle" id="cbxOther" />
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!--  Terms & Conditions -->
+            <div class="center-aligned input-panel" id="panel-7" style="display:none;">
+              <h4>Terms and Conditions</h4>
+              <p class="explanation">lorem ipsum ...</p>
+          </div>
+
+        </div>
+        <div class="controls-container">
+            <div class="progress" style="visibility:hidden;">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                    <span class="sr-only"></span>
                 </div>
             </div>
-
-        </div>
-
-
-        <!-- Personal Data Panel -->
-        <div class="center-aligned input-panel" id="panel-2" style="display:none;">
-            <h4>Personal Data</h4><br>
-            <!-- 1st row -->
-            <div class="row">
-                <label class="default" for="inputFirstame">First Name</label>
-                <input type="text" class="form-control" id="inputFirstname" placeholder="Jane">
-                <label class="default" for="inputLastname">Last Name</label>
-                <input type="text" class="form-control" id="inputLastname" placeholder="Doe">
-            </div>
-            <!-- 2nd row -->
-            <div class="row">
-                <label class="default" for="selCountry">Country</label>
-                <select class="form-control" id="selCountry">
-                    <option>Austria</option>
-                    <option>Germany</option>
-                </select>
-                <label class="default" for="selCity">City</label>
-                <select class="form-control" id="selCity">
-                    <option>Wien</option>
-                    <option>Graz</option>
-                </select>
-            </div>
-            <!-- 3rd row -->
-            <div class="row">
-                <label class="default" for="inputStreet">Street</label>
-                <input type="text" class="form-control" id="inputStreet" placeholder="Inffeldgasse">
-                <label class="default sm" for="inputDoor">Door</label>
-                <input type="text" class="form-control sm" id="inputDoor" placeholder="6">
-                <label class="default sm" for="inputDoor">ZIP</label>
-                <input type="text" class="form-control sm" id="inputDoor" placeholder="8010">
-            </div>
-            <!-- 4th row -->
-            <div class="row">
-                <label class="default" for="inputTelHome">Tel. Home</label>
-                <input type="text" class="form-control" id="inputTelHome" placeholder="134 5678">
-                <label class="default" for="inputTelMobile">Tel. Mobile</label>
-                <input type="text" class="form-control" id="inputTelMobile" placeholder="0680 5555 999">
+            <div class="button-area">
+                <button type="button" id="btn-start" class="btn btn-primary" move="forward">Start</button>
+                <button type="button" id="btn-previous" class="btn btn-default" move="backward" style="display:none;">Previous</button>
+                <button type="button" id="btn-continue" class="btn btn-default" move="forward" style="display:none;">Continue</button>
+                <button type="button" id="btn-submit" class="btn btn-primary" style="display:none;">Submit</button>
             </div>
         </div>
-
-      <!--  Pre-Injury -->
-      <div class="center-aligned input-panel" id="panel-3" style="display:none;">
-          <h4>Pre-Injury Conditions</h4>
-          <p class="explanation">Please indicate if any of the following conditions apply in the present or the past</p>
-          <br>
-          <!-- 1st row -->
-          <div class="row">
-              <label class="question" for="cbxMetal">Pacemaker, medication pump or metal implant</label>
-              <input type="checkbox" class="cbx-toggle" id="cbxMetal" />
-          </div>
-          <!-- 2nd row -->
-          <div class="row">
-              <label class="question" for="cbxStroke">Stroke</label>
-              <input type="checkbox" class="cbx-toggle" id="cbxStroke" />
-          </div>
-          <!-- 3rd row -->
-          <div class="row">
-              <label class="question" for="cbxEpilepsy">Epilepsy</label>
-              <input type="checkbox" class="cbx-toggle" id="cbxEpilepsy" />
-          </div>
-          <!-- 4th row -->
-          <div class="row">
-              <label class="question" for="cbxCancer">Cancer</label>
-              <input type="checkbox" class="cbx-toggle" id="cbxCancer" />
-          </div>
-          <!-- 5th row -->
-          <div class="row">
-              <label class="question" for="cbxLongTemrCare">Long term care</label>
-              <input type="checkbox" class="cbx-toggle" id="cbxLongTemrCare" />
-          </div>
-          <!-- 6th row -->
-          <div class="row">
-              <label class="question" for="cbxDrugAlcohol">Drug or alcohol abuse</label>
-              <input type="checkbox" class="cbx-toggle" id="cbxDrugAlcohol" />
-          </div>
-      </div>
-
-
-      <!--  Injury Data -->
-      <div class="center-aligned input-panel" id="panel-4" style="display:none;">
-          <h4>Current abilities</h4>
-          <!-- 1st row -->
-          <div class="row">
-              <label class="question" for="cbxHandToMouth">Can you bring your hand to your mouth?</label>
-              <input type="checkbox" class="cbx-toggle" id="cbxHandToMouth" />
-          </div>
-          <!-- 2nd row -->
-          <div class="row">
-              <label class="question" for="cbxGlassToMouth">Can you bring a glass to your mouth?</label>
-              <input type="checkbox" class="cbx-toggle" id="cbxGlassToMouth" />
-          </div>
-          <!-- 3rd row -->
-          <div class="row">
-              <label class="question" for="cbxWristExtension">Can you extend your wrist?</label>
-              <input type="checkbox" class="cbx-toggle" id="cbxWristExtension" />
-          </div>
-          <!-- 4th row -->
-          <div class="row">
-              <label class="question" for="cbxImproveGrasp">Do you need to imporve grasp function?</label>
-              <input type="checkbox" class="cbx-toggle" id="cbxImproveGrasp" />
-          </div>
-      </div>
-
-
-
-      <!--  Video -->
-      <div class="center-aligned input-panel" id="panel-5" style="display:none;">
-          <h4>Please upload demo video</h4>
-          <p class="explanation">We can have a better idea of your condition if you provide demonstrative video/s</p>
-
-          <div id="mulitplefileuploader">Select</div>
-          <div id="status"></div>
-      </div>
-
-
-      <!--  Terms & Conditions -->
-      <div class="center-aligned input-panel" id="panel-6" style="display:none;">
-          <h4>Terms and Conditions</h4>
-          <p class="explanation">lorem ipsum ...</p>
-      </div>
-
-
-      <div class="button-area">
-          <div class="container">
-              <button type="button" id="btn-previous" class="btn btn-default" move="backward" style="visibility: hidden;">Previous</button>
-              <button type="button" id="btn-continue" class="btn btn-default" move="forward">Continue</button>
-              <button type="button" id="btn-submit" class="btn btn-primary" style="display:none;">Submit</button>
-          </div>
-      </div>
 
     </div>
 
@@ -216,8 +283,13 @@
     <script src="../bower_components/moment-timezone/builds/moment-timezone-with-data-2010-2020.js"></script>
     <script src="../bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
     <script src="../bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="../bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
+    <script src="../bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
+    <!-- injector:js -->
+    <script src="/bower_components/jquery-uploadfile/js/jquery.uploadfile.min.js"></script>
+    <!-- endinjector -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>

@@ -22,6 +22,7 @@
 
 .ajax-file-upload-statusbar {
     width: 100%;
+    min-height: 130px;
     margin: 5px;
     padding: 5px;
     border: 1px solid #ddd;
@@ -41,8 +42,9 @@
     .extrahtml {
         display: inline-block;
         margin: 2px 12px;
-        width: 120px;
-        height: 80px;
+        width: 130px;
+        height: 88px;
+        float: left;
 
         div.loading {
             width: 120px;
@@ -56,10 +58,10 @@
 
     .ajax-file-upload-progress {
         @extend .progress;
-        display: inline-block;
         position: relative;
-        width: 250px;
-
+        float: left;
+        top: 11px;
+        width: calc(100% - 164px);
     }
 
     .ajax-file-upload-bar {
@@ -76,7 +78,9 @@
     .ajax-file-upload {
         @extend .btn, .btn-xs;
         display: inline-block;
-        margin-top: -54px;
+        position: relative;
+        float: left;
+        margin-left: 2px;
         box-shadow: none;
     }
 
@@ -90,4 +94,23 @@
 
 
 }
+
+
+@media screen and (min-width: 400px) {
+
+    .ajax-file-upload-statusbar {
+        height: 125px;
+    }
+
+    .ajax-file-upload-progress {
+        top: 33px !important;
+        width: calc(100% - 226px) !important;
+        max-width: 250px
+    }
+
+    .ajax-file-upload-red, .ajax-file-upload-green {
+        top: 36px;
+    }
+}
+
 

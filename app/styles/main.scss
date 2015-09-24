@@ -5,21 +5,17 @@ $icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bo
 
 @import "file-upload";
 
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
 
 html {
     position: relative;
-    min-height: 100%;
+    height: 100%;
+    overflow-y: hidden;
 }
 
 /* Space out content a bit */
 body {
     width: 100%;
+    height: calc(100% - 70px);
     padding-top: 20px;
     margin-bottom: 70px;
 
@@ -60,12 +56,11 @@ body {
 }
 
 .container {
-    /*height: 100%;*/
+    min-height: 525px;
+    max-height: 100%;
+    overflow-y: auto;
 }
 
-.container-narrow > hr {
-  margin: 30px 0;
-}
 
 /* Main marketing message and sign up button */
 .jumbotron {
@@ -74,32 +69,6 @@ body {
   .btn {
     font-size: 21px;
     padding: 14px 24px;
-  }
-}
-
-
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 750px;
-  }
-
-  /* Remove the padding we set earlier */
-  .header,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
   }
 }
 
@@ -134,66 +103,135 @@ $marginLarge: 50px;
 }
 
 
-.input-panel {
-/*    $margin-bottom: 10px;
-    margin-bottom: $margin-bottom;;*/
-    text-align: left;
+.panel-container {
+    height: auto;
+    overflow-x: hidden;
 
-    .jumbotron {
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-
-    .row {
-        margin-top: 5px;
-    }
-
-    p {
-        text-align: center;
-    }
-
-    p.explanation {
+    .input-panel {
+        margin-bottom: 10px;
         text-align: left;
-        font-size: 0.9em;
-    }
 
-    label {
-        &.default {
-            @extend .col-lg-2, .col-md-2, .col-sm-2, .col-xs-12;
-            padding-top: 8px;
-            padding-right: 5px;
+        .jumbotron {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
 
-            &.sm {
-                @extend .col-md-1, .col-sm-1, .col-xs-12;
+        .row {
+            margin-top: 5px;
+            margin: 5px 0px 0px 0px;
+        }
+
+        h4 {
+            -webkit-margin-before: 0px;
+        }
+
+        p {
+            text-align: center;
+            &.explanation {
+                text-align: left;
+                font-size: 0.9em;
+
             }
         }
 
-        &.question {
-            @extend  .col-lg-offset-2, .col-lg-6, .col-md-offset-1, .col-md-6, .col-sm-offset-0, .col-sm-6, .col-xs-offset-0, .col-xs-10;
+        label {
+            &.default {
+                @extend .col-lg-2, .col-md-2, .col-sm-2, .col-xs-12;
+                padding-top: 8px;
+                padding-right: 5px;
+                &.sm {
+                    @extend .col-md-1, .col-sm-1, .col-xs-12;
+                }
+            }
+            &.question {
+                @extend  .col-lg-offset-2, .col-lg-6, .col-md-offset-1, .col-md-6, .col-sm-offset-0, .col-sm-6, .col-xs-offset-0, .col-xs-10;
+                text-align: left;
+                margin-top: 5px;
+            }
+        }
+
+        .form-control, .btn-group-vertical {
+            @extend  .col-lg-4, .col-md-4, .col-sm-4, .col-xs-12;
+            &.sm { @extend .col-md-2, .col-sm-2, .col-xs-12; }
+        }
+
+        .toggle-on, .toggle-off {
             text-align: left;
-            margin-top: 5px;
         }
-    }
 
-    .form-control {
-        @extend  .col-lg-4, .col-md-4, .col-sm-4, .col-xs-12;
-
-        &.sm {
-            @extend .col-md-2, .col-sm-2, .col-xs-12;
-        }
-    }
-
-    .toggle-on,
-    .toggle-off {
-        text-align: left;
     }
 
 }
 
-.button-area {
+/** control area **/
+.controls-container {
     position: relative;
-    bottom: -10px;
-    height: 60px;
-    padding-top: 10px;
+//    bottom: -10px;
+    height: 110px;
+    margin-top: 10px;
+    padding: 10px 0px;
     text-align: center;
+
+    .progress {
+        width: 80%;
+        margin: 0px 10%;
+    }
+
+    .button-area {
+        position: relative;
+        bottom: -10px;
+        height: 45px;
+        margin: 10px 0px;
+        text-align: center;
+
+        button {
+            width: 83px;
+        }
+    }
+}
+
+
+
+
+
+/**************************************************************************/
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+
+//    html {
+//        //      overflow-y: hidden;
+//        height: 100%;
+//    }
+
+    body {
+        overflow-y: hidden;
+    }
+    .container {
+        max-width: 750px;
+//        max-height: 100%;
+        overflow-y: hidden !important;
+
+        .panel-container {
+            height: 400px !important;
+        }
+    }
+
+    /* Remove the padding we set earlier */
+    .header,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
 }

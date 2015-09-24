@@ -5,31 +5,49 @@
     var numberPanels = $('.input-panel').length,
         currentPanel = 1;
 
+    var $btnStart = $('#btn-start'),
+        $btnPrevious =  $('#btn-previous'),
+        $btnContinue = $('#btn-continue'),
+        $btnSubmit = $('#btn-submit'),
+        $progress = $('.progress');
+
 
 
     function enableButtons() {
-
-        $('#btn-previous').css('visibility', 'visible');
-        $('#btn-continue').show().css('visibility', 'visible');
-        $('#btn-submit').hide();
-
-        if(currentPanel == 1)
-            $('#btn-previous').css('visibility', 'hidden');
-        else if(currentPanel == numberPanels) {
-            $('#btn-continue').css('visibility', 'hidden');
-            $('#btn-continue').hide();
-            $('#btn-submit').show();
+        var progressValue = ((currentPanel-1) * 100/(numberPanels-1));
+        $progress.find('.progress-bar')
+            .attr('aria-valuenow', progressValue)
+            .css('width', progressValue + '%');
+        if(currentPanel > 1 && currentPanel < numberPanels) {
+            $btnStart.hide();
+            $btnPrevious.show();
+            $btnContinue.show();
+            $btnSubmit.hide();
+            $progress.css('visibility', 'visible');
+        }
+        else if(currentPanel == 1) {
+            $btnStart.show();
+            $btnPrevious.hide();
+            $btnContinue.hide();
+            $btnSubmit.hide();
+            $progress.css('visibility', 'hidden');
+        }
+        else {
+            $btnStart.hide();
+            $btnPrevious.show();
+            $btnContinue.hide();
+            $btnSubmit.show();
+            $progress.css('visibility', 'visible');
         }
     }
 
 
 
-    $('#btn-previous, #btn-continue').click(function(event){
+    $('#btn-start, #btn-previous, #btn-continue').click(function(event){
         $('#panel-' + currentPanel).hide();//slideUp('slow');
         currentPanel = $(this).attr('move') == 'forward' ? currentPanel + 1 : currentPanel - 1;
         $('#panel-' + currentPanel).slideDown('slow');
 //        $('#panel-' + currentPanel).fadeIn('slow');
-
         enableButtons();
     });
 
