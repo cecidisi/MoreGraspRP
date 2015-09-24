@@ -1,6 +1,7 @@
 $icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 // bower:scss
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "../../bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
 
 @import "file-upload";
@@ -84,8 +85,7 @@ $marginLarge: 50px;
 
 .container-main {
     height: calc(100% - 80px);
-//    overflow-y: auto;
-    overflow-y: hidden;
+    overflow-y: auto;
 
     .row {
         height: auto;
@@ -125,16 +125,17 @@ $marginLarge: 50px;
 
             &.filter-type-header {
 
-                margin: 2px 0px;
+                margin: 0px;
 
                 h4.filter-type-title a {
 
                     color: #AF1336;
                     text-decoration: none;
 
-                    span {
-                        display: none;
+                    i.fa {
+                        width: 25px;
                     }
+
                     i.collapse-icon {
                         @extend .glyphicon, .glyphicon-chevron-up;
                         float: right;
@@ -153,6 +154,9 @@ $marginLarge: 50px;
                 }
             }
 
+            .filter-group {
+                padding: 2px 0px;
+            }
 
             label.filter-label {
                 @extend .col-xs-12, .col-sm-6, .col-md-6, .col-lg-5;
@@ -279,6 +283,7 @@ $screen-xl-min: 1530px;
     }
 
     .container-main {
+        overflow-y: hidden !important;
         .row {
             height: 100%;
             .col {
