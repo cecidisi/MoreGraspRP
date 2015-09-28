@@ -77,7 +77,7 @@
             return "<div class='loading'></div>";
         },
         onSuccess: function(files,data,xhr, pd){
-            var video = "<video width='120' height='80' src='http://localhost/MoreGraspRP/server-test/uploads/" + files[0] + "' controls></video>";
+            var video = "<video width='120' height='80' src='http://localhost/MoreGraspRP/server-test/uploads/" + files[0] + "'></video>";
             $(pd.statusbar[0]).find('.extrahtml').empty().html(video);
         },
         onError: function(files, status, message){},

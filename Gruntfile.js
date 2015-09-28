@@ -18,7 +18,7 @@ module.exports = function (grunt) {
 
   // Configurable paths
   var config = {
-    app: 'app-expert',
+    app: 'app',
     dist: 'dist'
   };
 
@@ -254,7 +254,10 @@ module.exports = function (grunt) {
     },
 
     injector: {
-      options: {},
+      options: {
+        relative: true,
+        addRootSlash: false
+      },
       file_uploader: {
           options: {
           },
