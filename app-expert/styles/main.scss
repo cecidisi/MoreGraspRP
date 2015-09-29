@@ -159,14 +159,14 @@ $marginLarge: 50px;
             }
 
             label.filter-label {
-                @extend .col-xs-12, .col-sm-6, .col-md-6, .col-lg-5;
+                @extend .col-xs-12, .col-sm-6, .col-md-6, .col-lg-6;
                 padding: 5px 2px 0px 2px;
                 color: #666;
             }
 
             div.filter-element {
-                @extend .col-xs-12, .col-sm-6, .col-md-6, .col-lg-7;
-                padding: 0px 2px;
+                @extend .col-xs-12, .col-sm-6, .col-md-6, .col-lg-6;
+                padding: 1px 2px;
 
                 .btn-group-small {
                     padding: 1px 0px;
@@ -236,6 +236,9 @@ $marginLarge: 50px;
                 display: table-cell;
             }
 
+            #user-name {
+                height: 17px;
+            }
             #user-photo {
                 width: 24px;
                 height: 24px;
@@ -289,10 +292,10 @@ $screen-xl-min: 1530px;
             .col {
                 height: 100%;
                 &.col-70 {
-                    height: 70%;
+                    height: 65%;
                 }
                 &.col-30 {
-                    height: 30%;
+                    height: 35%;
                 }
             }
         }

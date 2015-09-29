@@ -103,6 +103,9 @@ $marginLarge: 50px;
     /*@extend .col-lg-offset-1, .col-lg-10, .col-md-offset-1, .col-md-10, .col-sm-offset-0, .col-sm-12;*/
 }
 
+.alert {
+    margin-bottom: 0px;
+}
 
 .panel-container {
     height: auto;
@@ -115,6 +118,7 @@ $marginLarge: 50px;
         .jumbotron {
             padding-top: 30px;
             padding-bottom: 30px;
+            margin-bottom: 5px;
         }
 
         .row {
@@ -215,7 +219,7 @@ $marginLarge: 50px;
         overflow-y: hidden !important;
 
         .panel-container {
-            height: 400px !important;
+            height: 335px !important;
         }
     }
 
@@ -234,5 +238,12 @@ $marginLarge: 50px;
     /* Remove the bottom border on the jumbotron for visual effect */
     .jumbotron {
         border-bottom: 0;
+    }
+}
+
+
+@media (min-width: 900px) {
+    .panel-container {
+        height: 400px !important;
     }
 }

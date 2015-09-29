@@ -8,6 +8,7 @@
         widgetPositioning: { vertical: 'bottom', horizontal: 'right' },
         viewMode: 'years',
         format: 'MM/YYYY',
+        maxDate: '10/01/2015',
         keepOpen: true
     }).on('dp.change', function(e){
         $('#datetimepickerUntil').data('DateTimePicker').minDate(e.date);
@@ -17,6 +18,7 @@
         widgetPositioning: { vertical: 'bottom', horizontal: 'right' },
         viewMode: 'years',
         format: 'MM/YYYY',
+        maxDate: '10/01/2015',
         keepOpen: true,
         useCurrent: false
     }).on('dp.change', function(e){

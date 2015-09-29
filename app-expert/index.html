@@ -46,6 +46,7 @@
                         <span class="collapse-icon pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
                     </div>
                     <div class="panel-body" id="filters-container">
+
                         <div class="row filter-type-header">
                             <h4 class="filter-type-title"><a data-toggle="collapse" href="#filter-group-injury">
                                 <i class="fa fa-wheelchair"></i>Injury<i class="collapse-icon"></i>
@@ -148,6 +149,86 @@
                             </div>
                         </div>
 
+
+                        <div class="row filter-type-header">
+                            <h4 class="filter-type-title"><a data-toggle="collapse" href="#filter-group-pre-injury">
+                                <i class="fa fa-hand-o-left"></i>Pre-Injury Conditions<i class="collapse-icon"></i>
+                                </a></h4>
+                            <div class="filter-type-line"></div>
+                        </div>
+
+                        <div class="filter-group collapse in" id="filter-group-pre-injury">
+                            <div class="row">
+                                <label class="filter-label">Stroke</label>
+                                <div class="filter-element">
+                                    <div class="btn-group btn-group-small" data-toggle="buttons">
+                                        <label class="btn btn-sm btn-default active">
+                                            <input type="checkbox" autocomplete="off" checked> Yes
+                                        </label>
+                                        <label class="btn btn-sm btn-default active">
+                                            <input type="checkbox" autocomplete="off" checked> No
+                                        </label>
+                                    </div>
+                                </div>
+                                <label class="filter-label">Pacemaker</label>
+                                <div class="filter-element">
+                                    <div class="btn-group btn-group-small" data-toggle="buttons">
+                                        <label class="btn btn-sm btn-default active">
+                                            <input type="checkbox" autocomplete="off" checked> Yes
+                                        </label>
+                                        <label class="btn btn-sm btn-default active">
+                                            <input type="checkbox" autocomplete="off" checked> No
+                                        </label>
+                                    </div>
+                                </div>
+                                <label class="filter-label">Epilepsy</label>
+                                <div class="filter-element">
+                                    <div class="btn-group btn-group-small" data-toggle="buttons">
+                                        <label class="btn btn-sm btn-default active">
+                                            <input type="checkbox" autocomplete="off" checked> Yes
+                                        </label>
+                                        <label class="btn btn-sm btn-default active">
+                                            <input type="checkbox" autocomplete="off" checked> No
+                                        </label>
+                                    </div>
+                                </div>
+                                <label class="filter-label">Cancer</label>
+                                <div class="filter-element">
+                                    <div class="btn-group btn-group-small" data-toggle="buttons">
+                                        <label class="btn btn-sm btn-default active">
+                                            <input type="checkbox" autocomplete="off" checked> Yes
+                                        </label>
+                                        <label class="btn btn-sm btn-default active">
+                                            <input type="checkbox" autocomplete="off" checked> No
+                                        </label>
+                                    </div>
+                                </div>
+                                <label class="filter-label">Long-term Care</label>
+                                <div class="filter-element">
+                                    <div class="btn-group btn-group-small" data-toggle="buttons">
+                                        <label class="btn btn-sm btn-default active">
+                                            <input type="checkbox" autocomplete="off" checked> Yes
+                                        </label>
+                                        <label class="btn btn-sm btn-default active">
+                                            <input type="checkbox" autocomplete="off" checked> No
+                                        </label>
+                                    </div>
+                                </div>
+                                <label class="filter-label">Drug or Alcohol Abuse</label>
+                                <div class="filter-element">
+                                    <div class="btn-group btn-group-small" data-toggle="buttons">
+                                        <label class="btn btn-sm btn-default active">
+                                            <input type="checkbox" autocomplete="off" checked> Yes
+                                        </label>
+                                        <label class="btn btn-sm btn-default active">
+                                            <input type="checkbox" autocomplete="off" checked> No
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
                         <div class="row filter-type-header">
                             <h4 class="filter-type-title"><a data-toggle="collapse" href="#filter-group-personal">
                                 <i class="fa fa-user"></i>Personal Data<i class="collapse-icon"></i></a></h4>
@@ -183,7 +264,7 @@
                   </div>
               </div>
 
-              <div class="col col-70 col-xs-12 col-sm-8 col-md-8 col-lg-9"  style="height:70%;">
+              <div class="col col-70 col-xs-12 col-sm-8 col-md-8 col-lg-9">
                   <div id="panel-overview" class="panel panel-default">
                       <div class="panel-heading">
                           <h3 class="panel-title">Overview</h3>
@@ -205,8 +286,8 @@
                           <ul class="nav nav-tabs" role="tablist">
                               <li role="presentation" class="active"><a href="#personal-data" id="personal-data-tab" aria-controls="personal data" role="tab" data-toggle="tab">Personal Data</a></li>
                               <li role="presentation"><a href="#injury" id="injury-tab" aria-controls="injury" role="tab" data-toggle="tab">Injury</a></li>
-                              <li role="presentation"><a href="#other" id="other-tab" aria-controls="other" role="tab" data-toggle="tab">Other</a></li>
-                              <li role="presentation"><a href="#notes" id="notes-tab" aria-controls="notes" role="tab" data-toggle="tab">Notes</a></li>
+                              <li role="presentation"><a href="#movements" id="movements-tab" aria-controls="movements" role="tab" data-toggle="tab">Res. Movements</a></li>
+                              <li role="presentation"><a href="#notes" id="pre-injury-tab" aria-controls="pre-injury" role="tab" data-toggle="tab">Pre-Injury</a></li>
                               <li role="presentation" style="margin-left:15px;"><button class="btn btn-success">Accept</button></li>
                               <li role="presentation"  style="margin-left:5px;"><button class="btn btn-danger">Dismiss</button></li>
 
@@ -217,13 +298,13 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <a href="#">
-                                            <img id="user-photo" class="media-object img-responsive img-rounded" src="media/user_male.png" alt="Responsive Image">
+                                            <img id="user-photo" class="media-object img-responsive img-rounded" src="">
 <!--                                            <span class="media-object photo-placeholder"></span>-->
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                        <h4 id="user-name" class="media-heading">John Doe</h4>
-                                        <h6 id="user-phone" >Phone: +43 000 0000-000</h6>
+                                        <h4 id="user-name" class="media-heading"></h4>
+                                        <h6 id="user-phone" >Phone:</h6>
                                     </div>
                                 </div>
 
@@ -232,11 +313,11 @@
                             <div class="tab-pane fade" role="tabpanel" id="injury" aria-labelledby="personal-data-tab">
                                 <p>Injury</p>
                             </div>
-                            <div class="tab-pane fade" role="tabpanel" id="other" aria-labelledby="personal-data-tab">
-                                <p>Other</p>
+                            <div class="tab-pane fade" role="tabpanel" id="movements" aria-labelledby="movements-tab">
+                                <p>Residual Movements</p>
                             </div>
-                            <div class="tab-pane fade" role="tabpanel" id="notes" aria-labelledby="personal-data-tab">
-                                <p>Notes</p>
+                            <div class="tab-pane fade" role="tabpanel" id="pre-injury" aria-labelledby="pre-injury-tab">
+                                <p>Pre-Injury Conditions</p>
                             </div>
                           </div>
                       </div>

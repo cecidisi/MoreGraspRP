@@ -4,10 +4,10 @@ var Overview = (function(){
         svg, width, height, margin, x, y, xAxis, yAxis;
 
     var  pieOptions = {
-        size: { pieOuterRadius: '100%', canvasHeight: '50', canvasWidth: '50' },
+        size: { pieOuterRadius: '100%', canvasHeight: '60', canvasWidth: '60' },
         effects: {
             load: { /*effect: "none"*/ },
-            pullOutSegmentOnClick: { /*effect: 'none', speed: 0, size: 0*/ },
+            pullOutSegmentOnClick: { /*effect: 'none', speed: 0,*/ size: 5 },
             highlightSegmentOnMouseover: true//false
         },
         labels: {
@@ -16,14 +16,15 @@ var Overview = (function(){
         },
         data: {
             content: [
-                { label: 'injury', value: 33.33, color: '#000' },
-                { label: 'movements', value: 33.33, color: '#000' },
-                { label: 'personal', value: 33.33, color: '#000' }
+                { label: 'injury', value: 25, color: '#000' },
+                { label: 'movements', value: 25, color: '#000' },
+                { label: 'pre-injury', value: 25, color: '#000' },
+                { label: 'personal', value: 25, color: '#000' }
             ]
         },
         misc: {
             colors: { segmentStroke: '#ddd' },
-            canvasPadding: { top: 0, right: 0, bottom: 0, left: 0 },
+//            canvasPadding: { top: 0, right: 0, bottom: 0, left: 0 },
             gradient: { enabled: true, percentage: 100, color: "#888" },
         }
     };
@@ -70,7 +71,8 @@ var Overview = (function(){
             .rangePoints([0, width], 1.0);
 
         y = d3.scale.ordinal()
-            .domain(this.data.map(function(d){ return d.ellegible }))
+//            .domain(this.data.map(function(d){ return d.ellegible }))
+            .domain([true, false])
             .rangePoints([0, height], 1.0);
 
         // Define axis' function
@@ -93,7 +95,7 @@ var Overview = (function(){
             .append('g')
             .attr('class', 'user-glyph')
             .attr('id', function(d){ return 'user-glyph-' + d.id })
-            .attr('transform', function(d){ return 'translate(' + x(d.id) + ',' + y(d.ellegible) + ')' })
+            .attr('transform', function(d){ return 'translate(' + x(d.id) + ',' + (y(d.ellegible)-10) + ')' })
             .attr('width', 50)
             .attr('height', 50)
             .on('click', callbacks.onUserGlyphClick);
@@ -102,15 +104,16 @@ var Overview = (function(){
         this.data.forEach(function(d){
             pieOptions.data.content[0].color = d.colors.injury;
             pieOptions.data.content[1].color = d.colors.movements;
-            pieOptions.data.content[2].color = d.colors.personal;
+            pieOptions.data.content[2].color = d.colors.preInjury;
+            pieOptions.data.content[3].color = d.colors.personal;
             var pie = new d3pie('#user-glyph-' + d.id, pieOptions);
         });
 
         userGlyphs.append('svg:image')
-            .attr('width', 30)
-            .attr('x', 10)
-            .attr('height', 30)
-            .attr('y', 10)
+            .attr('width', 24)
+            .attr('x', 18)
+            .attr('height', 24)
+            .attr('y', 18)
             .attr("xlink:href", function(d){ return 'media/user_' + d.personal.gender + '.png' });
 
     };
