@@ -13,6 +13,19 @@
 
 
 
+    /* navbar */
+    $('.nav.menu li').click(function(event){
+        $('.nav.menu li').removeClass('active');
+        $(this).addClass('active');
+
+
+        $('.nav-panel:not('+$(this).find('a').attr('href')+')').addClass('fade');
+        $($(this).find('a').attr('href')).removeClass('fade');
+    });
+
+
+
+
     function enableButtons() {
         var progressValue = ((currentPanel-1) * 100/(numberPanels-1));
         $progress.find('.progress-bar')

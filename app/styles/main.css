@@ -1349,13 +1349,13 @@ pre {
   .row:after {
     clear: both; }
 
-.col-xs-1, .col-sm-1, .panel-container .input-panel label.default.sm, .col-md-1, .panel-container .input-panel label.default.sm, .col-lg-1, .col-xs-2, .col-sm-2, .panel-container .input-panel label.default, .panel-container .input-panel .form-control.sm, .panel-container .input-panel .btn-group-vertical.sm, .col-md-2, .panel-container .input-panel label.default, .panel-container .input-panel .form-control.sm, .panel-container .input-panel .btn-group-vertical.sm, .col-lg-2, .panel-container .input-panel label.default, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .panel-container .input-panel .form-control, .panel-container .input-panel .btn-group-vertical, .col-md-4, .panel-container .input-panel .form-control, .panel-container .input-panel .btn-group-vertical, .col-lg-4, .panel-container .input-panel .form-control, .panel-container .input-panel .btn-group-vertical, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .panel-container .input-panel label.question, .col-md-6, .panel-container .input-panel label.question, .col-lg-6, .panel-container .input-panel label.question, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .panel-container .input-panel label.question, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .panel-container .input-panel label.default, .panel-container .input-panel label.default.sm, .panel-container .input-panel .form-control, .panel-container .input-panel .btn-group-vertical, .panel-container .input-panel .form-control.sm, .panel-container .input-panel .btn-group-vertical.sm, .col-sm-12, .sizable, .col-md-12, .sizable, .col-lg-12, .sizable {
+.col-xs-1, .col-sm-1, .content .nav-panel .form-section .input-panel label.default.sm, .col-md-1, .content .nav-panel .form-section .input-panel label.default.sm, .col-lg-1, .col-xs-2, .col-sm-2, .content .nav-panel .form-section .input-panel label.default, .content .nav-panel .form-section .input-panel .form-control.sm, .content .nav-panel .form-section .input-panel .btn-group-vertical.sm, .col-md-2, .content .nav-panel .form-section .input-panel label.default, .content .nav-panel .form-section .input-panel .form-control.sm, .content .nav-panel .form-section .input-panel .btn-group-vertical.sm, .col-lg-2, .content .nav-panel .form-section .input-panel label.default, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical, .col-md-4, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical, .col-lg-4, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .content .nav-panel .form-section .input-panel label.question, .col-md-6, .content .nav-panel .form-section .input-panel label.question, .col-lg-6, .content .nav-panel .form-section .input-panel label.question, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .content .nav-panel .form-section .input-panel label.question, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .content .nav-panel .form-section .input-panel label.default, .content .nav-panel .form-section .input-panel label.default.sm, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical, .content .nav-panel .form-section .input-panel .form-control.sm, .content .nav-panel .form-section .input-panel .btn-group-vertical.sm, .col-sm-12, .content .nav-panel, .sizable, .col-md-12, .content .nav-panel, .sizable, .col-lg-12, .content .nav-panel, .sizable {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
 
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .panel-container .input-panel label.question, .col-xs-11, .col-xs-12, .panel-container .input-panel label.default, .panel-container .input-panel label.default.sm, .panel-container .input-panel .form-control, .panel-container .input-panel .btn-group-vertical, .panel-container .input-panel .form-control.sm, .panel-container .input-panel .btn-group-vertical.sm {
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .content .nav-panel .form-section .input-panel label.question, .col-xs-11, .col-xs-12, .content .nav-panel .form-section .input-panel label.default, .content .nav-panel .form-section .input-panel label.default.sm, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical, .content .nav-panel .form-section .input-panel .form-control.sm, .content .nav-panel .form-section .input-panel .btn-group-vertical.sm {
   float: left; }
 
 .col-xs-1 {
@@ -1385,13 +1385,13 @@ pre {
 .col-xs-9 {
   width: 75%; }
 
-.col-xs-10, .panel-container .input-panel label.question {
+.col-xs-10, .content .nav-panel .form-section .input-panel label.question {
   width: 83.3333333333%; }
 
 .col-xs-11 {
   width: 91.6666666667%; }
 
-.col-xs-12, .panel-container .input-panel label.default, .panel-container .input-panel label.default.sm, .panel-container .input-panel .form-control, .panel-container .input-panel .btn-group-vertical, .panel-container .input-panel .form-control.sm, .panel-container .input-panel .btn-group-vertical.sm {
+.col-xs-12, .content .nav-panel .form-section .input-panel label.default, .content .nav-panel .form-section .input-panel label.default.sm, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical, .content .nav-panel .form-section .input-panel .form-control.sm, .content .nav-panel .form-section .input-panel .btn-group-vertical.sm {
   width: 100%; }
 
 .col-xs-pull-0 {
@@ -1472,7 +1472,7 @@ pre {
 .col-xs-push-12 {
   left: 100%; }
 
-.col-xs-offset-0, .panel-container .input-panel label.question {
+.col-xs-offset-0, .content .nav-panel .form-section .input-panel label.question {
   margin-left: 0%; }
 
 .col-xs-offset-1 {
@@ -1512,19 +1512,19 @@ pre {
   margin-left: 100%; }
 
 @media (min-width: 768px) {
-  .col-sm-1, .panel-container .input-panel label.default.sm, .col-sm-2, .panel-container .input-panel label.default, .panel-container .input-panel .form-control.sm, .panel-container .input-panel .btn-group-vertical.sm, .col-sm-3, .col-sm-4, .panel-container .input-panel .form-control, .panel-container .input-panel .btn-group-vertical, .col-sm-5, .col-sm-6, .panel-container .input-panel label.question, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .sizable {
+  .col-sm-1, .content .nav-panel .form-section .input-panel label.default.sm, .col-sm-2, .content .nav-panel .form-section .input-panel label.default, .content .nav-panel .form-section .input-panel .form-control.sm, .content .nav-panel .form-section .input-panel .btn-group-vertical.sm, .col-sm-3, .col-sm-4, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical, .col-sm-5, .col-sm-6, .content .nav-panel .form-section .input-panel label.question, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .content .nav-panel, .sizable {
     float: left; }
-  .col-sm-1, .panel-container .input-panel label.default.sm {
+  .col-sm-1, .content .nav-panel .form-section .input-panel label.default.sm {
     width: 8.3333333333%; }
-  .col-sm-2, .panel-container .input-panel label.default, .panel-container .input-panel .form-control.sm, .panel-container .input-panel .btn-group-vertical.sm {
+  .col-sm-2, .content .nav-panel .form-section .input-panel label.default, .content .nav-panel .form-section .input-panel .form-control.sm, .content .nav-panel .form-section .input-panel .btn-group-vertical.sm {
     width: 16.6666666667%; }
   .col-sm-3 {
     width: 25%; }
-  .col-sm-4, .panel-container .input-panel .form-control, .panel-container .input-panel .btn-group-vertical {
+  .col-sm-4, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical {
     width: 33.3333333333%; }
   .col-sm-5 {
     width: 41.6666666667%; }
-  .col-sm-6, .panel-container .input-panel label.question {
+  .col-sm-6, .content .nav-panel .form-section .input-panel label.question {
     width: 50%; }
   .col-sm-7 {
     width: 58.3333333333%; }
@@ -1536,7 +1536,7 @@ pre {
     width: 83.3333333333%; }
   .col-sm-11 {
     width: 91.6666666667%; }
-  .col-sm-12, .sizable {
+  .col-sm-12, .content .nav-panel, .sizable {
     width: 100%; }
   .col-sm-pull-0 {
     right: auto; }
@@ -1590,7 +1590,7 @@ pre {
     left: 91.6666666667%; }
   .col-sm-push-12 {
     left: 100%; }
-  .col-sm-offset-0, .panel-container .input-panel label.question {
+  .col-sm-offset-0, .content .nav-panel .form-section .input-panel label.question {
     margin-left: 0%; }
   .col-sm-offset-1 {
     margin-left: 8.3333333333%; }
@@ -1618,19 +1618,19 @@ pre {
     margin-left: 100%; } }
 
 @media (min-width: 992px) {
-  .col-md-1, .panel-container .input-panel label.default.sm, .col-md-2, .panel-container .input-panel label.default, .panel-container .input-panel .form-control.sm, .panel-container .input-panel .btn-group-vertical.sm, .col-md-3, .col-md-4, .panel-container .input-panel .form-control, .panel-container .input-panel .btn-group-vertical, .col-md-5, .col-md-6, .panel-container .input-panel label.question, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .sizable {
+  .col-md-1, .content .nav-panel .form-section .input-panel label.default.sm, .col-md-2, .content .nav-panel .form-section .input-panel label.default, .content .nav-panel .form-section .input-panel .form-control.sm, .content .nav-panel .form-section .input-panel .btn-group-vertical.sm, .col-md-3, .col-md-4, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical, .col-md-5, .col-md-6, .content .nav-panel .form-section .input-panel label.question, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .content .nav-panel, .sizable {
     float: left; }
-  .col-md-1, .panel-container .input-panel label.default.sm {
+  .col-md-1, .content .nav-panel .form-section .input-panel label.default.sm {
     width: 8.3333333333%; }
-  .col-md-2, .panel-container .input-panel label.default, .panel-container .input-panel .form-control.sm, .panel-container .input-panel .btn-group-vertical.sm {
+  .col-md-2, .content .nav-panel .form-section .input-panel label.default, .content .nav-panel .form-section .input-panel .form-control.sm, .content .nav-panel .form-section .input-panel .btn-group-vertical.sm {
     width: 16.6666666667%; }
   .col-md-3 {
     width: 25%; }
-  .col-md-4, .panel-container .input-panel .form-control, .panel-container .input-panel .btn-group-vertical {
+  .col-md-4, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical {
     width: 33.3333333333%; }
   .col-md-5 {
     width: 41.6666666667%; }
-  .col-md-6, .panel-container .input-panel label.question {
+  .col-md-6, .content .nav-panel .form-section .input-panel label.question {
     width: 50%; }
   .col-md-7 {
     width: 58.3333333333%; }
@@ -1642,7 +1642,7 @@ pre {
     width: 83.3333333333%; }
   .col-md-11 {
     width: 91.6666666667%; }
-  .col-md-12, .sizable {
+  .col-md-12, .content .nav-panel, .sizable {
     width: 100%; }
   .col-md-pull-0 {
     right: auto; }
@@ -1698,7 +1698,7 @@ pre {
     left: 100%; }
   .col-md-offset-0 {
     margin-left: 0%; }
-  .col-md-offset-1, .panel-container .input-panel label.question {
+  .col-md-offset-1, .content .nav-panel .form-section .input-panel label.question {
     margin-left: 8.3333333333%; }
   .col-md-offset-2 {
     margin-left: 16.6666666667%; }
@@ -1724,19 +1724,19 @@ pre {
     margin-left: 100%; } }
 
 @media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .panel-container .input-panel label.default, .col-lg-3, .col-lg-4, .panel-container .input-panel .form-control, .panel-container .input-panel .btn-group-vertical, .col-lg-5, .col-lg-6, .panel-container .input-panel label.question, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .sizable {
+  .col-lg-1, .col-lg-2, .content .nav-panel .form-section .input-panel label.default, .col-lg-3, .col-lg-4, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical, .col-lg-5, .col-lg-6, .content .nav-panel .form-section .input-panel label.question, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .content .nav-panel, .sizable {
     float: left; }
   .col-lg-1 {
     width: 8.3333333333%; }
-  .col-lg-2, .panel-container .input-panel label.default {
+  .col-lg-2, .content .nav-panel .form-section .input-panel label.default {
     width: 16.6666666667%; }
   .col-lg-3 {
     width: 25%; }
-  .col-lg-4, .panel-container .input-panel .form-control, .panel-container .input-panel .btn-group-vertical {
+  .col-lg-4, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical {
     width: 33.3333333333%; }
   .col-lg-5 {
     width: 41.6666666667%; }
-  .col-lg-6, .panel-container .input-panel label.question {
+  .col-lg-6, .content .nav-panel .form-section .input-panel label.question {
     width: 50%; }
   .col-lg-7 {
     width: 58.3333333333%; }
@@ -1748,7 +1748,7 @@ pre {
     width: 83.3333333333%; }
   .col-lg-11 {
     width: 91.6666666667%; }
-  .col-lg-12, .sizable {
+  .col-lg-12, .content .nav-panel, .sizable {
     width: 100%; }
   .col-lg-pull-0 {
     right: auto; }
@@ -1806,7 +1806,7 @@ pre {
     margin-left: 0%; }
   .col-lg-offset-1 {
     margin-left: 8.3333333333%; }
-  .col-lg-offset-2, .panel-container .input-panel label.question {
+  .col-lg-offset-2, .content .nav-panel .form-section .input-panel label.question {
     margin-left: 16.6666666667%; }
   .col-lg-offset-3 {
     margin-left: 25%; }
@@ -5627,8 +5627,8 @@ button.close {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../fonts/fontawesome-webfont.eot?v=4.4.0");
-  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.4.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.4.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.4.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
+  src: url("../bower_components/font-awesome/fonts/fontawesome-webfont.eot?v=4.4.0");
+  src: url("../bower_components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("../bower_components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0") format("woff2"), url("../bower_components/font-awesome/fonts/fontawesome-webfont.woff?v=4.4.0") format("woff"), url("../bower_components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.4.0") format("truetype"), url("../bower_components/font-awesome/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -7721,25 +7721,99 @@ html {
 body {
   width: 100%;
   height: calc(100% - 70px);
-  padding-top: 20px;
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+  margin-top: 80px; }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px; }
+.container {
+  height: 100%; }
+
+.bg-mg {
+  background-image: url(../media/moregrasp-logo.jpg);
+  background-repeat: repeat;
+  width: 100%;
+  height: 100%; }
 
 /* Custom page header */
-.header {
+header {
+  display: block;
+  top: 0px;
+  height: 70px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  z-index: 99999;
   border-bottom: 1px solid #e5e5e5;
-  /* Make the masthead heading the same height as the navigation */ }
-  .header h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px; }
+  box-shadow: 0px 1px 4px #ddd; }
+  header .navbar {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0px; }
+    header .navbar .navbar-header {
+      height: 100%; }
+      header .navbar .navbar-header .navbar-brand {
+        padding: 0px 15px;
+        height: 100%; }
+        header .navbar .navbar-header .navbar-brand img {
+          display: inline-block;
+          float: left; }
+        header .navbar .navbar-header .navbar-brand .title {
+          display: inline-block;
+          float: left;
+          height: 68px;
+          margin: 0px 16px;
+          color: #ed1848; }
+          header .navbar .navbar-header .navbar-brand .title h3 {
+            font-weight: 800; }
+  header .nav.menu {
+    height: 68px;
+    float: right; }
+    header .nav.menu li {
+      height: 100%; }
+      header .nav.menu li > a {
+        height: 100%;
+        border-radius: 0px;
+        padding: 15px 30px;
+        font-size: 1.4em;
+        line-height: 1.7em;
+        text-transform: capitalize;
+        background-color: transparent;
+        color: #000; }
+      header .nav.menu li:hover > a {
+        color: #fff;
+        background-color: #4d9d2a; }
+      header .nav.menu li.active > a {
+        color: #fff;
+        background-color: #ed1848;
+        box-shadow: 0px 2px #ed1848; }
+    header .nav.menu > li + li {
+      margin-left: 0px; }
+  header .nav.flag-container {
+    display: inline-block;
+    height: 100%;
+    padding: 9px 30px; }
+    header .nav.flag-container li:hover {
+      background-color: transparent; }
+    header .nav.flag-container li a.flag {
+      display: inline-block;
+      margin: 0px 3px;
+      text-decoration: none; }
+      header .nav.flag-container li a.flag:before {
+        content: '';
+        display: inline-block;
+        background-repeat: no-repeat;
+        width: 16px;
+        height: 11px; }
+      header .nav.flag-container li a.flag.flag-de:before {
+        background-image: url(../media/flag_icons/png/de.png); }
+      header .nav.flag-container li a.flag.flag-en:before {
+        background-image: url(../media/flag_icons/png/gb.png); }
+      header .nav.flag-container li a.flag.active:before {
+        box-shadow: 1px 1px 4px #555, -1px -1px 4px #555; }
+      header .nav.flag-container li a.flag:hover {
+        background-color: transparent; }
+        header .nav.flag-container li a.flag:hover:before {
+          transform: scale(1.1); }
 
 /* Custom page footer */
 .footer {
@@ -7754,10 +7828,81 @@ body {
   color: #777;
   border-top: 1px solid #e5e5e5; }
 
-.container {
-  min-height: 525px;
-  max-height: 100%;
-  overflow-y: auto; }
+.content {
+  height: 525px;
+  overflow-y: auto;
+  display: block;
+  position: relative;
+  top: 80px; }
+  .content .nav-panel {
+    height: 525px;
+    /** control area **/ }
+    .content .nav-panel.fade {
+      display: none !important; }
+    .content .nav-panel .form-section {
+      height: auto;
+      overflow-x: hidden; }
+      .content .nav-panel .form-section .input-panel {
+        margin-bottom: 10px;
+        text-align: left; }
+        .content .nav-panel .form-section .input-panel .jumbotron {
+          padding-top: 30px;
+          padding-bottom: 30px;
+          margin-bottom: 5px; }
+        .content .nav-panel .form-section .input-panel .row {
+          margin-top: 5px;
+          margin: 5px 0px 0px 0px; }
+        .content .nav-panel .form-section .input-panel h4 {
+          -webkit-margin-before: 0px; }
+        .content .nav-panel .form-section .input-panel p {
+          text-align: center; }
+          .content .nav-panel .form-section .input-panel p.explanation {
+            text-align: left;
+            font-size: 0.9em; }
+        .content .nav-panel .form-section .input-panel label.default {
+          padding-top: 8px;
+          padding-right: 5px; }
+        .content .nav-panel .form-section .input-panel label.question {
+          text-align: left;
+          margin-top: 5px; }
+        .content .nav-panel .form-section .input-panel .toggle-on, .content .nav-panel .form-section .input-panel .toggle-off {
+          text-align: left; }
+    .content .nav-panel .controls-section {
+      position: relative;
+      height: 110px;
+      margin-top: 10px;
+      padding: 10px 0px;
+      text-align: center; }
+      .content .nav-panel .controls-section .progress, .content .nav-panel .controls-section .ajax-file-upload-statusbar .ajax-file-upload-progress, .ajax-file-upload-statusbar .content .nav-panel .controls-section .ajax-file-upload-progress {
+        width: 80%;
+        margin: 0px 10%; }
+      .content .nav-panel .controls-section .button-area {
+        position: relative;
+        bottom: -10px;
+        height: 45px;
+        margin: 10px 0px;
+        text-align: center; }
+        .content .nav-panel .controls-section .button-area button {
+          width: 83px; }
+      .content .nav-panel .controls-section .btn-primary, .content .nav-panel .controls-section .ajax-upload-dragdrop .ajax-file-upload, .ajax-upload-dragdrop .content .nav-panel .controls-section .ajax-file-upload, .content .nav-panel .controls-section .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red, .ajax-upload-dragdrop .ajax-file-upload-statusbar .content .nav-panel .controls-section .ajax-file-upload-red, .content .nav-panel .controls-section .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .content .nav-panel .controls-section .ajax-file-upload-red, .content .nav-panel .controls-section .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green, .ajax-upload-dragdrop .ajax-file-upload-statusbar .content .nav-panel .controls-section .ajax-file-upload-green, .content .nav-panel .controls-section .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green, .ajax-file-upload-statusbar .ajax-upload-dragdrop .content .nav-panel .controls-section .ajax-file-upload-green {
+        color: #fff;
+        background-color: #4d9d2a;
+        border: 1px solid #4a9a27; }
+        .content .nav-panel .controls-section .btn-primary:hover, .content .nav-panel .controls-section .ajax-upload-dragdrop .ajax-file-upload:hover, .ajax-upload-dragdrop .content .nav-panel .controls-section .ajax-file-upload:hover, .content .nav-panel .controls-section .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red:hover, .ajax-upload-dragdrop .ajax-file-upload-statusbar .content .nav-panel .controls-section .ajax-file-upload-red:hover, .content .nav-panel .controls-section .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .content .nav-panel .controls-section .ajax-file-upload-red:hover, .content .nav-panel .controls-section .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green:hover, .ajax-upload-dragdrop .ajax-file-upload-statusbar .content .nav-panel .controls-section .ajax-file-upload-green:hover, .content .nav-panel .controls-section .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .content .nav-panel .controls-section .ajax-file-upload-green:hover {
+          background-color: #459522; }
+
+#home .video-container-outer {
+  width: 100%;
+  height: 430px;
+  padding: 15px 0px;
+  text-align: center;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)); }
+
+#home .video-container {
+  display: inline-block;
+  height: 400px;
+  width: 750px;
+  margin: auto; }
 
 /* Main marketing message and sign up button */
 .jumbotron {
@@ -7774,72 +7919,15 @@ body {
 .margin-l {
   margin: 50px; }
 
-.logo {
-  display: inline-block;
-  width: 200px;
-  height: 132px;
-  background-image: url(../media/moregrasp-logo.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat; }
-
 .sizable {
   /*@extend .col-lg-offset-1, .col-lg-10, .col-md-offset-1, .col-md-10, .col-sm-offset-0, .col-sm-12;*/ }
 
 .alert {
   margin-bottom: 0px; }
 
-.panel-container {
-  height: auto;
-  overflow-x: hidden; }
-  .panel-container .input-panel {
-    margin-bottom: 10px;
-    text-align: left; }
-    .panel-container .input-panel .jumbotron {
-      padding-top: 30px;
-      padding-bottom: 30px;
-      margin-bottom: 5px; }
-    .panel-container .input-panel .row {
-      margin-top: 5px;
-      margin: 5px 0px 0px 0px; }
-    .panel-container .input-panel h4 {
-      -webkit-margin-before: 0px; }
-    .panel-container .input-panel p {
-      text-align: center; }
-      .panel-container .input-panel p.explanation {
-        text-align: left;
-        font-size: 0.9em; }
-    .panel-container .input-panel label.default {
-      padding-top: 8px;
-      padding-right: 5px; }
-    .panel-container .input-panel label.question {
-      text-align: left;
-      margin-top: 5px; }
-    .panel-container .input-panel .toggle-on, .panel-container .input-panel .toggle-off {
-      text-align: left; }
-
-/** control area **/
-.controls-container {
-  position: relative;
-  height: 110px;
-  margin-top: 10px;
-  padding: 10px 0px;
-  text-align: center; }
-  .controls-container .progress, .controls-container .ajax-file-upload-statusbar .ajax-file-upload-progress, .ajax-file-upload-statusbar .controls-container .ajax-file-upload-progress {
-    width: 80%;
-    margin: 0px 10%; }
-  .controls-container .button-area {
-    position: relative;
-    bottom: -10px;
-    height: 45px;
-    margin: 10px 0px;
-    text-align: center; }
-    .controls-container .button-area button {
-      width: 83px; }
-
-/**************************************************************************/
+/******************************************************************************************/
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   body {
     overflow-y: hidden; }
   .container {
@@ -7848,19 +7936,19 @@ body {
     .container .panel-container {
       height: 335px !important; }
   /* Remove the padding we set earlier */
-  .header,
+  header,
   .footer {
     padding-left: 0;
     padding-right: 0; }
   /* Space out the masthead */
-  .header {
+  header {
     margin-bottom: 30px; }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0; } }
 
-@media (min-width: 900px) {
+@media (min-width: 768px) {
   .panel-container {
-    height: 400px !important; } }
+    height: 450px !important; } }
 
 /*# sourceMappingURL=main.css.map */
