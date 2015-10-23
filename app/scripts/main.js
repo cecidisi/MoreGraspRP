@@ -12,17 +12,20 @@
         $progress = $('.progress');
 
 
+    function moveTo(navPanelId){
+        $('.nav.menu li').removeClass('active');
+        $(".nav.menu li[navigateTo='" + navPanelId + "']").addClass('active');
+
+        $('.nav-panel:not('+ navPanelId +')').addClass('fade');
+        $(navPanelId).removeClass('fade');
+    }
+
+
 
     /* navbar */
-    $('.nav.menu li').click(function(event){
-        $('.nav.menu li').removeClass('active');
-        $(this).addClass('active');
-
-
-        $('.nav-panel:not('+$(this).find('a').attr('href')+')').addClass('fade');
-        $($(this).find('a').attr('href')).removeClass('fade');
-    });
-
+    $('.nav.menu li').click(function(event){ moveTo($(this).attr('navigateTo')); });
+    /* Go to Registration btn */
+    $('#btn-go-to-registration').click(function(event){ moveTo($(this).find('a').attr('href')); });
 
 
 
@@ -100,15 +103,6 @@
 
 
     $("#mulitplefileuploader").uploadFile(uploadSettings);
-
-    /*$('#fileupload').fileupload({
-        filesContainer: $('table.files')
-    });
-*/
-
-
-
-
 
 
 

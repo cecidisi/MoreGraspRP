@@ -1718,14 +1718,14 @@ pre {
     clear: both; }
 
 /* line 10, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .content .nav-panel .form-section .input-panel label.default.sm, .col-md-1, .content .nav-panel .form-section .input-panel label.default.sm, .col-lg-1, .col-xs-2, .col-sm-2, .content .nav-panel .form-section .input-panel label.default, .content .nav-panel .form-section .input-panel .form-control.sm, .content .nav-panel .form-section .input-panel .btn-group-vertical.sm, .col-md-2, .content .nav-panel .form-section .input-panel label.default, .content .nav-panel .form-section .input-panel .form-control.sm, .content .nav-panel .form-section .input-panel .btn-group-vertical.sm, .col-lg-2, .content .nav-panel .form-section .input-panel label.default, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical, .col-md-4, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical, .col-lg-4, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .content .nav-panel .form-section .input-panel label.question, .col-md-6, .content .nav-panel .form-section .input-panel label.question, .col-lg-6, .content .nav-panel .form-section .input-panel label.question, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .content .nav-panel .form-section .input-panel label.question, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .content .nav-panel .form-section .input-panel label.default, .content .nav-panel .form-section .input-panel label.default.sm, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical, .content .nav-panel .form-section .input-panel .form-control.sm, .content .nav-panel .form-section .input-panel .btn-group-vertical.sm, .col-sm-12, .content .nav-panel, .sizable, .col-md-12, .content .nav-panel, .sizable, .col-lg-12, .content .nav-panel, .sizable {
+.col-xs-1, .col-sm-1, .nav-panel#registration-form .form-section .input-panel label.default.sm, .col-md-1, .nav-panel#registration-form .form-section .input-panel label.default.sm, .col-lg-1, .col-xs-2, .col-sm-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .col-md-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .col-lg-2, .nav-panel#registration-form .form-section .input-panel label.default, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .col-md-4, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .col-lg-4, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .nav-panel#registration-form .form-section .input-panel label.question, .col-md-6, .nav-panel#registration-form .form-section .input-panel label.question, .col-lg-6, .nav-panel#registration-form .form-section .input-panel label.question, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .nav-panel#registration-form .form-section .input-panel label.question, .col-sm-10, .col-md-10, .col-lg-10, .nav-panel#registration-form .form-section .input-panel, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel label.default.sm, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .col-sm-12, .content .nav-panel, .nav-panel#registration-form .form-section .input-panel, .sizable, .col-md-12, .content .nav-panel, .nav-panel#registration-form .form-section .input-panel, .sizable, .col-lg-12, .content .nav-panel, .sizable {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
 
 /* line 26, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .content .nav-panel .form-section .input-panel label.question, .col-xs-11, .col-xs-12, .content .nav-panel .form-section .input-panel label.default, .content .nav-panel .form-section .input-panel label.default.sm, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical, .content .nav-panel .form-section .input-panel .form-control.sm, .content .nav-panel .form-section .input-panel .btn-group-vertical.sm {
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .nav-panel#registration-form .form-section .input-panel label.question, .col-xs-11, .col-xs-12, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel label.default.sm, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm {
   float: left; }
 
 /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -1765,7 +1765,7 @@ pre {
   width: 75%; }
 
 /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-10, .content .nav-panel .form-section .input-panel label.question {
+.col-xs-10, .nav-panel#registration-form .form-section .input-panel label.question {
   width: 83.33333%; }
 
 /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -1773,7 +1773,7 @@ pre {
   width: 91.66667%; }
 
 /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-12, .content .nav-panel .form-section .input-panel label.default, .content .nav-panel .form-section .input-panel label.default.sm, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical, .content .nav-panel .form-section .input-panel .form-control.sm, .content .nav-panel .form-section .input-panel .btn-group-vertical.sm {
+.col-xs-12, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel label.default.sm, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm {
   width: 100%; }
 
 /* line 54, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -1881,7 +1881,7 @@ pre {
   left: 100%; }
 
 /* line 59, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-offset-0, .content .nav-panel .form-section .input-panel label.question {
+.col-xs-offset-0, .nav-panel#registration-form .form-section .input-panel label.question {
   margin-left: 0%; }
 
 /* line 59, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -1934,25 +1934,25 @@ pre {
 
 @media (min-width: 768px) {
   /* line 26, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-1, .content .nav-panel .form-section .input-panel label.default.sm, .col-sm-2, .content .nav-panel .form-section .input-panel label.default, .content .nav-panel .form-section .input-panel .form-control.sm, .content .nav-panel .form-section .input-panel .btn-group-vertical.sm, .col-sm-3, .col-sm-4, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical, .col-sm-5, .col-sm-6, .content .nav-panel .form-section .input-panel label.question, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .content .nav-panel, .sizable {
+  .col-sm-1, .nav-panel#registration-form .form-section .input-panel label.default.sm, .col-sm-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .col-sm-3, .col-sm-4, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .col-sm-5, .col-sm-6, .nav-panel#registration-form .form-section .input-panel label.question, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .content .nav-panel, .nav-panel#registration-form .form-section .input-panel, .sizable {
     float: left; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-1, .content .nav-panel .form-section .input-panel label.default.sm {
+  .col-sm-1, .nav-panel#registration-form .form-section .input-panel label.default.sm {
     width: 8.33333%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-2, .content .nav-panel .form-section .input-panel label.default, .content .nav-panel .form-section .input-panel .form-control.sm, .content .nav-panel .form-section .input-panel .btn-group-vertical.sm {
+  .col-sm-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm {
     width: 16.66667%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-sm-3 {
     width: 25%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-4, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical {
+  .col-sm-4, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical {
     width: 33.33333%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-sm-5 {
     width: 41.66667%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-6, .content .nav-panel .form-section .input-panel label.question {
+  .col-sm-6, .nav-panel#registration-form .form-section .input-panel label.question {
     width: 50%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-sm-7 {
@@ -1970,7 +1970,7 @@ pre {
   .col-sm-11 {
     width: 91.66667%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-12, .content .nav-panel, .sizable {
+  .col-sm-12, .content .nav-panel, .nav-panel#registration-form .form-section .input-panel, .sizable {
     width: 100%; }
   /* line 54, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-sm-pull-0 {
@@ -2051,7 +2051,7 @@ pre {
   .col-sm-push-12 {
     left: 100%; }
   /* line 59, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-offset-0, .content .nav-panel .form-section .input-panel label.question {
+  .col-sm-offset-0, .nav-panel#registration-form .form-section .input-panel label.question {
     margin-left: 0%; }
   /* line 59, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-sm-offset-1 {
@@ -2092,25 +2092,25 @@ pre {
 
 @media (min-width: 992px) {
   /* line 26, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-1, .content .nav-panel .form-section .input-panel label.default.sm, .col-md-2, .content .nav-panel .form-section .input-panel label.default, .content .nav-panel .form-section .input-panel .form-control.sm, .content .nav-panel .form-section .input-panel .btn-group-vertical.sm, .col-md-3, .col-md-4, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical, .col-md-5, .col-md-6, .content .nav-panel .form-section .input-panel label.question, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .content .nav-panel, .sizable {
+  .col-md-1, .nav-panel#registration-form .form-section .input-panel label.default.sm, .col-md-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .col-md-3, .col-md-4, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .col-md-5, .col-md-6, .nav-panel#registration-form .form-section .input-panel label.question, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .content .nav-panel, .nav-panel#registration-form .form-section .input-panel, .sizable {
     float: left; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-1, .content .nav-panel .form-section .input-panel label.default.sm {
+  .col-md-1, .nav-panel#registration-form .form-section .input-panel label.default.sm {
     width: 8.33333%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-2, .content .nav-panel .form-section .input-panel label.default, .content .nav-panel .form-section .input-panel .form-control.sm, .content .nav-panel .form-section .input-panel .btn-group-vertical.sm {
+  .col-md-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm {
     width: 16.66667%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-md-3 {
     width: 25%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-4, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical {
+  .col-md-4, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical {
     width: 33.33333%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-md-5 {
     width: 41.66667%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-6, .content .nav-panel .form-section .input-panel label.question {
+  .col-md-6, .nav-panel#registration-form .form-section .input-panel label.question {
     width: 50%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-md-7 {
@@ -2128,7 +2128,7 @@ pre {
   .col-md-11 {
     width: 91.66667%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-12, .content .nav-panel, .sizable {
+  .col-md-12, .content .nav-panel, .nav-panel#registration-form .form-section .input-panel, .sizable {
     width: 100%; }
   /* line 54, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-md-pull-0 {
@@ -2212,7 +2212,7 @@ pre {
   .col-md-offset-0 {
     margin-left: 0%; }
   /* line 59, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-offset-1, .content .nav-panel .form-section .input-panel label.question {
+  .col-md-offset-1, .nav-panel#registration-form .form-section .input-panel label.question {
     margin-left: 8.33333%; }
   /* line 59, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-md-offset-2 {
@@ -2250,25 +2250,25 @@ pre {
 
 @media (min-width: 1200px) {
   /* line 26, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-lg-1, .col-lg-2, .content .nav-panel .form-section .input-panel label.default, .col-lg-3, .col-lg-4, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical, .col-lg-5, .col-lg-6, .content .nav-panel .form-section .input-panel label.question, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .content .nav-panel, .sizable {
+  .col-lg-1, .col-lg-2, .nav-panel#registration-form .form-section .input-panel label.default, .col-lg-3, .col-lg-4, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .col-lg-5, .col-lg-6, .nav-panel#registration-form .form-section .input-panel label.question, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .nav-panel#registration-form .form-section .input-panel, .col-lg-11, .col-lg-12, .content .nav-panel, .sizable {
     float: left; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-lg-1 {
     width: 8.33333%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-lg-2, .content .nav-panel .form-section .input-panel label.default {
+  .col-lg-2, .nav-panel#registration-form .form-section .input-panel label.default {
     width: 16.66667%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-lg-3 {
     width: 25%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-lg-4, .content .nav-panel .form-section .input-panel .form-control, .content .nav-panel .form-section .input-panel .btn-group-vertical {
+  .col-lg-4, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical {
     width: 33.33333%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-lg-5 {
     width: 41.66667%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-lg-6, .content .nav-panel .form-section .input-panel label.question {
+  .col-lg-6, .nav-panel#registration-form .form-section .input-panel label.question {
     width: 50%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-lg-7 {
@@ -2280,7 +2280,7 @@ pre {
   .col-lg-9 {
     width: 75%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-lg-10 {
+  .col-lg-10, .nav-panel#registration-form .form-section .input-panel {
     width: 83.33333%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-lg-11 {
@@ -2370,10 +2370,10 @@ pre {
   .col-lg-offset-0 {
     margin-left: 0%; }
   /* line 59, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-lg-offset-1 {
+  .col-lg-offset-1, .nav-panel#registration-form .form-section .input-panel {
     margin-left: 8.33333%; }
   /* line 59, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-lg-offset-2, .content .nav-panel .form-section .input-panel label.question {
+  .col-lg-offset-2, .nav-panel#registration-form .form-section .input-panel label.question {
     margin-left: 16.66667%; }
   /* line 59, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-lg-offset-3 {
@@ -3313,112 +3313,44 @@ textarea.input-lg,
     background-color: #333; }
 
 /* line 60, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_buttons.scss */
-.btn-primary, .ajax-upload-dragdrop .ajax-file-upload, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green {
+.btn-primary {
   color: #fff;
   background-color: #428bca;
   border-color: #357ebd; }
   /* line 15, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary:hover,
-  .ajax-upload-dragdrop .ajax-file-upload:hover,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red:hover,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red:hover, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green:hover,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green:hover, .btn-primary:focus,
-  .ajax-upload-dragdrop .ajax-file-upload:focus,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red:focus,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red:focus, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green:focus,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green:focus, .btn-primary:active,
-  .ajax-upload-dragdrop .ajax-file-upload:active,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red:active,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red:active, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green:active,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green:active, .btn-primary.active,
-  .ajax-upload-dragdrop .active.ajax-file-upload,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar .active.ajax-file-upload-red,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .active.ajax-file-upload-red, .ajax-upload-dragdrop .ajax-file-upload-statusbar .active.ajax-file-upload-green,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .active.ajax-file-upload-green, .open > .btn-primary.dropdown-toggle, .ajax-upload-dragdrop .open > .dropdown-toggle.ajax-file-upload, .ajax-upload-dragdrop .ajax-file-upload-statusbar .open > .dropdown-toggle.ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .open > .dropdown-toggle.ajax-file-upload-red, .ajax-upload-dragdrop .ajax-file-upload-statusbar .open > .dropdown-toggle.ajax-file-upload-green, .ajax-file-upload-statusbar .ajax-upload-dragdrop .open > .dropdown-toggle.ajax-file-upload-green {
+  .btn-primary:focus,
+  .btn-primary:active,
+  .btn-primary.active,
+  .open > .btn-primary.dropdown-toggle {
     color: #fff;
     background-color: #3071a9;
     border-color: #285e8e; }
   /* line 22, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary:active,
-  .ajax-upload-dragdrop .ajax-file-upload:active,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red:active,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red:active, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green:active,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green:active, .btn-primary.active,
-  .ajax-upload-dragdrop .active.ajax-file-upload,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar .active.ajax-file-upload-red,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .active.ajax-file-upload-red, .ajax-upload-dragdrop .ajax-file-upload-statusbar .active.ajax-file-upload-green,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .active.ajax-file-upload-green, .open > .btn-primary.dropdown-toggle, .ajax-upload-dragdrop .open > .dropdown-toggle.ajax-file-upload, .ajax-upload-dragdrop .ajax-file-upload-statusbar .open > .dropdown-toggle.ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .open > .dropdown-toggle.ajax-file-upload-red, .ajax-upload-dragdrop .ajax-file-upload-statusbar .open > .dropdown-toggle.ajax-file-upload-green, .ajax-file-upload-statusbar .ajax-upload-dragdrop .open > .dropdown-toggle.ajax-file-upload-green {
+  .btn-primary.active,
+  .open > .btn-primary.dropdown-toggle {
     background-image: none; }
   /* line 32, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary.disabled,
-  .ajax-upload-dragdrop .disabled.ajax-file-upload,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar .disabled.ajax-file-upload-red,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .disabled.ajax-file-upload-red, .ajax-upload-dragdrop .ajax-file-upload-statusbar .disabled.ajax-file-upload-green,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .disabled.ajax-file-upload-green, .btn-primary.disabled:hover,
-  .ajax-upload-dragdrop .disabled.ajax-file-upload:hover,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar .disabled.ajax-file-upload-red:hover,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .disabled.ajax-file-upload-red:hover, .ajax-upload-dragdrop .ajax-file-upload-statusbar .disabled.ajax-file-upload-green:hover,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .disabled.ajax-file-upload-green:hover, .btn-primary.disabled:focus,
-  .ajax-upload-dragdrop .disabled.ajax-file-upload:focus,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar .disabled.ajax-file-upload-red:focus,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .disabled.ajax-file-upload-red:focus, .ajax-upload-dragdrop .ajax-file-upload-statusbar .disabled.ajax-file-upload-green:focus,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .disabled.ajax-file-upload-green:focus, .btn-primary.disabled:active,
-  .ajax-upload-dragdrop .disabled.ajax-file-upload:active,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar .disabled.ajax-file-upload-red:active,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .disabled.ajax-file-upload-red:active, .ajax-upload-dragdrop .ajax-file-upload-statusbar .disabled.ajax-file-upload-green:active,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .disabled.ajax-file-upload-green:active, .btn-primary.disabled.active,
-  .ajax-upload-dragdrop .disabled.active.ajax-file-upload,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar .disabled.active.ajax-file-upload-red,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .disabled.active.ajax-file-upload-red, .ajax-upload-dragdrop .ajax-file-upload-statusbar .disabled.active.ajax-file-upload-green,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .disabled.active.ajax-file-upload-green, .btn-primary[disabled],
-  .ajax-upload-dragdrop [disabled].ajax-file-upload,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar [disabled].ajax-file-upload-red,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop [disabled].ajax-file-upload-red, .ajax-upload-dragdrop .ajax-file-upload-statusbar [disabled].ajax-file-upload-green,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop [disabled].ajax-file-upload-green, .btn-primary[disabled]:hover,
-  .ajax-upload-dragdrop [disabled].ajax-file-upload:hover,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar [disabled].ajax-file-upload-red:hover,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop [disabled].ajax-file-upload-red:hover, .ajax-upload-dragdrop .ajax-file-upload-statusbar [disabled].ajax-file-upload-green:hover,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop [disabled].ajax-file-upload-green:hover, .btn-primary[disabled]:focus,
-  .ajax-upload-dragdrop [disabled].ajax-file-upload:focus,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar [disabled].ajax-file-upload-red:focus,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop [disabled].ajax-file-upload-red:focus, .ajax-upload-dragdrop .ajax-file-upload-statusbar [disabled].ajax-file-upload-green:focus,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop [disabled].ajax-file-upload-green:focus, .btn-primary[disabled]:active,
-  .ajax-upload-dragdrop [disabled].ajax-file-upload:active,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar [disabled].ajax-file-upload-red:active,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop [disabled].ajax-file-upload-red:active, .ajax-upload-dragdrop .ajax-file-upload-statusbar [disabled].ajax-file-upload-green:active,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop [disabled].ajax-file-upload-green:active, .btn-primary[disabled].active,
-  .ajax-upload-dragdrop [disabled].active.ajax-file-upload,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar [disabled].active.ajax-file-upload-red,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop [disabled].active.ajax-file-upload-red, .ajax-upload-dragdrop .ajax-file-upload-statusbar [disabled].active.ajax-file-upload-green,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop [disabled].active.ajax-file-upload-green, fieldset[disabled] .btn-primary,
-  fieldset[disabled] .ajax-upload-dragdrop .ajax-file-upload,
-  .ajax-upload-dragdrop fieldset[disabled] .ajax-file-upload, fieldset[disabled] .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar fieldset[disabled] .ajax-file-upload-red, fieldset[disabled] .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop fieldset[disabled] .ajax-file-upload-red, fieldset[disabled] .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar fieldset[disabled] .ajax-file-upload-green, fieldset[disabled] .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop fieldset[disabled] .ajax-file-upload-green, fieldset[disabled] .btn-primary:hover,
-  fieldset[disabled] .ajax-upload-dragdrop .ajax-file-upload:hover,
-  .ajax-upload-dragdrop fieldset[disabled] .ajax-file-upload:hover, fieldset[disabled] .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red:hover,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar fieldset[disabled] .ajax-file-upload-red:hover, fieldset[disabled] .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red:hover,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop fieldset[disabled] .ajax-file-upload-red:hover, fieldset[disabled] .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green:hover,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar fieldset[disabled] .ajax-file-upload-green:hover, fieldset[disabled] .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green:hover,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop fieldset[disabled] .ajax-file-upload-green:hover, fieldset[disabled] .btn-primary:focus,
-  fieldset[disabled] .ajax-upload-dragdrop .ajax-file-upload:focus,
-  .ajax-upload-dragdrop fieldset[disabled] .ajax-file-upload:focus, fieldset[disabled] .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red:focus,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar fieldset[disabled] .ajax-file-upload-red:focus, fieldset[disabled] .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red:focus,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop fieldset[disabled] .ajax-file-upload-red:focus, fieldset[disabled] .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green:focus,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar fieldset[disabled] .ajax-file-upload-green:focus, fieldset[disabled] .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green:focus,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop fieldset[disabled] .ajax-file-upload-green:focus, fieldset[disabled] .btn-primary:active,
-  fieldset[disabled] .ajax-upload-dragdrop .ajax-file-upload:active,
-  .ajax-upload-dragdrop fieldset[disabled] .ajax-file-upload:active, fieldset[disabled] .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red:active,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar fieldset[disabled] .ajax-file-upload-red:active, fieldset[disabled] .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red:active,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop fieldset[disabled] .ajax-file-upload-red:active, fieldset[disabled] .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green:active,
-  .ajax-upload-dragdrop .ajax-file-upload-statusbar fieldset[disabled] .ajax-file-upload-green:active, fieldset[disabled] .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green:active,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop fieldset[disabled] .ajax-file-upload-green:active, fieldset[disabled] .btn-primary.active, fieldset[disabled] .ajax-upload-dragdrop .active.ajax-file-upload, .ajax-upload-dragdrop fieldset[disabled] .active.ajax-file-upload, fieldset[disabled] .ajax-upload-dragdrop .ajax-file-upload-statusbar .active.ajax-file-upload-red, .ajax-upload-dragdrop .ajax-file-upload-statusbar fieldset[disabled] .active.ajax-file-upload-red, fieldset[disabled] .ajax-file-upload-statusbar .ajax-upload-dragdrop .active.ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop fieldset[disabled] .active.ajax-file-upload-red, fieldset[disabled] .ajax-upload-dragdrop .ajax-file-upload-statusbar .active.ajax-file-upload-green, .ajax-upload-dragdrop .ajax-file-upload-statusbar fieldset[disabled] .active.ajax-file-upload-green, fieldset[disabled] .ajax-file-upload-statusbar .ajax-upload-dragdrop .active.ajax-file-upload-green, .ajax-file-upload-statusbar .ajax-upload-dragdrop fieldset[disabled] .active.ajax-file-upload-green {
+  .btn-primary.disabled:hover,
+  .btn-primary.disabled:focus,
+  .btn-primary.disabled:active,
+  .btn-primary.disabled.active,
+  .btn-primary[disabled],
+  .btn-primary[disabled]:hover,
+  .btn-primary[disabled]:focus,
+  .btn-primary[disabled]:active,
+  .btn-primary[disabled].active,
+  fieldset[disabled] .btn-primary,
+  fieldset[disabled] .btn-primary:hover,
+  fieldset[disabled] .btn-primary:focus,
+  fieldset[disabled] .btn-primary:active,
+  fieldset[disabled] .btn-primary.active {
     background-color: #428bca;
     border-color: #357ebd; }
   /* line 38, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-primary .badge, .ajax-upload-dragdrop .ajax-file-upload .badge, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red .badge, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red .badge, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green .badge, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green .badge {
+  .btn-primary .badge {
     color: #428bca;
     background-color: #fff; }
 
@@ -9590,6 +9522,11 @@ button.close {
   content: ""; }
 
 /* line 1, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
+.ajax-file-upload-container {
+  margin: auto;
+  width: 80%; }
+
+/* line 6, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
 .ajax-upload-dragdrop {
   border: 2px dotted #ddd;
   /*color: #DADCE3;*/
@@ -9601,14 +9538,14 @@ button.close {
   display: block;
   margin-left: auto;
   margin-right: auto; }
-  /* line 13, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
+  /* line 18, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
   .ajax-upload-dragdrop .ajax-file-upload, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green {
     height: 34px;
     width: 81px;
     margin: 0px 20px 0px 0px;
     box-shadow: none; }
 
-/* line 23, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
+/* line 28, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
 .ajax-file-upload-statusbar {
   width: 100%;
   min-height: 130px;
@@ -9619,7 +9556,7 @@ button.close {
   display: block;
   margin-left: auto;
   margin-right: auto; }
-  /* line 33, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
+  /* line 38, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
   .ajax-file-upload-statusbar .ajax-file-upload-filename {
     display: inline-block;
     width: calc(100% - 70px);
@@ -9627,14 +9564,14 @@ button.close {
     margin: 0px 5px 5px 10px;
     font-size: .9em;
     text-align: left; }
-  /* line 42, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
+  /* line 47, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
   .ajax-file-upload-statusbar .extrahtml {
     display: inline-block;
     margin: 2px 12px;
     width: 130px;
     height: 88px;
     float: left; }
-    /* line 49, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
+    /* line 54, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
     .ajax-file-upload-statusbar .extrahtml div.loading {
       width: 120px;
       height: 80px;
@@ -9642,58 +9579,61 @@ button.close {
       background-position: -72px -56px;
       background-color: white;
       border: 1px solid #ddd; }
-  /* line 59, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
+  /* line 64, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
   .ajax-file-upload-statusbar .ajax-file-upload-progress {
     position: relative;
     float: left;
     top: 11px;
     width: calc(100% - 164px); }
-  /* line 71, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
+  /* line 72, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
+  .ajax-file-upload-statusbar .ajax-file-upload-bar {
+    background-color: #555 !important; }
+  /* line 77, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
   .ajax-file-upload-statusbar .ajax-file-upload-percent {
     position: absolute;
     display: inline-block;
     top: 3px;
     left: 48%; }
-  /* line 78, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
+  /* line 84, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
   .ajax-file-upload-statusbar .ajax-file-upload, .ajax-file-upload-statusbar .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-file-upload-green {
     display: inline-block;
     position: relative;
     float: left;
     margin-left: 2px;
-    box-shadow: none; }
+    box-shadow: none;
+    color: #fff; }
 
 @media screen and (min-width: 400px) {
-  /* line 101, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
+  /* line 108, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
   .ajax-file-upload-statusbar {
     height: 125px; }
-  /* line 105, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
+  /* line 112, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
   .ajax-file-upload-progress {
     top: 33px !important;
     width: calc(100% - 226px) !important;
     max-width: 250px; }
-  /* line 111, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
+  /* line 118, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
   .ajax-file-upload-red, .ajax-file-upload-green {
     top: 36px; } }
 
-/* line 10, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 11, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 html {
   position: relative;
   height: 100%;
   overflow-y: hidden; }
 
 /* Space out content a bit */
-/* line 17, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 18, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 body {
   width: 100%;
-  height: calc(100% - 70px);
-  margin-bottom: 70px;
-  margin-top: 80px; }
+  height: calc(100% - 80px);
+  margin-bottom: 70px; }
 
-/* line 24, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 25, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 .container {
   height: 100%; }
 
-/* line 28, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 29, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 .bg-mg {
   background-image: url(../media/moregrasp-logo.jpg);
   background-repeat: repeat;
@@ -9701,7 +9641,7 @@ body {
   height: 100%; }
 
 /* Custom page header */
-/* line 36, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 37, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 header {
   display: block;
   top: 0px;
@@ -9712,41 +9652,41 @@ header {
   z-index: 99999;
   border-bottom: 1px solid #e5e5e5;
   box-shadow: 0px 1px 4px #ddd; }
-  /* line 48, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 49, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   header .navbar {
     position: fixed;
     height: 100%;
     width: 100%;
     margin: 0px; }
-    /* line 54, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    /* line 55, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
     header .navbar .navbar-header {
       height: 100%; }
-      /* line 56, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      /* line 57, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
       header .navbar .navbar-header .navbar-brand {
         padding: 0px 15px;
         height: 100%; }
-        /* line 60, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+        /* line 61, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
         header .navbar .navbar-header .navbar-brand img {
           display: inline-block;
           float: left; }
-        /* line 65, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+        /* line 66, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
         header .navbar .navbar-header .navbar-brand .title {
           display: inline-block;
           float: left;
           height: 68px;
           margin: 0px 16px;
           color: #ed1848; }
-          /* line 71, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+          /* line 72, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
           header .navbar .navbar-header .navbar-brand .title h3 {
             font-weight: 800; }
-  /* line 79, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 80, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   header .nav.menu {
     height: 68px;
     float: right; }
-    /* line 83, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    /* line 84, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
     header .nav.menu li {
       height: 100%; }
-      /* line 85, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      /* line 86, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
       header .nav.menu li > a {
         height: 100%;
         border-radius: 0px;
@@ -9756,56 +9696,56 @@ header {
         text-transform: capitalize;
         background-color: transparent;
         color: #000; }
-      /* line 95, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      /* line 96, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
       header .nav.menu li:hover > a {
         color: #fff;
         background-color: #4d9d2a; }
-      /* line 99, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      /* line 100, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
       header .nav.menu li.active > a {
         color: #fff;
         background-color: #ed1848;
         box-shadow: 0px 2px #ed1848; }
-    /* line 107, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    /* line 108, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
     header .nav.menu > li + li {
       margin-left: 0px; }
-  /* line 112, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 113, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   header .nav.flag-container {
     display: inline-block;
     height: 100%;
     padding: 9px 30px; }
-    /* line 118, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    /* line 119, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
     header .nav.flag-container li:hover {
       background-color: transparent; }
-    /* line 122, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    /* line 123, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
     header .nav.flag-container li a.flag {
       display: inline-block;
       margin: 0px 3px;
       text-decoration: none; }
-      /* line 126, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      /* line 127, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
       header .nav.flag-container li a.flag:before {
         content: '';
         display: inline-block;
         background-repeat: no-repeat;
         width: 16px;
         height: 11px; }
-      /* line 133, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      /* line 134, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
       header .nav.flag-container li a.flag.flag-de:before {
         background-image: url(../media/flag_icons/png/de.png); }
-      /* line 134, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      /* line 135, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
       header .nav.flag-container li a.flag.flag-en:before {
         background-image: url(../media/flag_icons/png/gb.png); }
-      /* line 135, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      /* line 136, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
       header .nav.flag-container li a.flag.active:before {
         box-shadow: 1px 1px 4px #555, -1px -1px 4px #555; }
-      /* line 138, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      /* line 139, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
       header .nav.flag-container li a.flag:hover {
         background-color: transparent; }
-        /* line 140, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+        /* line 141, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
         header .nav.flag-container li a.flag:hover:before {
           transform: scale(1.1); }
 
 /* Custom page footer */
-/* line 150, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 151, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 .footer {
   position: absolute;
   bottom: 0;
@@ -9818,161 +9758,212 @@ header {
   color: #777;
   border-top: 1px solid #e5e5e5; }
 
-/* line 165, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 166, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 .content {
-  height: 525px;
+  height: calc(100% - 80px);
   overflow-y: auto;
   display: block;
   position: relative;
   top: 80px; }
-  /* line 173, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 176, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   .content .nav-panel {
-    height: 525px;
-    /** control area **/ }
-    /* line 177, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    height: 525px; }
+    /* line 179, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
     .content .nav-panel.fade {
       display: none !important; }
-    /* line 182, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-    .content .nav-panel .form-section {
-      height: auto;
-      overflow-x: hidden; }
-      /* line 186, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-      .content .nav-panel .form-section .input-panel {
-        margin-bottom: 10px;
-        text-align: left; }
-        /* line 190, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-        .content .nav-panel .form-section .input-panel .jumbotron {
-          padding-top: 30px;
-          padding-bottom: 30px;
-          margin-bottom: 5px; }
-        /* line 196, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-        .content .nav-panel .form-section .input-panel .row {
-          margin-top: 5px;
-          margin: 5px 0px 0px 0px; }
-        /* line 202, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-        .content .nav-panel .form-section .input-panel h4 {
-          -webkit-margin-before: 0px; }
-        /* line 206, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-        .content .nav-panel .form-section .input-panel p {
-          text-align: center; }
-          /* line 208, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-          .content .nav-panel .form-section .input-panel p.explanation {
-            text-align: left;
-            font-size: 0.9em; }
-        /* line 215, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-        .content .nav-panel .form-section .input-panel label.default {
-          padding-top: 8px;
-          padding-right: 5px; }
-        /* line 223, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-        .content .nav-panel .form-section .input-panel label.question {
-          text-align: left;
-          margin-top: 5px; }
-        /* line 235, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-        .content .nav-panel .form-section .input-panel .toggle-on, .content .nav-panel .form-section .input-panel .toggle-off {
-          text-align: left; }
-    /* line 244, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-    .content .nav-panel .controls-section {
-      position: relative;
-      height: 110px;
-      margin-top: 10px;
-      padding: 10px 0px;
-      text-align: center; }
-      /* line 252, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-      .content .nav-panel .controls-section .progress, .content .nav-panel .controls-section .ajax-file-upload-statusbar .ajax-file-upload-progress, .ajax-file-upload-statusbar .content .nav-panel .controls-section .ajax-file-upload-progress {
-        width: 80%;
-        margin: 0px 10%; }
-      /* line 257, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-      .content .nav-panel .controls-section .button-area {
-        position: relative;
-        bottom: -10px;
-        height: 45px;
-        margin: 10px 0px;
-        text-align: center; }
-        /* line 264, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-        .content .nav-panel .controls-section .button-area button {
-          width: 83px; }
-      /* line 269, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-      .content .nav-panel .controls-section .btn-primary, .content .nav-panel .controls-section .ajax-upload-dragdrop .ajax-file-upload, .ajax-upload-dragdrop .content .nav-panel .controls-section .ajax-file-upload, .content .nav-panel .controls-section .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red, .ajax-upload-dragdrop .ajax-file-upload-statusbar .content .nav-panel .controls-section .ajax-file-upload-red, .content .nav-panel .controls-section .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .content .nav-panel .controls-section .ajax-file-upload-red, .content .nav-panel .controls-section .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green, .ajax-upload-dragdrop .ajax-file-upload-statusbar .content .nav-panel .controls-section .ajax-file-upload-green, .content .nav-panel .controls-section .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green, .ajax-file-upload-statusbar .ajax-upload-dragdrop .content .nav-panel .controls-section .ajax-file-upload-green {
-        color: #fff;
-        background-color: #4d9d2a;
-        border: 1px solid #4a9a27; }
-        /* line 274, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-        .content .nav-panel .controls-section .btn-primary:hover, .content .nav-panel .controls-section .ajax-upload-dragdrop .ajax-file-upload:hover, .ajax-upload-dragdrop .content .nav-panel .controls-section .ajax-file-upload:hover, .content .nav-panel .controls-section .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red:hover, .ajax-upload-dragdrop .ajax-file-upload-statusbar .content .nav-panel .controls-section .ajax-file-upload-red:hover, .content .nav-panel .controls-section .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .content .nav-panel .controls-section .ajax-file-upload-red:hover, .content .nav-panel .controls-section .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green:hover, .ajax-upload-dragdrop .ajax-file-upload-statusbar .content .nav-panel .controls-section .ajax-file-upload-green:hover, .content .nav-panel .controls-section .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .content .nav-panel .controls-section .ajax-file-upload-green:hover {
-          background-color: #459522; }
 
-/* line 287, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-#home .video-container-outer {
+/* line 189, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+.nav-panel#home .video-container-outer {
   width: 100%;
   height: 430px;
   padding: 15px 0px;
   text-align: center;
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)); }
+  box-shadow: 2px 2px 5px #888, -2px -2px 5px #888, -2px 2px 5px #888, 2px -2px 5px #888;
+  background: rgba(0, 0, 0, 0.9);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)); }
 
-/* line 299, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-#home .video-container {
+/* line 198, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+.nav-panel#home .video-container {
   display: inline-block;
   height: 400px;
   width: 750px;
   margin: auto; }
 
+/* line 211, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+.nav-panel#registration-form {
+  box-shadow: 2px 2px 5px #888, -2px 2px 5px #888;
+  /** control area **/ }
+  /* line 214, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  .nav-panel#registration-form .form-section {
+    height: auto;
+    overflow-x: hidden;
+    margin-top: 15px; }
+    /* line 219, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    .nav-panel#registration-form .form-section .input-panel {
+      margin-bottom: 10px;
+      text-align: left; }
+      /* line 224, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      .nav-panel#registration-form .form-section .input-panel .jumbotron {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 5px; }
+      /* line 230, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      .nav-panel#registration-form .form-section .input-panel .row {
+        margin-top: 5px;
+        margin: 5px 0px 0px 0px; }
+      /* line 236, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      .nav-panel#registration-form .form-section .input-panel h4 {
+        -webkit-margin-before: 0px; }
+      /* line 240, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      .nav-panel#registration-form .form-section .input-panel p {
+        text-align: center; }
+        /* line 242, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+        .nav-panel#registration-form .form-section .input-panel p.explanation {
+          text-align: left;
+          font-size: 0.9em; }
+      /* line 249, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      .nav-panel#registration-form .form-section .input-panel label.default {
+        padding-top: 8px;
+        padding-right: 5px; }
+      /* line 257, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      .nav-panel#registration-form .form-section .input-panel label.question {
+        text-align: left;
+        margin-top: 5px; }
+      /* line 264, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      .nav-panel#registration-form .form-section .input-panel #mulitplefileuploader {
+        width: 80%;
+        margin: auto; }
+      /* line 274, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      .nav-panel#registration-form .form-section .input-panel .toggle-on, .nav-panel#registration-form .form-section .input-panel .toggle-off {
+        text-align: left; }
+  /* line 283, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  .nav-panel#registration-form .controls-section {
+    position: relative;
+    height: 110px;
+    margin-top: 10px;
+    padding: 10px 0px;
+    text-align: center; }
+    /* line 291, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    .nav-panel#registration-form .controls-section .progress, .nav-panel#registration-form .controls-section .ajax-file-upload-statusbar .ajax-file-upload-progress, .ajax-file-upload-statusbar .nav-panel#registration-form .controls-section .ajax-file-upload-progress {
+      width: 60%;
+      margin: auto; }
+
+/* line 300, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+.nav-panel#see-more {
+  height: 100% !important; }
+  /* line 303, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  .nav-panel#see-more #question-container {
+    min-height: 250px;
+    padding: 15px 20px;
+    box-shadow: 2px 2px 5px #888, -2px 2px 5px #888; }
+    /* line 307, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    .nav-panel#see-more #question-container .question-list {
+      float: left; }
+      /* line 309, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      .nav-panel#see-more #question-container .question-list i.fa {
+        margin-right: 3px;
+        color: #428bca; }
+    /* line 314, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    .nav-panel#see-more #question-container img {
+      float: right; }
+  /* line 321, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  .nav-panel#see-more .answer-container .inner {
+    margin: 25px 15px;
+    border-bottom: 1px solid #ddd; }
+    /* line 325, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    .nav-panel#see-more .answer-container .inner i.fa {
+      margin-right: 3px; }
+    /* line 328, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    .nav-panel#see-more .answer-container .inner h4 {
+      color: #4d9d2a; }
+
+/* line 340, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+.button-area {
+  position: relative;
+  bottom: -10px;
+  height: 45px;
+  margin: 10px 0px;
+  text-align: center; }
+  /* line 346, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  .button-area button {
+    min-width: 83px; }
+
+/* line 353, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+.btn-primary-mg, .ajax-upload-dragdrop .ajax-file-upload, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green {
+  color: #fff;
+  background-color: #4d9d2a;
+  border: 1px solid #4a9a27; }
+  /* line 358, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  .btn-primary-mg:hover, .ajax-upload-dragdrop .ajax-file-upload:hover, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red:hover, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green:hover {
+    background-color: #459522;
+    color: #eee; }
+  /* line 363, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  .btn-primary-mg a, .ajax-upload-dragdrop .ajax-file-upload a, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red a, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red a, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green a, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green a {
+    color: inherit;
+    text-decoration: none; }
+    /* line 366, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    .btn-primary-mg a:hover, .ajax-upload-dragdrop .ajax-file-upload a:hover, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red a:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red a:hover, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green a:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green a:hover {
+      color: inherit; }
+
 /* Main marketing message and sign up button */
-/* line 312, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 373, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5; }
-  /* line 315, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 376, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   .jumbotron .btn, .jumbotron .ajax-upload-dragdrop .ajax-file-upload, .ajax-upload-dragdrop .jumbotron .ajax-file-upload, .jumbotron .ajax-file-upload-statusbar .ajax-file-upload, .ajax-file-upload-statusbar .jumbotron .ajax-file-upload, .jumbotron .ajax-file-upload-statusbar .ajax-file-upload-red, .ajax-file-upload-statusbar .jumbotron .ajax-file-upload-red, .jumbotron .ajax-file-upload-statusbar .ajax-file-upload-green, .ajax-file-upload-statusbar .jumbotron .ajax-file-upload-green {
     font-size: 21px;
     padding: 14px 24px; }
 
 /*******************************************************************************************************/
-/* line 328, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 387, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 .center-aligned {
   text-align: center; }
 
-/* line 332, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 391, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 .margin-l {
   margin: 50px; }
 
-/* line 337, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 396, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 .sizable {
   /*@extend .col-lg-offset-1, .col-lg-10, .col-md-offset-1, .col-md-10, .col-sm-offset-0, .col-sm-12;*/ }
 
-/* line 342, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 401, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 .alert {
   margin-bottom: 0px; }
 
 /******************************************************************************************/
 /* Responsive: Portrait tablets and up */
 @media screen and (max-width: 768px) {
-  /* line 359, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 418, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   body {
     overflow-y: hidden; }
-  /* line 362, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 421, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   .container {
     max-width: 750px;
     overflow-y: hidden !important; }
-    /* line 367, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-    .container .panel-container {
+    /* line 426, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    .container .form-section {
       height: 335px !important; }
   /* Remove the padding we set earlier */
-  /* line 374, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 434, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   header,
   .footer {
     padding-left: 0;
     padding-right: 0; }
   /* Space out the masthead */
-  /* line 380, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 440, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   header {
     margin-bottom: 30px; }
   /* Remove the bottom border on the jumbotron for visual effect */
-  /* line 385, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 445, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   .jumbotron {
     border-bottom: 0; } }
 
 @media (min-width: 768px) {
-  /* line 392, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
-  .panel-container {
-    height: 450px !important; } }
+  /* line 452, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  .form-section {
+    height: 390px !important; } }
 
 /*# sourceMappingURL=main.css.map */

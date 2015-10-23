@@ -5,6 +5,7 @@ $icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bo
 // endbower
 
 @import "file-upload";
+@import "mixins/custom-mixins";
 
 
 html {
@@ -16,9 +17,9 @@ html {
 /* Space out content a bit */
 body {
     width: 100%;
-    height: calc(100% - 70px);
+    height: calc(100% - 80px);
     margin-bottom: 70px;
-    margin-top: 80px;
+//    margin-top: 80px;
 }
 
 .container {
@@ -163,147 +164,207 @@ header {
 
 
 .content {
-    height: 525px;
+//    height: 530px;
+    height: calc(100% - 80px);
     overflow-y: auto;
     display: block;
     position: relative;
     top: 80px;
+//    padding-top: 70px;
 //    margin-top: 80px;
 
     .nav-panel {
         @extend .col-sm-12, .col-md-12, .col-lg-12;
-        //        @extend .row;
         height: 525px;
         &.fade { display: none !important; }
+    }
 
- //       .panel-container {
-//            @extend .col-sm-12, .col-md-12, .col-lg-10, .col-lg-offset-1;
-
-            .form-section {
-                height: auto;
-                overflow-x: hidden;
-
-                .input-panel {
-                    margin-bottom: 10px;
-                    text-align: left;
-
-                    .jumbotron {
-                        padding-top: 30px;
-                        padding-bottom: 30px;
-                        margin-bottom: 5px;
-                    }
-
-                    .row {
-                        margin-top: 5px;
-                        margin: 5px 0px 0px 0px;
-                    }
-
-
-                    h4 {
-                        -webkit-margin-before: 0px;
-                    }
-
-                    p {
-                        text-align: center;
-                        &.explanation {
-                            text-align: left;
-                            font-size: 0.9em;
-                        }
-                    }
-
-                    label {
-                        &.default {
-                            @extend .col-lg-2, .col-md-2, .col-sm-2, .col-xs-12;
-                            padding-top: 8px;
-                            padding-right: 5px;
-                            &.sm {
-                                @extend .col-md-1, .col-sm-1, .col-xs-12;
-                            }
-                        }
-                        &.question {
-                            @extend  .col-lg-offset-2, .col-lg-6, .col-md-offset-1, .col-md-6, .col-sm-offset-0, .col-sm-6, .col-xs-offset-0, .col-xs-10;
-                            text-align: left;
-                            margin-top: 5px;
-                        }
-                    }
-
-                    .form-control, .btn-group-vertical {
-                        @extend  .col-lg-4, .col-md-4, .col-sm-4, .col-xs-12;
-                        &.sm { @extend .col-md-2, .col-sm-2, .col-xs-12; }
-                    }
-
-                    .toggle-on, .toggle-off {
-                        text-align: left;
-                    }
-
-                }
-
-            }
-
-            /** control area **/
-            .controls-section {
-                position: relative;
-                //    bottom: -10px;
-                height: 110px;
-                margin-top: 10px;
-                padding: 10px 0px;
-                text-align: center;
-
-                .progress {
-                    width: 80%;
-                    margin: 0px 10%;
-                }
-
-                .button-area {
-                    position: relative;
-                    bottom: -10px;
-                    height: 45px;
-                    margin: 10px 0px;
-                    text-align: center;
-
-                    button {
-                        width: 83px;
-                    }
-                }
-
-                .btn-primary {
-                    color: #fff;
-                    background-color: #4d9d2a;
-                    border: 1px solid #4a9a27;
-
-                    &:hover {
-                        background-color: #459522;
-                    }
-                }
-            }
-
-        }
-//    }
 }
 
 
-#home {
+/////////////// HOME
+
+.nav-panel#home {
 
     .video-container-outer {
         width: 100%;
         height: 430px;
         padding: 15px 0px;
         text-align: center;
-        background: -webkit-linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.5), rgba(0,0,0,.9));
-//        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1), rgba(240, 240, 240, 1));
-//        background: -o-linear-gradient(top, rgba(245, 245, 245, 1), rgba(230, 230, 230, 1));
-//        background: -moz-linear-gradient(top, rgba(245, 245, 245, 1), rgba(230, 230, 230, 1));
-//        background: -ms-linear-gradient(top, rgba(245, 245, 245, 1), rgba(230, 230, 230, 1));
+        box-shadow: 2px 2px 5px #888, -2px -2px 5px #888, -2px 2px 5px #888, 2px -2px 5px #888;
+        @include linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.5), rgba(0,0,0,.9));
     }
 
     .video-container {
-//        @extend .col-sm-12, .col-md-12, .col-lg-10, .col-lg-offset-1;
         display: inline-block;
         height: 400px;
         width: 750px;
         margin: auto;
     }
 
+}
+
+
+
+/////////////// REGISTRATION FORM
+
+.nav-panel#registration-form {
+    box-shadow: 2px 2px 5px #888, -2px 2px 5px #888;
+
+    .form-section {
+        height: auto;
+        overflow-x: hidden;
+        margin-top: 15px;
+
+        .input-panel {
+            @extend .col-sm-12, .col-md-12, .col-lg-10, .col-lg-offset-1;
+            margin-bottom: 10px;
+            text-align: left;
+
+            .jumbotron {
+                padding-top: 30px;
+                padding-bottom: 30px;
+                margin-bottom: 5px;
+            }
+
+            .row {
+                margin-top: 5px;
+                margin: 5px 0px 0px 0px;
+            }
+
+
+            h4 {
+                -webkit-margin-before: 0px;
+            }
+
+            p {
+                text-align: center;
+                &.explanation {
+                    text-align: left;
+                    font-size: 0.9em;
+                }
+            }
+
+            label {
+                &.default {
+                    @extend .col-lg-2, .col-md-2, .col-sm-2, .col-xs-12;
+                    padding-top: 8px;
+                    padding-right: 5px;
+                    &.sm {
+                        @extend .col-md-1, .col-sm-1, .col-xs-12;
+                    }
+                }
+                &.question {
+                    @extend  .col-lg-offset-2, .col-lg-6, .col-md-offset-1, .col-md-6, .col-sm-offset-0, .col-sm-6, .col-xs-offset-0, .col-xs-10;
+                    text-align: left;
+                    margin-top: 5px;
+                }
+            }
+
+            #mulitplefileuploader {
+                width: 80%;
+                margin: auto;
+            }
+
+            .form-control, .btn-group-vertical {
+                @extend  .col-lg-4, .col-md-4, .col-sm-4, .col-xs-12;
+                &.sm { @extend .col-md-2, .col-sm-2, .col-xs-12; }
+            }
+
+            .toggle-on, .toggle-off {
+                text-align: left;
+            }
+
+        }
+
+    }
+
+    /** control area **/
+    .controls-section {
+        position: relative;
+        //    bottom: -10px;
+        height: 110px;
+        margin-top: 10px;
+        padding: 10px 0px;
+        text-align: center;
+
+        .progress {
+            width: 60%;
+            margin: auto;                }
+    }
+
+}
+
+/////////////// SEE MORE
+
+.nav-panel#see-more {
+
+    height: 100% !important;
+    #question-container {
+        min-height: 250px;
+        padding: 15px 20px;
+        box-shadow: 2px 2px 5px #888, -2px 2px 5px #888;
+        .question-list {
+            float: left;
+            i.fa {
+                margin-right: 3px;
+                color: #428bca;
+            }
+        }
+        img {
+            float: right;
+        }
+    }
+
+    .answer-container {
+
+        .inner {
+            margin: 25px 15px;
+            border-bottom: 1px solid #ddd;
+
+            i.fa {
+                margin-right: 3px;
+            }
+            h4 {
+                color: #4d9d2a;
+            }
+        }
+
+    }
+
+}
+
+
+
+///////////// BUTTONS
+.button-area {
+    position: relative;
+    bottom: -10px;
+    height: 45px;
+    margin: 10px 0px;
+    text-align: center;
+    button {
+        min-width: 83px;
+    }
+}
+
+
+
+.btn-primary-mg {
+    color: #fff;
+    background-color: #4d9d2a;
+    border: 1px solid #4a9a27;
+
+    &:hover {
+        background-color: #459522;
+        color: #eee;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+        &:hover { color:inherit; }
+    }
 }
 
 
@@ -320,8 +381,6 @@ header {
 
 
 /*******************************************************************************************************/
-
-@import "mixins/custom-mixins";
 
 $marginLarge: 50px;
 
@@ -364,7 +423,8 @@ $screen-xl-min: 1530px;
 //        max-height: 100%;
         overflow-y: hidden !important;
 
-        .panel-container {
+        .form-section {
+        //.panel-container {
             height: 335px !important;
         }
     }
@@ -389,7 +449,7 @@ $screen-xl-min: 1530px;
 
 
 @media (min-width: $screen-sm-min) {
-    .panel-container {
-        height: 450px !important;
+    .form-section {//    .panel-container {
+        height: 390px !important;
     }
 }
