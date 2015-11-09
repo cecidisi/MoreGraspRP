@@ -237,11 +237,32 @@ header {
                 -webkit-margin-before: 0px;
             }
 
+            h5 {
+                font-size: 1.1em;
+                color: rgb(237, 24, 72);
+                font-weight: bold;
+
+                i.fa {
+                    color: #333;
+                    margin-left: 3px;
+                    cursor: pointer;
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
             p {
                 text-align: center;
                 &.explanation {
                     text-align: left;
                     font-size: 0.9em;
+                }
+                &.form-answer {
+                    @extend p.explanation;
+                    display: inline-block;
+                    width: auto;
+                    margin: 0px 5px;
                 }
             }
 
@@ -258,6 +279,10 @@ header {
                     @extend  .col-lg-offset-2, .col-lg-6, .col-md-offset-1, .col-md-6, .col-sm-offset-0, .col-sm-6, .col-xs-offset-0, .col-xs-10;
                     text-align: left;
                     margin-top: 5px;
+                }
+                &.answer {
+                    margin: 0px;
+                    font-size: .9em;
                 }
             }
 

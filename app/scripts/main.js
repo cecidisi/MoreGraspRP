@@ -20,15 +20,13 @@
         $(navPanelId).removeClass('fade');
     }
 
-
-
     /* navbar */
     $('.nav.menu li').click(function(event){ moveTo($(this).attr('navigateTo')); });
     /* Go to Registration btn */
     $('#btn-go-to-registration').click(function(event){ moveTo($(this).find('a').attr('href')); });
 
 
-
+    /*  buttons */
     function enableButtons() {
         var progressValue = ((currentPanel-1) * 100/(numberPanels-1));
         $progress.find('.progress-bar')
@@ -67,12 +65,18 @@
         enableButtons();
     });
 
+    /*  input fields*/
+    $('input.form-control, select.form-control').change(function(){
+        var field = $(this).attr('id'),
+            value = $(this).val();
+
+        $('[field="' + field + '"]').text(value);
+    }).change();
+
+
 
     /* checkboxes */
-
-    $('.cbx-toggle').bootstrapToggle(
-        { on: 'Yes', off: 'No' }
-    );
+    $('.cbx-toggle').bootstrapToggle({ on: 'Yes', off: 'No' });
 
 
     /* file uploader */
@@ -103,7 +107,6 @@
 
 
     $("#mulitplefileuploader").uploadFile(uploadSettings);
-
 
 
 })();
