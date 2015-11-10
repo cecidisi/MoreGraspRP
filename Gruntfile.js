@@ -216,33 +216,15 @@ module.exports = function (grunt) {
         }
       },
       app: {
-      //  ignorePath: /^\/|\.\.\//,
+        ignorePath: /^\/|\.\.\//,
         src: ['<%= config.app %>/*.html'],
 //          src: ['<%= config.app %>/index.html'],
         exclude: ['bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js'],
         overrides: {
-          'jquery-file-upload': {
-              main: [
-                  "css/jquery.fileupload.css",
-                  "css/jquery.fileupload-ui.css",
-                  "js/cors/jquery.postmessage-transport.js",
-                  "js/cors/jquery.xdr-transport.js",
-                  "js/vendor/jquery.ui.widget.js",
-                  "js/jquery.fileupload.js",
-                  "js/jquery.fileupload-process.js",
-                  "js/jquery.fileupload-validate.js",
-                  "js/jquery.fileupload-image.js",
-                  "js/jquery.fileupload-audio.js",
-                  "js/jquery.fileupload-video.js",
-                  "js/jquery.fileupload-ui.js",
-                  "js/jquery.fileupload-jquery-ui.js",
-                  "js/jquery.iframe-transport.js"
-              ]
-          },
           'jquery-uploadfile': {
               main: [
-                  "css/uploadfile.css",
-                  "js/jquery.uploadfile.js"
+                  "js/jquery.uploadfile.js",
+                  "css/uploadfile.css"
               ]
           }
         }
@@ -262,7 +244,7 @@ module.exports = function (grunt) {
           options: {
           },
           files: {
-              '<%= config.app %>/index.html': ['bower_components/jquery-uploadfile/js/jquery.uploadfile.min.js', 'bower_components/jquery-uploadfile/css/uploadfile.css'],
+              '<%= config.app %>/index.html': ['bower_components/jquery-uploadfile/js/jquery.uploadfile.js', 'bower_components/jquery-uploadfile/css/uploadfile.css'],
           }
       }
     },
@@ -298,6 +280,7 @@ module.exports = function (grunt) {
         assetsDirs: [
           '<%= config.dist %>',
           '<%= config.dist %>/images',
+          '<%= config.dist %>/media',
           '<%= config.dist %>/styles'
         ]
       },
@@ -310,9 +293,9 @@ module.exports = function (grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: '<%= config.app %>/images',
+          cwd: '<%= config.app %>/media',
           src: '{,*/}*.{gif,jpeg,jpg,png}',
-          dest: '<%= config.dist %>/images'
+          dest: '<%= config.dist %>/media'
         }]
       }
     },
@@ -353,28 +336,28 @@ module.exports = function (grunt) {
     // By default, your `index.html`'s <!-- Usemin block --> will take care
     // of minification. These next options are pre-configured if you do not
     // wish to use the Usemin blocks.
-    // cssmin: {
-    //   dist: {
-    //     files: {
-    //       '<%= config.dist %>/styles/main.css': [
-    //         '.tmp/styles/{,*/}*.css',
-    //         '<%= config.app %>/styles/{,*/}*.css'
-    //       ]
-    //     }
-    //   }
-    // },
-    // uglify: {
-    //   dist: {
-    //     files: {
-    //       '<%= config.dist %>/scripts/scripts.js': [
-    //         '<%= config.dist %>/scripts/scripts.js'
-    //       ]
-    //     }
-    //   }
-    // },
-    // concat: {
-    //   dist: {}
-    // },
+     cssmin: {
+       dist: {
+         files: {
+           '<%= config.dist %>/styles/main.css': [
+             '.tmp/styles/{,*/}*.css',
+             '<%= config.app %>/styles/{,*/}*.css'
+           ]
+         }
+       }
+     },
+     uglify: {
+       dist: {
+         files: {
+           '<%= config.dist %>/scripts/scripts.js': [
+             '<%= config.dist %>/scripts/scripts.js'
+           ]
+         }
+       }
+     },
+     concat: {
+       dist: {}
+     },
 
     // Copies remaining files to places other tasks can use
     copy: {
@@ -478,6 +461,7 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'clean:dist',
     'wiredep',
+    'injector',
     'useminPrepare',
     'concurrent:dist',
     'autoprefixer',

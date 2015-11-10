@@ -12,10 +12,10 @@
     <!-- endinjector -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="../bower_components/bootstrap-toggle/css/bootstrap-toggle.min.css" />
-    <link rel="stylesheet" href="../bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
-    <link rel="stylesheet" href="../bower_components/jquery-ui/themes/base/jquery-ui.min.css" />
-    <link rel="stylesheet" href="../bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-toggle/css/bootstrap-toggle.min.css" />
+    <link rel="stylesheet" href="bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
+    <link rel="stylesheet" href="bower_components/jquery-ui/themes/base/jquery-ui.min.css" />
+    <link rel="stylesheet" href="bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -50,7 +50,7 @@
                       <ul class="nav navbar-nav navbar-right menu">
                           <li class="active" navigateTo="#home"><a href="#home">Home</a></li>
                           <li navigateTo="#registration-form"><a href="#registration-form">Register</a></li>
-                          <li navigateTo="#see-more"><a href="#see-more">See More</a></li>
+                          <li navigateTo="#see-more"><a href="#see-more">FAQ</a></li>
                       </ul>
 
                   </div>
@@ -80,18 +80,24 @@
                   <div class="panel-container form-section">
 
                       <!--  Terms & Conditions -->
-                      <div class="input-panel center-aligned" id="panel-1">
+                      <div class="input-panel center-aligned" id="panel-0">
                           <div class="row">
                               <h4>Terms and Conditions</h4>
-                              <p class="explanation">lorem ipsum ...</p>
+                              <div class="terms-container">
+                                  <p class="explanation">[List of terms and conditions here]</p>
+                              </div>
                               <div class="alert alert-danger sizable">
                                   <p><strong>Disclaimer:</strong> Participation in our trials does not entail the loss of ellegilibilty for economical support</p>
+                              </div>
+                              <div class="accept-terms-container">
+                                <input type="checkbox">
+                                <label>I have read and accept the terms and conditions</label>
                               </div>
                           </div>
                       </div>
 
                       <!-- Personal Data Panel -->
-                      <div class="center-aligned input-panel" id="panel-2" style="display:none;">
+                      <div class="center-aligned input-panel" id="panel-1" name="Personal Data" style="display:none;">
                           <h4>Personal Data</h4><br>
                           <!-- 1st row -->
                           <div class="row">
@@ -132,40 +138,45 @@
                       </div>
 
                       <!--  Pre-Injury -->
-                      <div class="center-aligned input-panel" id="panel-3" style="display:none;">
+                      <div class="center-aligned input-panel" id="panel-2" name="Pre-Injury" style="display:none;">
                           <h4>Pre-Injury Conditions</h4>
                           <p class="explanation">Please indicate if any of the following conditions apply in the present or the past</p>
                           <br>
                           <!-- 1st row -->
                           <div class="row">
-                              <label class="question" for="cbxMetal">Pacemaker, medication pump or metal implant</label>
-                              <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxMetal" />
+                              <label class="question" for="cbxImplant">Metal Implant in Forearm</label>
+                              <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxImplant" />
                           </div>
                           <!-- 2nd row -->
+                          <div class="row">
+                              <label class="question" for="cbxPacemaker">Pacemaker</label>
+                              <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxPacemaker" />
+                          </div>
+                          <!-- 3rd row -->
+                          <div class="row">
+                              <label class="question" for="cbxPump">Medication Pump</label>
+                              <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxPump" />
+                          </div>
+                          <!-- 4th row -->
                           <div class="row">
                               <label class="question" for="cbxStroke">Stroke</label>
                               <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxStroke" />
                           </div>
-                          <!-- 3rd row -->
+                          <!-- 5th row -->
                           <div class="row">
                               <label class="question" for="cbxEpilepsy">Epilepsy</label>
                               <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxEpilepsy" />
                           </div>
-                          <!-- 4th row -->
+                          <!-- 6th row -->
                           <div class="row">
-                              <label class="question" for="cbxLongTemrCare">Long term care</label>
-                              <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxLongTemrCare" />
-                          </div>
-                          <!-- 5th row -->
-                          <div class="row">
-                              <label class="question" for="cbxDrugAlcohol">Drug or alcohol abuse</label>
-                              <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxDrugAlcohol" />
+                              <label class="question" for="cbxLongTermCare">Long term care</label>
+                              <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxLongTermCare" />
                           </div>
                       </div>
 
                       <!--  Injury Data -->
-                      <div class="center-aligned input-panel" id="panel-4" style="display:none;">
-                          <h4>Current abilities</h4>
+                      <div class="center-aligned input-panel" id="panel-3" name="Abilities" style="display:none;">
+                          <h4>Current Abilities</h4>
                           <!-- 1st row -->
                           <div class="row">
                               <label class="question" for="cbxHandToMouth">Can you bring your hand to your mouth?</label>
@@ -188,105 +199,198 @@
                           </div>
                       </div>
 
-                      <!--  Video -->
-                      <div class="center-aligned input-panel" id="panel-5" style="display:none;">
-                          <h4>Please upload demo video</h4>
-                          <p class="explanation">We can have a better idea of your condition if you provide demonstrative video/s</p>
+                      <!--  Supplementary Material (Video) -->
+                      <div class="center-aligned input-panel" id="panel-4" name="Sup. Material" style="display:none;">
+                          <h4>Supplemental Material</h4>
+                          <p class="explanation">Please upload a demo video. This will give us a better idea of your condition</p>
                           <div id="mulitplefileuploader">Select</div>
                           <div id="status"></div>
                       </div>
 
                       <!--  Miscellaneous -->
-                      <div class="center-aligned input-panel" id="panel-6" style="display:none;">
+                      <div class="center-aligned input-panel" id="panel-5" name="Miscelaneous" style="display:none;">
                           <h4>How did you find us?</h4>
                           <!-- 1st row -->
                           <div class="row">
-                              <label class="question" for="cbxHandToMouth">My Doctor told me</label>
+                              <label class="question" for="cbxDoctor">My Doctor told me</label>
                               <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxDoctor" />
                           </div>
                           <!-- 2nd row -->
                           <div class="row">
-                              <label class="question" for="cbxGlassToMouth">A Caregiver told me</label>
+                              <label class="question" for="cbxCaregiver">A Caregiver told me</label>
                               <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxCaregiver" />
                           </div>
                           <!-- 3rd row -->
                           <div class="row">
-                              <label class="question" for="cbxWristExtension">A Relative told me</label>
+                              <label class="question" for="cbxRelative">A Relative told me</label>
                               <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxRelative" />
                           </div>
                           <!-- 4th row -->
                           <div class="row">
-                              <label class="question" for="cbxImproveGrasp">On the Internet</label>
+                              <label class="question" for="cbxInternet">On the Internet</label>
                               <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxInternet" />
                           </div>
                           <!-- 5th row -->
                           <div class="row">
-                              <label class="question" for="cbxImproveGrasp">On T.V. or Advertisement</label>
+                              <label class="question" for="cbxTV">On T.V. or Advertisement</label>
                               <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxTV" />
                           </div>
                           <!-- 6th row -->
                           <div class="row">
-                              <label class="question" for="cbxImproveGrasp">Other</label>
+                              <label class="question" for="cbxOther">Other</label>
                               <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxOther" />
                           </div>
                       </div>
 
-                      <!--  Terms & Conditions -->
-                      <div class="center-aligned input-panel" id="panel-7" style="display:none;">
-                          <h4>Your registration form is complete</h4>
+                      <!--  Form Review -->
+                      <div class="center-aligned input-panel" id="panel-6" name="Review" style="display:none;">
+                          <h4>Your registration is complete</h4>
                           <p class="explanation">Please review your information carefully and press submit when ready</p><br>
 
-                          <h5>Personal Data <i class="fa fa-pencil"></i></h5>
-                          <div class="row">
-                              <label class="answer">First Name:</label>
-                              <p class="form-answer" field="inputFirstname"></p>
+                          <div class="answer-container large">
+                              <h5>Personal Data <i class="edit-answer"><a href="#panel-1"></a></i></h5>
+                              <div class="row">
+                                  <label class="answer">First Name:</label>
+                                  <p class="form-answer" field="inputFirstname"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">Last Name:</label>
+                                  <p class="form-answer" field="inputLastname"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">Country:</label>
+                                  <p class="form-answer" field="selCountry"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">City:</label>
+                                  <p class="form-answer" field="selCity"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">Street:</label>
+                                  <p class="form-answer" field="inputStreet"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">Door:</label>
+                                  <p class="form-answer" field="inputDoor"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">ZIP:</label>
+                                  <p class="form-answer" field="inputZip"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">Email:</label>
+                                  <p class="form-answer" field="inputEmail"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">Phone:</label>
+                                  <p class="form-answer" field="inputPhone"></p>
+                              </div>
                           </div>
-                          <div class="row">
-                              <label class="answer">Last Name:</label>
-                              <p class="form-answer" field="inputLastname"></p>
+
+                          <div class="answer-container large">
+                              <h5>Pre-Injury <i class="edit-answer"><a href="#panel-2"></a></i></h5>
+                              <div class="row">
+                                  <label class="answer">Metal Implant in Forearm:</label>
+                                  <p class="form-answer" field="cbxImplant"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">Pacemaker:</label>
+                                  <p class="form-answer" field="cbxPacemaker"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">Medication Pump:</label>
+                                  <p class="form-answer" field="cbxPump"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">Stroke:</label>
+                                  <p class="form-answer" field="cbxStroke"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">Epilepsy:</label>
+                                  <p class="form-answer" field="cbxEpilepsy"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">Long Term Care:</label>
+                                  <p class="form-answer" field="cbxLongTermCare"></p>
+                              </div>
                           </div>
-                          <div class="row">
-                              <label class="answer">Country:</label>
-                              <p class="form-answer" field="selCountry"></p>
+
+                          <div class="answer-container large">
+                              <h5>Current Abilities <i class="edit-answer"><a href="#panel-3"></a></i></h5>
+                              <div class="row">
+                                  <label class="answer">Can you bring your hand to your mouth?</label>
+                                  <p class="form-answer" field="cbxHandToMouth"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">Can you bring a glass to your mouth?</label>
+                                  <p class="form-answer" field="cbxGlassToMouth"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">Can you extend your wrist?</label>
+                                  <p class="form-answer" field="cbxWristExtension"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">Do you need to imporve grasp function?</label>
+                                  <p class="form-answer" field="cbxImproveGrasp"></p>
+                              </div>
                           </div>
-                          <div class="row">
-                              <label class="answer">City:</label>
-                              <p class="form-answer" field="selCity"></p>
+
+                          <div class="answer-container">
+                              <h5>Supplemental Material <i class="edit-answer"><a href="#panel-4"></a></i></h5>
+                              <div class="row">
+                                  <div class="extrahtml"></div>
+                              </div>
                           </div>
-                          <div class="row">
-                              <label class="answer">Street:</label>
-                              <p class="form-answer" field="inputStreet"></p>
+
+                          <div class="answer-container">
+                              <h5>How did you find us? <i class="edit-answer"><a href="#panel-5"></a></i></h5>
+                              <div class="row">
+                                  <label class="answer">My Doctor told me:</label>
+                                  <p class="form-answer" field="cbxDoctor"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">A Caregiver told me:</label>
+                                  <p class="form-answer" field="cbxCaregiver"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">A Relative told me:</label>
+                                  <p class="form-answer" field="cbxRelative"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">On the Internet:</label>
+                                  <p class="form-answer" field="cbxInternet"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">On T.V. or Advertisement:</label>
+                                  <p class="form-answer" field="cbxTV"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer">Other:</label>
+                                  <p class="form-answer" field="cbxOther"></p>
+                              </div>
                           </div>
-                          <div class="row">
-                              <label class="answer">Door:</label>
-                              <p class="form-answer" field="inputDoor"></p>
-                          </div>
-                          <div class="row">
-                              <label class="answer">ZIP:</label>
-                              <p class="form-answer" field="inputZip"></p>
-                          </div>
-                          <div class="row">
-                              <label class="answer">Email:</label>
-                              <p class="form-answer" field="inputEmail"></p>
-                          </div>
-                          <div class="row">
-                              <label class="answer">Phone:</label>
-                              <p class="form-answer" field="inputPhone"></p>
-                          </div>
+
                       </div>
 
+                      <div class="input-panel-submitted center-aligned" id="panel-submitted"style="display:none;">
+                          <h4>Your registration has been succesfully submitted</h4>
+                          <h4>Thank you for participating</h4>
+                          <h4>A representative from MoreGrasp will contact you soon</h4>
+                      </div>
                   </div>
+
                   <div class="panel-container controls-section">
-                      <div class="progress" style="visibility:hidden;">
-                          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                      <div id="form-progress" class="progress" style="visibility:hidden;">
+                          <div id="form-progress-bar" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
                               <span class="sr-only"></span>
                           </div>
                       </div>
+                      <div class="progress-steps-container" style="visibility:hidden;"></div>
                       <div class="button-area">
                           <button type="button" id="btn-start" class="btn btn-primary-mg" move="forward">Start Registration</button>
                           <button type="button" id="btn-previous" class="btn btn-default" move="backward" style="display:none;">Previous</button>
                           <button type="button" id="btn-continue" class="btn btn-default" move="forward" style="display:none;">Continue</button>
-                          <button type="button" id="btn-submit" class="btn btn-primary-mg" style="display:none;">Submit</button>
+                          <button type="submit" id="btn-submit" class="btn btn-primary-mg" style="display:none;">Submit</button>
                       </div>
                   </div>
               </div>
@@ -388,52 +492,49 @@
           </div>
       </div>
 
-
-    <div class="footer">
-        <div class="container">
-            <p>© MoreGrasp 2015</p>
-        </div>
-    </div>
+      <div class="footer">
+        <div class="container"><p>© MoreGrasp 2015</p></div>
+      </div>
 
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="../bower_components/jquery/dist/jquery.js"></script>
-    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
-    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
-    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
-    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
-    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
-    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
-    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
-    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
-    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
-    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
-    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
-    <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
-    <script src="../bower_components/bootstrap-toggle/js/bootstrap-toggle.min.js"></script>
-    <script src="../bower_components/d3/d3.js"></script>
-    <script src="../bower_components/d3pie/d3pie/d3pie.min.js"></script>
-    <script src="../bower_components/moment/moment.js"></script>
-    <script src="../bower_components/moment-timezone/builds/moment-timezone-with-data-2010-2020.js"></script>
-    <script src="../bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
-    <script src="../bower_components/jquery-ui/jquery-ui.min.js"></script>
-    <script src="../bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
-    <script src="../bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="bower_components/bootstrap-toggle/js/bootstrap-toggle.min.js"></script>
+    <script src="bower_components/d3/d3.js"></script>
+    <script src="bower_components/d3pie/d3pie/d3pie.min.js"></script>
+    <script src="bower_components/moment/moment.js"></script>
+    <script src="bower_components/moment-timezone/builds/moment-timezone-with-data-2010-2020.js"></script>
+    <script src="bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
+    <script src="bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     <!-- injector:js -->
-    <script src="../bower_components/jquery-uploadfile/js/jquery.uploadfile.min.js"></script>
+    <script src="../bower_components/jquery-uploadfile/js/jquery.uploadfile.js"></script>
     <!-- endinjector -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
+//      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+//      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+//      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+//      e.src='//www.google-analytics.com/analytics.js';
+//      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+//      ga('create','UA-XXXXX-X');ga('send','pageview');
     </script>
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
