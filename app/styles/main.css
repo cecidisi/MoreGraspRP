@@ -9613,7 +9613,7 @@ button.close {
     width: 180px !important; }
   /* line 117, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
   .ajax-file-upload-progress {
-    top: 33px !important;
+    top: 37px !important;
     width: calc(100% - 226px) !important;
     max-width: 250px; }
   /* line 123, C:/Ampps/www/MoreGraspRP/app/styles/_file-upload.scss */
