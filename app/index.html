@@ -183,7 +183,7 @@
                                   <div class='input-group date datetimepicker' id='dtpDateInjury'>
                                       <input type='text' class="form-control" />
                                       <span class="input-group-addon">
-                                          <span class="glyphicon glyphicon-calendar"></span>
+                                          <span class="fa fa-calendar"></span>
                                       </span>
                                   </div>
                               </div>
@@ -221,46 +221,65 @@
                           </div>
                       </div>
 
-                      <!--  Supplementary Material (Video) -->
-                      <div class="center-aligned input-panel" id="panel-5" name="Sup. Material" style="display:none;">
-                          <h4>Supplemental Material</h4>
-                          <p class="explanation">Please upload a demo video. This will give us a better idea of your condition</p>
+                      <!--  Video -->
+                      <div class="center-aligned input-panel" id="panel-5" name="Video" style="display:none;">
+                          <h4>Video</h4>
+                          <p class="explanation">Please upload a demo video. This will give us a better idea of your condition.</p>
+                          <p class="explanation">[Guidelines go here]</p>
                           <div id="mulitplefileuploader">Select</div>
                           <div id="status"></div>
                       </div>
 
                       <!--  Miscellaneous -->
-                      <div class="center-aligned input-panel" id="panel-6" name="Miscelaneous" style="display:none;">
-                          <h4>How did you find us?</h4>
+                      <div class="center-aligned input-panel" id="panel-6" name="Miscellaneous" style="display:none;">
+                          <h4>Miscellaneous</h4><br>
+                          <h5>How did you find us?</h5>
                           <!-- 1st row -->
                           <div class="row">
-                              <label class="question" for="cbxDoctor">My Doctor told me</label>
+                              <label class="question secondary" for="cbxDoctor">My Doctor told me</label>
                               <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxDoctor" />
                           </div>
                           <!-- 2nd row -->
                           <div class="row">
-                              <label class="question" for="cbxCaregiver">A Caregiver told me</label>
+                              <label class="question secondary" for="cbxCaregiver">A Caregiver told me</label>
                               <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxCaregiver" />
                           </div>
                           <!-- 3rd row -->
                           <div class="row">
-                              <label class="question" for="cbxRelative">A Relative told me</label>
+                              <label class="question secondary" for="cbxRelative">A Relative told me</label>
                               <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxRelative" />
                           </div>
                           <!-- 4th row -->
                           <div class="row">
-                              <label class="question" for="cbxInternet">On the Internet</label>
+                              <label class="question secondary" for="cbxInternet">On the Internet</label>
                               <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxInternet" />
                           </div>
                           <!-- 5th row -->
                           <div class="row">
-                              <label class="question" for="cbxTV">On T.V. or Advertisement</label>
+                              <label class="question secondary" for="cbxTV">On T.V. or Advertisement</label>
                               <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxTV" />
                           </div>
                           <!-- 6th row -->
                           <div class="row">
-                              <label class="question" for="cbxOther">Other</label>
+                              <label class="question secondary" for="cbxOther">Other</label>
                               <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxOther" />
+                          </div>
+                          <br>
+                          <h5>Who is filling this form?</h5>
+                          <!-- 1st row -->
+                          <div class="row">
+                              <label class="question secondary" for="cbxFilledMyself">Myself</label>
+                              <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxFilledMyself" />
+                          </div>
+                          <!-- 2nd row -->
+                          <div class="row">
+                              <label class="question secondary" for="cbxFilledRelative">Relative</label>
+                              <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxFilledRelative" />
+                          </div>
+                          <!-- 3rd row -->
+                          <div class="row">
+                              <label class="question secondary" for="cbxFilledCaregiver">Caregiver</label>
+                              <input type="checkbox" class="cbx-toggle" data-toggle="toggle" data-onstyle="success" id="cbxFilledCaregiver" />
                           </div>
                       </div>
 
@@ -310,7 +329,7 @@
                           </div>
 
                           <div class="answer-container large">
-                              <h5>Pre-Injury <i class="edit-answer"><a href="#panel-2"></a></i></h5>
+                              <h5>Pre-Injury Conditions <i class="edit-answer"><a href="#panel-2"></a></i></h5>
                               <div class="row">
                                   <label class="answer">Metal Implant in Forearm:</label>
                                   <p class="form-answer" field="cbxImplant"></p>
@@ -370,37 +389,53 @@
                           </div>
 
                           <div class="answer-container">
-                              <h5>Supplemental Material <i class="edit-answer"><a href="#panel-5"></a></i></h5>
+                              <h5>Video <i class="edit-answer"><a href="#panel-5"></a></i></h5>
                               <div class="row">
                                   <div class="extrahtml"></div>
                               </div>
                           </div>
 
                           <div class="answer-container">
-                              <h5>How did you find us? <i class="edit-answer"><a href="#panel-6"></a></i></h5>
+
+                              <h5>Miscellaneous <i class="edit-answer"><a href="#panel-6"></a></i></h5>
+                              <label class="answer">How did you find us?</label>
                               <div class="row">
-                                  <label class="answer">My Doctor told me:</label>
+                                  <label class="answer secondary">My Doctor told me:</label>
                                   <p class="form-answer" field="cbxDoctor"></p>
                               </div>
                               <div class="row">
-                                  <label class="answer">A Caregiver told me:</label>
+                                  <label class="answer secondary">A Caregiver told me:</label>
                                   <p class="form-answer" field="cbxCaregiver"></p>
                               </div>
                               <div class="row">
-                                  <label class="answer">A Relative told me:</label>
+                                  <label class="answer secondary">A Relative told me:</label>
                                   <p class="form-answer" field="cbxRelative"></p>
                               </div>
                               <div class="row">
-                                  <label class="answer">On the Internet:</label>
+                                  <label class="answer secondary">On the Internet:</label>
                                   <p class="form-answer" field="cbxInternet"></p>
                               </div>
                               <div class="row">
-                                  <label class="answer">On T.V. or Advertisement:</label>
+                                  <label class="answer secondary">On T.V. or Advertisement:</label>
                                   <p class="form-answer" field="cbxTV"></p>
                               </div>
                               <div class="row">
-                                  <label class="answer">Other:</label>
-                                  <p class="form-answer" field="cbxOther"></p>
+                                  <label class="answer secondary">Other:</label>
+                                  <p class="form-answer secondary" field="cbxOther"></p>
+                              </div><br>
+
+                              <label class="answer">Who is filling this form?</label>
+                              <div class="row">
+                                  <label class="answer secondary">Myself:</label>
+                                  <p class="form-answer" field="cbxFilledMyself"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer secondary">Relative:</label>
+                                  <p class="form-answer" field="cbxFilledRelative"></p>
+                              </div>
+                              <div class="row">
+                                  <label class="answer secondary">Caregiver:</label>
+                                  <p class="form-answer" field="cbxFilledCaregiver"></p>
                               </div>
                           </div>
 

@@ -227,8 +227,13 @@ header {
             }
 
 
-            h4 {
+            h4, h5 {
                 -webkit-margin-before: 0px;
+            }
+
+            h5 {
+                font-weight: bold;
+                font-size: 1.1em;
             }
 
             div.terms-container {
@@ -280,10 +285,16 @@ header {
                     @extend  .col-lg-offset-2, .col-lg-6, .col-md-offset-1, .col-md-6, .col-sm-offset-0, .col-sm-6, .col-xs-offset-0, .col-xs-10;
                     text-align: left;
                     margin-top: 5px;
+                    &.secondary {
+                        font-weight: normal !important;
+                    }
                 }
                 &.answer {
                     margin: 0px;
                     font-size: .9em;
+                    &.secondary {
+                        font-weight: normal;
+                    }
                 }
             }
 
@@ -302,8 +313,8 @@ header {
                 padding: 0px;
                 margin-bottom: 0px;
 
-                input[type="text"] {
-                    width: 100%;
+                input.form-control {
+                    width: 100% !important;
                 }
             }
 
