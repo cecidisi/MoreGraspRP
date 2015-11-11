@@ -88,6 +88,14 @@
 
     /***  Event handlers  ***/
 
+    $('#cbxTermsAccepted').change(function(){
+        $('#btn-start').prop('disabled', !$(this).prop('checked'));
+    });
+
+    $('#lblTermsAccepted').click(function(){
+        $('#cbxTermsAccepted').prop('checked', !$('#cbxTermsAccepted').prop('checked')).change();
+    });
+
     $('#btn-start, #btn-previous, #btn-continue').click(function(event){
         currentPanel = $(this).attr('move') == 'forward' ? currentPanel + 1 : currentPanel - 1;
         moveToFormPanel('#panel-'+currentPanel);
@@ -118,7 +126,7 @@
             $('.input-panel').hide();
             $('.controls-section').hide();
             $('.input-panel-submitted').show();
-        }, 2000);
+        }, 3000);
     });
 
 

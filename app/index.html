@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="media/moregrasp-logo.jpg">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- injector:css -->
-    <link rel="stylesheet" href="../bower_components/jquery-uploadfile/css/uploadfile.css">
+    <link rel="stylesheet" href="bower_components/jquery-uploadfile/css/uploadfile.css">
     <!-- endinjector -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
@@ -90,8 +90,8 @@
                                   <p><strong>Disclaimer:</strong> Participation in our trials does not entail the loss of ellegilibilty for economical support</p>
                               </div>
                               <div class="accept-terms-container">
-                                <input type="checkbox">
-                                <label>I have read and accept the terms and conditions</label>
+                                <input type="checkbox" id="cbxTermsAccepted">
+                                <label id="lblTermsAccepted">I have read and accept the terms and conditions</label>
                               </div>
                           </div>
                       </div>
@@ -373,8 +373,8 @@
                       </div>
 
                       <div class="input-panel-submitted center-aligned" id="panel-submitted"style="display:none;">
-                          <h4>Your registration has been succesfully submitted</h4>
                           <h4>Thank you for participating</h4>
+                          <h4>Your registration has been succesfully submitted</h4>
                           <h4>A representative from MoreGrasp will contact you soon</h4>
                       </div>
                   </div>
@@ -387,7 +387,7 @@
                       </div>
                       <div class="progress-steps-container" style="visibility:hidden;"></div>
                       <div class="button-area">
-                          <button type="button" id="btn-start" class="btn btn-primary-mg" move="forward">Start Registration</button>
+                          <button type="button" id="btn-start" class="btn btn-primary-mg" move="forward" disabled>Start Registration</button>
                           <button type="button" id="btn-previous" class="btn btn-default" move="backward" style="display:none;">Previous</button>
                           <button type="button" id="btn-continue" class="btn btn-default" move="forward" style="display:none;">Continue</button>
                           <button type="submit" id="btn-submit" class="btn btn-primary-mg" style="display:none;">Submit</button>
@@ -521,10 +521,11 @@
     <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
     <script src="bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
     <script src="bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
+    <script src="bower_components/jquery-upload-file-for-bower/js/jquery.uploadfile.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     <!-- injector:js -->
-    <script src="../bower_components/jquery-uploadfile/js/jquery.uploadfile.js"></script>
+    <script src="bower_components/jquery-uploadfile/js/jquery.uploadfile.js"></script>
     <!-- endinjector -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

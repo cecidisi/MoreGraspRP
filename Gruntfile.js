@@ -237,7 +237,8 @@ module.exports = function (grunt) {
 
     injector: {
       options: {
-        relative: true,
+//        relative: true,
+        relative: false,
         addRootSlash: false
       },
       file_uploader: {
