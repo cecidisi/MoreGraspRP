@@ -217,8 +217,8 @@ module.exports = function (grunt) {
       },
       app: {
         ignorePath: /^\/|\.\.\//,
-        src: ['<%= config.app %>/*.html'],
-//          src: ['<%= config.app %>/index.html'],
+        //src: ['<%= config.app %>/*.html'],
+          src: ['<%= config.app %>/{,*/}*.html'],
         exclude: ['bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js'],
         overrides: {
           'jquery-uploadfile': {
@@ -250,6 +250,20 @@ module.exports = function (grunt) {
       }
     },
 
+      // replace the font file path
+      replace: {
+          dist: {
+              src: ['<%= config.dist %>/styles//*.css'],
+              overwrite: true,                 // overwrite matched source files
+              replacements: [{
+                  from: '../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/',
+                  //to: 'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/'
+                  //to: '../fonts/'
+                to: 'fonts/'
+              }]
+          }
+      },
+
     // Renames files for browser caching purposes
     rev: {
       dist: {
@@ -272,7 +286,8 @@ module.exports = function (grunt) {
       options: {
         dest: '<%= config.dist %>'
       },
-      html: '<%= config.app %>/index.html'
+//      html: '<%= config.app %>/index.html'
+        html: ['<%= config.dist %>/{,*/}*.html']
     },
 
     // Performs rewrites based on rev and the useminPrepare configuration
@@ -338,7 +353,10 @@ module.exports = function (grunt) {
     // of minification. These next options are pre-configured if you do not
     // wish to use the Usemin blocks.
      cssmin: {
-       dist: {
+         options: {
+             rebase: false
+         },
+         dist: {
          files: {
            '<%= config.dist %>/styles/main.css': [
              '.tmp/styles/{,*/}*.css',
@@ -363,7 +381,14 @@ module.exports = function (grunt) {
     // Copies remaining files to places other tasks can use
     copy: {
       dist: {
-        files: [{
+        files: [
+        {
+          expand: true,
+          dot: true,
+          flatten: true,
+          src: 'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*',
+          dest: '<%= config.app %>/fonts/'
+        },{
           expand: true,
           dot: true,
           cwd: '<%= config.app %>',
@@ -381,8 +406,10 @@ module.exports = function (grunt) {
           expand: true,
           dot: true,
           cwd: '.',
-          src: 'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*',
-          dest: '<%= config.dist %>'
+          flatten: true,
+//          src: 'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*',
+          src: '<%= config.app %>/fonts/{,*/}*.*',
+          dest: '<%= config.dist %>/fonts/'
         }]
       },
       styles: {
@@ -431,7 +458,6 @@ module.exports = function (grunt) {
     grunt.task.run([
       'clean:server',
       'wiredep',
-//      'injector',
       'concurrent:server',
       'autoprefixer',
       'connect:livereload',
@@ -462,7 +488,6 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'clean:dist',
     'wiredep',
-//    'injector',
     'useminPrepare',
     'concurrent:dist',
     'autoprefixer',
@@ -472,7 +497,8 @@ module.exports = function (grunt) {
     'copy:dist',
     'rev',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'replace:dist'
   ]);
 
   grunt.registerTask('default', [

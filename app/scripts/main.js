@@ -170,4 +170,12 @@
     $("#mulitplefileuploader").uploadFile(uploadSettings);
 
 
+    $(window).on("navigate", function (event, data) {
+        var direction = data.state.direction;
+        console.log(data);
+
+    });
+
+
+
 })();
