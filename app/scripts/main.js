@@ -28,6 +28,18 @@
         $('<a/>', { href: '#panel-'+i, class: 'step-label', text: stepName }).appendTo($step);
     }
 
+    /*  Datetimepicker date of injury */
+    $('#dtpDateInjury').datetimepicker({
+        widgetPositioning: { vertical: 'bottom', horizontal: 'right' },
+        viewMode: 'years',
+        format: 'MM/YYYY',
+        maxDate: '11/01/2015',
+        keepOpen: true
+    }).on('dp.change', function(e){
+        var field = $(this).attr('id'),
+            value = e.date.format('MM/YYYY');
+        $('p[field="' + field + '"]').text(value);
+    });
 
     /***  Navigation functions  ***/
 
@@ -104,7 +116,6 @@
 
     $('i.edit-answer, div.progress-step').click(function(){
         var panelId = $(this).find('a').attr('href');
-        console.log(panelId);
         currentPanel = parseInt(panelId.replace('#panel-', ''));
         moveToFormPanel(panelId);
     });

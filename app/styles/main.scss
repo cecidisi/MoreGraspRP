@@ -297,6 +297,16 @@ header {
                 &.sm { @extend .col-md-2, .col-sm-2, .col-xs-12; }
             }
 
+            .form-group {
+                @extend .form-control.sm;
+                padding: 0px;
+                margin-bottom: 0px;
+
+                input[type="text"] {
+                    width: 100%;
+                }
+            }
+
             .toggle-on, .toggle-off {
                 text-align: left;
             }

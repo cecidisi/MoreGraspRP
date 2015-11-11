@@ -1718,14 +1718,14 @@ pre {
     clear: both; }
 
 /* line 10, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .nav-panel#registration-form .form-section .input-panel label.default.sm, .nav-panel#registration-form .form-section .input-panel-submitted label.default.sm, .col-md-1, .nav-panel#registration-form .form-section .input-panel label.default.sm, .nav-panel#registration-form .form-section .input-panel-submitted label.default.sm, .col-lg-1, .col-xs-2, .col-sm-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel-submitted .form-control.sm, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical.sm, .col-md-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel-submitted .form-control.sm, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical.sm, .col-lg-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel-submitted .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical, .col-md-4, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel-submitted .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel div.answer-container, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container, .col-lg-4, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel-submitted .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel div.answer-container, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .nav-panel#registration-form .form-section .input-panel label.question, .nav-panel#registration-form .form-section .input-panel-submitted label.question, .col-md-6, .nav-panel#registration-form .form-section .input-panel label.question, .nav-panel#registration-form .form-section .input-panel-submitted label.question, .col-lg-6, .nav-panel#registration-form .form-section .input-panel label.question, .nav-panel#registration-form .form-section .input-panel-submitted label.question, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .nav-panel#registration-form .form-section .input-panel label.question, .nav-panel#registration-form .form-section .input-panel-submitted label.question, .col-sm-10, .col-md-10, .col-lg-10, .nav-panel#registration-form .form-section .input-panel, .nav-panel#registration-form .form-section .input-panel-submitted, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .nav-panel#registration-form .form-section .input-panel label.default.sm, .nav-panel#registration-form .form-section .input-panel-submitted label.default.sm, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel-submitted .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel-submitted .form-control.sm, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel div.answer-container, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container, .col-sm-12, .content .nav-panel, .nav-panel#registration-form .form-section .input-panel, .nav-panel#registration-form .form-section .input-panel-submitted, .nav-panel#registration-form .form-section .input-panel div.answer-container, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container, .sizable, .col-md-12, .content .nav-panel, .nav-panel#registration-form .form-section .input-panel, .nav-panel#registration-form .form-section .input-panel-submitted, .sizable, .col-lg-12, .content .nav-panel, .sizable {
+.col-xs-1, .col-sm-1, .nav-panel#registration-form .form-section .input-panel label.default.sm, .nav-panel#registration-form .form-section .input-panel-submitted label.default.sm, .col-md-1, .nav-panel#registration-form .form-section .input-panel label.default.sm, .nav-panel#registration-form .form-section .input-panel-submitted label.default.sm, .col-lg-1, .col-xs-2, .col-sm-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel-submitted .form-control.sm, .nav-panel#registration-form .form-section .input-panel .form-group, .nav-panel#registration-form .form-section .input-panel .input-panel-submitted .form-group, .nav-panel#registration-form .form-section .input-panel-submitted .input-panel .form-group, .nav-panel#registration-form .form-section .input-panel-submitted .form-group, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical.sm, .col-md-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel-submitted .form-control.sm, .nav-panel#registration-form .form-section .input-panel .form-group, .nav-panel#registration-form .form-section .input-panel .input-panel-submitted .form-group, .nav-panel#registration-form .form-section .input-panel-submitted .input-panel .form-group, .nav-panel#registration-form .form-section .input-panel-submitted .form-group, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical.sm, .col-lg-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel-submitted .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical, .col-md-4, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel-submitted .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel div.answer-container, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container, .col-lg-4, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel-submitted .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel div.answer-container, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .nav-panel#registration-form .form-section .input-panel label.question, .nav-panel#registration-form .form-section .input-panel-submitted label.question, .col-md-6, .nav-panel#registration-form .form-section .input-panel label.question, .nav-panel#registration-form .form-section .input-panel-submitted label.question, .col-lg-6, .nav-panel#registration-form .form-section .input-panel label.question, .nav-panel#registration-form .form-section .input-panel-submitted label.question, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .nav-panel#registration-form .form-section .input-panel label.question, .nav-panel#registration-form .form-section .input-panel-submitted label.question, .col-sm-10, .col-md-10, .col-lg-10, .nav-panel#registration-form .form-section .input-panel, .nav-panel#registration-form .form-section .input-panel-submitted, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .nav-panel#registration-form .form-section .input-panel label.default.sm, .nav-panel#registration-form .form-section .input-panel-submitted label.default.sm, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel-submitted .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel-submitted .form-control.sm, .nav-panel#registration-form .form-section .input-panel .form-group, .nav-panel#registration-form .form-section .input-panel .input-panel-submitted .form-group, .nav-panel#registration-form .form-section .input-panel-submitted .input-panel .form-group, .nav-panel#registration-form .form-section .input-panel-submitted .form-group, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel div.answer-container, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container, .col-sm-12, .content .nav-panel, .nav-panel#registration-form .form-section .input-panel, .nav-panel#registration-form .form-section .input-panel-submitted, .nav-panel#registration-form .form-section .input-panel div.answer-container, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container, .sizable, .col-md-12, .content .nav-panel, .nav-panel#registration-form .form-section .input-panel, .nav-panel#registration-form .form-section .input-panel-submitted, .sizable, .col-lg-12, .content .nav-panel, .sizable {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
 
 /* line 26, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .nav-panel#registration-form .form-section .input-panel label.question, .nav-panel#registration-form .form-section .input-panel-submitted label.question, .col-xs-11, .col-xs-12, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .nav-panel#registration-form .form-section .input-panel label.default.sm, .nav-panel#registration-form .form-section .input-panel-submitted label.default.sm, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel-submitted .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel-submitted .form-control.sm, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel div.answer-container, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container {
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .nav-panel#registration-form .form-section .input-panel label.question, .nav-panel#registration-form .form-section .input-panel-submitted label.question, .col-xs-11, .col-xs-12, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .nav-panel#registration-form .form-section .input-panel label.default.sm, .nav-panel#registration-form .form-section .input-panel-submitted label.default.sm, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel-submitted .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel-submitted .form-control.sm, .nav-panel#registration-form .form-section .input-panel .form-group, .nav-panel#registration-form .form-section .input-panel .input-panel-submitted .form-group, .nav-panel#registration-form .form-section .input-panel-submitted .input-panel .form-group, .nav-panel#registration-form .form-section .input-panel-submitted .form-group, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel div.answer-container, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container {
   float: left; }
 
 /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -1773,7 +1773,7 @@ pre {
   width: 91.66667%; }
 
 /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-12, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .nav-panel#registration-form .form-section .input-panel label.default.sm, .nav-panel#registration-form .form-section .input-panel-submitted label.default.sm, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel-submitted .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel-submitted .form-control.sm, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel div.answer-container, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container {
+.col-xs-12, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .nav-panel#registration-form .form-section .input-panel label.default.sm, .nav-panel#registration-form .form-section .input-panel-submitted label.default.sm, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel-submitted .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel-submitted .form-control.sm, .nav-panel#registration-form .form-section .input-panel .form-group, .nav-panel#registration-form .form-section .input-panel .input-panel-submitted .form-group, .nav-panel#registration-form .form-section .input-panel-submitted .input-panel .form-group, .nav-panel#registration-form .form-section .input-panel-submitted .form-group, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel div.answer-container, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container {
   width: 100%; }
 
 /* line 54, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -1934,13 +1934,13 @@ pre {
 
 @media (min-width: 768px) {
   /* line 26, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-1, .nav-panel#registration-form .form-section .input-panel label.default.sm, .nav-panel#registration-form .form-section .input-panel-submitted label.default.sm, .col-sm-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel-submitted .form-control.sm, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical.sm, .col-sm-3, .col-sm-4, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel-submitted .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical, .col-sm-5, .col-sm-6, .nav-panel#registration-form .form-section .input-panel label.question, .nav-panel#registration-form .form-section .input-panel-submitted label.question, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .content .nav-panel, .nav-panel#registration-form .form-section .input-panel, .nav-panel#registration-form .form-section .input-panel-submitted, .nav-panel#registration-form .form-section .input-panel div.answer-container, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container, .sizable {
+  .col-sm-1, .nav-panel#registration-form .form-section .input-panel label.default.sm, .nav-panel#registration-form .form-section .input-panel-submitted label.default.sm, .col-sm-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel-submitted .form-control.sm, .nav-panel#registration-form .form-section .input-panel .form-group, .nav-panel#registration-form .form-section .input-panel .input-panel-submitted .form-group, .nav-panel#registration-form .form-section .input-panel-submitted .input-panel .form-group, .nav-panel#registration-form .form-section .input-panel-submitted .form-group, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical.sm, .col-sm-3, .col-sm-4, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel-submitted .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical, .col-sm-5, .col-sm-6, .nav-panel#registration-form .form-section .input-panel label.question, .nav-panel#registration-form .form-section .input-panel-submitted label.question, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .content .nav-panel, .nav-panel#registration-form .form-section .input-panel, .nav-panel#registration-form .form-section .input-panel-submitted, .nav-panel#registration-form .form-section .input-panel div.answer-container, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container, .sizable {
     float: left; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-sm-1, .nav-panel#registration-form .form-section .input-panel label.default.sm, .nav-panel#registration-form .form-section .input-panel-submitted label.default.sm {
     width: 8.33333%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel-submitted .form-control.sm, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical.sm {
+  .col-sm-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel-submitted .form-control.sm, .nav-panel#registration-form .form-section .input-panel .form-group, .nav-panel#registration-form .form-section .input-panel .input-panel-submitted .form-group, .nav-panel#registration-form .form-section .input-panel-submitted .input-panel .form-group, .nav-panel#registration-form .form-section .input-panel-submitted .form-group, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical.sm {
     width: 16.66667%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-sm-3 {
@@ -2092,13 +2092,13 @@ pre {
 
 @media (min-width: 992px) {
   /* line 26, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-1, .nav-panel#registration-form .form-section .input-panel label.default.sm, .nav-panel#registration-form .form-section .input-panel-submitted label.default.sm, .col-md-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel-submitted .form-control.sm, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical.sm, .col-md-3, .col-md-4, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel-submitted .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel div.answer-container, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container, .col-md-5, .col-md-6, .nav-panel#registration-form .form-section .input-panel label.question, .nav-panel#registration-form .form-section .input-panel-submitted label.question, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .content .nav-panel, .nav-panel#registration-form .form-section .input-panel, .nav-panel#registration-form .form-section .input-panel-submitted, .sizable {
+  .col-md-1, .nav-panel#registration-form .form-section .input-panel label.default.sm, .nav-panel#registration-form .form-section .input-panel-submitted label.default.sm, .col-md-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel-submitted .form-control.sm, .nav-panel#registration-form .form-section .input-panel .form-group, .nav-panel#registration-form .form-section .input-panel .input-panel-submitted .form-group, .nav-panel#registration-form .form-section .input-panel-submitted .input-panel .form-group, .nav-panel#registration-form .form-section .input-panel-submitted .form-group, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical.sm, .col-md-3, .col-md-4, .nav-panel#registration-form .form-section .input-panel .form-control, .nav-panel#registration-form .form-section .input-panel-submitted .form-control, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical, .nav-panel#registration-form .form-section .input-panel div.answer-container, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container, .col-md-5, .col-md-6, .nav-panel#registration-form .form-section .input-panel label.question, .nav-panel#registration-form .form-section .input-panel-submitted label.question, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .content .nav-panel, .nav-panel#registration-form .form-section .input-panel, .nav-panel#registration-form .form-section .input-panel-submitted, .sizable {
     float: left; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-md-1, .nav-panel#registration-form .form-section .input-panel label.default.sm, .nav-panel#registration-form .form-section .input-panel-submitted label.default.sm {
     width: 8.33333%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel-submitted .form-control.sm, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical.sm {
+  .col-md-2, .nav-panel#registration-form .form-section .input-panel label.default, .nav-panel#registration-form .form-section .input-panel-submitted label.default, .nav-panel#registration-form .form-section .input-panel .form-control.sm, .nav-panel#registration-form .form-section .input-panel-submitted .form-control.sm, .nav-panel#registration-form .form-section .input-panel .form-group, .nav-panel#registration-form .form-section .input-panel .input-panel-submitted .form-group, .nav-panel#registration-form .form-section .input-panel-submitted .input-panel .form-group, .nav-panel#registration-form .form-section .input-panel-submitted .form-group, .nav-panel#registration-form .form-section .input-panel .btn-group-vertical.sm, .nav-panel#registration-form .form-section .input-panel-submitted .btn-group-vertical.sm {
     width: 16.66667%; }
   /* line 34, C:/Ampps/www/MoreGraspRP/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-md-3 {
@@ -9862,116 +9862,123 @@ header {
         width: 80%;
         margin: auto; }
       /* line 300, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      .nav-panel#registration-form .form-section .input-panel .form-group, .nav-panel#registration-form .form-section .input-panel-submitted .form-group {
+        padding: 0px;
+        margin-bottom: 0px; }
+        /* line 305, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+        .nav-panel#registration-form .form-section .input-panel .form-group input[type="text"], .nav-panel#registration-form .form-section .input-panel-submitted .form-group input[type="text"] {
+          width: 100%; }
+      /* line 310, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
       .nav-panel#registration-form .form-section .input-panel .toggle-on, .nav-panel#registration-form .form-section .input-panel-submitted .toggle-on, .nav-panel#registration-form .form-section .input-panel .toggle-off, .nav-panel#registration-form .form-section .input-panel-submitted .toggle-off {
         text-align: left; }
-      /* line 305, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      /* line 315, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
       .nav-panel#registration-form .form-section .input-panel div.answer-container, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container {
         min-height: auto;
         margin-bottom: 10px; }
-        /* line 310, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+        /* line 320, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
         .nav-panel#registration-form .form-section .input-panel div.answer-container h5, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container h5 {
           font-size: 1.1em;
           color: #ed1848;
           font-weight: bold; }
-          /* line 315, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+          /* line 325, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
           .nav-panel#registration-form .form-section .input-panel div.answer-container h5 i.edit-answer, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container h5 i.edit-answer {
             margin-left: 3px;
             color: #333;
             cursor: pointer; }
-            /* line 320, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+            /* line 330, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
             .nav-panel#registration-form .form-section .input-panel div.answer-container h5 i.edit-answer:hover, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container h5 i.edit-answer:hover {
               transform: scale(1.1); }
-            /* line 323, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+            /* line 333, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
             .nav-panel#registration-form .form-section .input-panel div.answer-container h5 i.edit-answer a, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container h5 i.edit-answer a {
               text-decoration: none; }
-  /* line 338, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 348, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   .nav-panel#registration-form .controls-section {
     position: relative;
     height: 110px;
     margin-top: 10px;
     padding: 10px 0px;
     text-align: center; }
-    /* line 346, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    /* line 356, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
     .nav-panel#registration-form .controls-section .progress, .nav-panel#registration-form .controls-section .ajax-file-upload-statusbar .ajax-file-upload-progress, .ajax-file-upload-statusbar .nav-panel#registration-form .controls-section .ajax-file-upload-progress {
       width: 60%;
       margin: auto; }
-    /* line 351, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    /* line 361, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
     .nav-panel#registration-form .controls-section .progress-steps-container {
       width: 60%;
       height: 20px;
       margin: 5px auto; }
-      /* line 356, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      /* line 366, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
       .nav-panel#registration-form .controls-section .progress-steps-container .progress-step {
         display: inline-block;
         float: left;
         height: 100%;
         text-align: center; }
-        /* line 361, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+        /* line 371, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
         .nav-panel#registration-form .controls-section .progress-steps-container .progress-step a {
           color: #555;
           font-size: 0.8em; }
-        /* line 366, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+        /* line 376, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
         .nav-panel#registration-form .controls-section .progress-steps-container .progress-step.complete a {
           font-weight: bold; }
 
-/* line 376, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 386, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 .nav-panel#see-more {
   height: 100% !important; }
-  /* line 379, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 389, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   .nav-panel#see-more #question-container {
     min-height: 250px;
     padding: 15px 20px;
     box-shadow: 2px 2px 5px #888, -2px 2px 5px #888; }
-    /* line 383, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    /* line 393, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
     .nav-panel#see-more #question-container .question-list {
       float: left; }
-      /* line 385, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+      /* line 395, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
       .nav-panel#see-more #question-container .question-list i.fa, .nav-panel#see-more #question-container .question-list .nav-panel#registration-form .form-section .input-panel div.answer-container h5 i.edit-answer, .nav-panel#registration-form .form-section .input-panel div.answer-container h5 .nav-panel#see-more #question-container .question-list i.edit-answer, .nav-panel#see-more #question-container .question-list .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container h5 i.edit-answer, .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container h5 .nav-panel#see-more #question-container .question-list i.edit-answer {
         margin-right: 3px;
         color: #428bca; }
-    /* line 390, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    /* line 400, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
     .nav-panel#see-more #question-container img {
       float: right; }
-  /* line 397, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 407, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   .nav-panel#see-more .answer-container .inner {
     margin: 25px 15px;
     border-bottom: 1px solid #ddd; }
-    /* line 401, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    /* line 411, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
     .nav-panel#see-more .answer-container .inner i.fa, .nav-panel#see-more .nav-panel#registration-form .form-section .input-panel div.answer-container .inner h5 i.edit-answer, .nav-panel#registration-form .form-section .input-panel .nav-panel#see-more div.answer-container .inner h5 i.edit-answer, .nav-panel#see-more .nav-panel#registration-form .form-section .input-panel div.answer-container h5 .inner i.edit-answer, .nav-panel#registration-form .form-section .input-panel .nav-panel#see-more div.answer-container h5 .inner i.edit-answer, .nav-panel#see-more .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container .inner h5 i.edit-answer, .nav-panel#registration-form .form-section .input-panel-submitted .nav-panel#see-more div.answer-container .inner h5 i.edit-answer, .nav-panel#see-more .nav-panel#registration-form .form-section .input-panel-submitted div.answer-container h5 .inner i.edit-answer, .nav-panel#registration-form .form-section .input-panel-submitted .nav-panel#see-more div.answer-container h5 .inner i.edit-answer {
       margin-right: 3px; }
-    /* line 404, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    /* line 414, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
     .nav-panel#see-more .answer-container .inner h4 {
       color: #4d9d2a; }
 
-/* line 416, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 426, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 .button-area {
   position: relative;
   bottom: -10px;
   height: 45px;
   margin: 10px 0px;
   text-align: center; }
-  /* line 422, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 432, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   .button-area button {
     min-width: 83px; }
 
-/* line 429, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 439, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 .btn-primary-mg, .ajax-upload-dragdrop .ajax-file-upload, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green {
   color: #fff;
   background-color: #4d9d2a;
   border: 1px solid #4a9a27; }
-  /* line 434, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 444, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   .btn-primary-mg:hover, .ajax-upload-dragdrop .ajax-file-upload:hover, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red:hover, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green:hover {
     background-color: #459522;
     color: #eee; }
-  /* line 439, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 449, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   .btn-primary-mg a, .ajax-upload-dragdrop .ajax-file-upload a, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red a, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red a, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green a, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green a {
     color: inherit;
     text-decoration: none; }
-    /* line 442, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    /* line 452, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
     .btn-primary-mg a:hover, .ajax-upload-dragdrop .ajax-file-upload a:hover, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red a:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red a:hover, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green a:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green a:hover {
       color: inherit; }
 
-/* line 447, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 457, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 div.bg-processing {
   display: block;
   position: absolute;
@@ -9980,7 +9987,7 @@ div.bg-processing {
   width: 100%;
   height: calc(100% - 70px);
   background-color: rgba(0, 0, 0, 0.5); }
-  /* line 456, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 466, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   div.bg-processing div.loading {
     position: relative;
     top: calc(50% - 64px);
@@ -9992,54 +9999,54 @@ div.bg-processing {
     background-repeat: no-repeat; }
 
 /*******************************************************************************************************/
-/* line 473, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 483, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 .center-aligned {
   text-align: center; }
 
-/* line 477, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 487, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 .margin-l {
   margin: 50px; }
 
-/* line 482, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 492, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 .sizable {
   /*@extend .col-lg-offset-1, .col-lg-10, .col-md-offset-1, .col-md-10, .col-sm-offset-0, .col-sm-12;*/ }
 
-/* line 487, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+/* line 497, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
 .alert {
   margin-bottom: 0px; }
 
 /******************************************************************************************/
 /* Responsive: Portrait tablets and up */
 @media screen and (max-width: 768px) {
-  /* line 504, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 514, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   body {
     overflow-y: hidden; }
-  /* line 507, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 517, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   .container {
     max-width: 750px;
     overflow-y: hidden !important; }
-    /* line 512, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    /* line 522, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
     .container .form-section {
       height: 335px !important; }
   /* Remove the padding we set earlier */
-  /* line 520, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 530, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   header,
   .footer {
     padding-left: 0;
     padding-right: 0; }
   /* Space out the masthead */
-  /* line 526, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 536, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   header {
     margin-bottom: 30px; }
-  /* line 530, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 540, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   div.progress-steps-container {
     display: none !important; } }
 
 @media (min-width: 768px) {
-  /* line 537, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+  /* line 547, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
   .form-section {
     height: calc(100% - 150px) !important; }
-    /* line 540, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
+    /* line 550, C:/Ampps/www/MoreGraspRP/app/styles/main.scss */
     .form-section div.answer-container.large {
       min-height: 256px !important; } }
 
