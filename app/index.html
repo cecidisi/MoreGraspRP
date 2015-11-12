@@ -7,8 +7,6 @@
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="media/moregrasp-logo.jpg">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- injector:css -->
-    <!-- endinjector -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap-toggle/css/bootstrap-toggle.min.css" />
@@ -16,6 +14,8 @@
     <link rel="stylesheet" href="bower_components/jquery-ui/themes/base/jquery-ui.min.css" />
     <link rel="stylesheet" href="bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" />
     <!-- endbower -->
+    <!-- injector:css -->
+    <!-- endinjector -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
@@ -43,16 +43,13 @@
                   </div>
                   <div class="navbar-collapse collapse" id="mg-navbar-collapse" aria-expanded="true">
                       <ul class="nav navbar-nav navbar-right flag-container">
-                          <li class="active"><a class="flag flag-en active" name="en" href="#"></a></li>
-                          <li><a class="flag flag-de" name="en" href="#"></a></li>
+                          <li class="active"><a class="flag flag-en active" name="en" href="#/home"></a></li>
+                          <li><a class="flag flag-de" name="en" href="#/home"></a></li>
                       </ul>
                       <ul class="nav navbar-nav navbar-right menu">
-                          <li class="active" navigateTo="#home"><a href="#home">Home</a></li>
-<!--                          <li class="active" navigateTo="#home"><a href="#">Home</a></li>-->
-                          <li navigateTo="#registration-form"><a href="#registration-form">Register</a></li>
-<!--                          <li navigateTo="#registration-form"><a href="/register/">Register</a></li>-->
-                          <li navigateTo="#see-more"><a href="#see-more">FAQ</a></li>
-<!--                          <li navigateTo="#see-more"><a href="/faq/">FAQ</a></li>-->
+                          <li class="active" navigateTo="#home"><a href="#/home">Home</a></li>
+                          <li navigateTo="#register"><a href="#/register">Register</a></li>
+                          <li navigateTo="#faq"><a href="#/faq">FAQ</a></li>
                       </ul>
 
                   </div>
@@ -73,12 +70,12 @@
                           </div>
                       </div>
                       <div class="button-area">
-                          <button type="button" id="btn-go-to-registration" class="btn btn-primary-mg btn-lg"><a href="#registration-form">Go to Registration</a></button>
+                          <button type="button" id="btn-go-to-registration" class="btn btn-primary-mg btn-lg">Go to Registration</button>
                       </div>
                   </div>
               </div>
 
-              <div class="nav-panel fade" id="registration-form">
+              <div class="nav-panel fade" id="register">
                   <div class="panel-container form-section">
 
                       <!--  Terms & Conditions -->
@@ -291,7 +288,7 @@
                           <p class="explanation">Please review your information carefully and press submit when ready</p><br>
 
                           <div class="answer-container large">
-                              <h5>Personal Data <i class="edit-answer"><a href="#panel-1"></a></i></h5>
+                              <h5>Personal Data <a href="#/register/1"><i class="edit-answer"></i></a></h5>
                               <div class="row">
                                   <label class="answer">First Name:</label>
                                   <p class="form-answer" field="inputFirstname"></p>
@@ -331,7 +328,7 @@
                           </div>
 
                           <div class="answer-container large">
-                              <h5>Pre-Injury Conditions <i class="edit-answer"><a href="#panel-2"></a></i></h5>
+                              <h5>Pre-Injury Conditions <a href="#/register/2"><i class="edit-answer"></i></a></h5>
                               <div class="row">
                                   <label class="answer">Metal Implant in Forearm:</label>
                                   <p class="form-answer" field="cbxImplant"></p>
@@ -359,7 +356,7 @@
                           </div>
 
                           <div class="answer-container large">
-                              <h5>Injury Details <i class="edit-answer"><a href="#panel-3"></a></i></h5>
+                              <h5>Injury Details <a href="#/register/3"><i class="edit-answer"></i></a></h5>
                               <div class="row">
                                   <label class="answer">Date of Injury</label>
                                   <p class="form-answer" field="dtpDateInjury"></p>
@@ -371,7 +368,7 @@
                           </div>
 
                           <div class="answer-container">
-                              <h5>Current Abilities <i class="edit-answer"><a href="#panel-4"></a></i></h5>
+                              <h5>Current Abilities <a href="#/register/4"><i class="edit-answer"></i></a></h5>
                               <div class="row">
                                   <label class="answer">Can you bring your hand to your mouth?</label>
                                   <p class="form-answer" field="cbxHandToMouth"></p>
@@ -391,7 +388,7 @@
                           </div>
 
                           <div class="answer-container">
-                              <h5>Video <i class="edit-answer"><a href="#panel-5"></a></i></h5>
+                              <h5>Video <a href="#/register/5"><i class="edit-answer"></i></a></h5>
                               <div class="row">
                                   <div class="extrahtml"></div>
                               </div>
@@ -399,7 +396,7 @@
 
                           <div class="answer-container">
 
-                              <h5>Miscellaneous <i class="edit-answer"><a href="#panel-6"></a></i></h5>
+                              <h5>Miscellaneous <a href="#/register/6"><i class="edit-answer"></i></a></h5>
                               <label class="answer">How did you find us?</label>
                               <div class="row">
                                   <label class="answer secondary">My Doctor told me:</label>
@@ -466,16 +463,16 @@
                   </div>
               </div>
 
-              <div class="nav-panel fade" id="see-more">
+              <div class="nav-panel fade" id="faq">
                   <div class="row">
                       <div class="panel-container">
                           <div id="question-container">
                               <div class="question-list">
-                                <i class="fa fa-question-circle"></i><a href="#q1">Was ist eine BCI-gesteuerte FES-Orthese?</a><br>
-                                <i class="fa fa-question-circle"></i><a href="#q2">Welchen Nutzen haben Sie von der Studienteilnahme?</a><br>
-                                <i class="fa fa-question-circle"></i><a href="#q3">Was erwartet Sie in der Studie?</a><br>
-                                <i class="fa fa-question-circle"></i><a href="#q4">Welche Risiken oder Belastungen sind mit der Studienteilnahme verbunden?</a><br>
-                                <i class="fa fa-question-circle"></i><a href="#q5">Welche Teilnahmekriterien muss ich erfüllen?</a><br>
+                                <i class="fa fa-question-circle"></i><a href="#/faq/q1">Was ist eine BCI-gesteuerte FES-Orthese?</a><br>
+                                <i class="fa fa-question-circle"></i><a href="#/faq/q2">Welchen Nutzen haben Sie von der Studienteilnahme?</a><br>
+                                <i class="fa fa-question-circle"></i><a href="#/faq/q3">Was erwartet Sie in der Studie?</a><br>
+                                <i class="fa fa-question-circle"></i><a href="#/faq/q4">Welche Risiken oder Belastungen sind mit der Studienteilnahme verbunden?</a><br>
+                                <i class="fa fa-question-circle"></i><a href="#/faq/q5">Welche Teilnahmekriterien muss ich erfüllen?</a><br>
                               </div>
                               <img src="media/np-user.png">
                           </div>
@@ -492,7 +489,8 @@
                                       •	Welche Eigenschaften muss die BCI-kontrollierte FES-Orthese besitzen, damit Querschnittgelähmte ihre Selbstständigkeit verbessern können?<br>
                                       •	Wie müssen das BCI und die FES-Orthese gestaltet werden, um alltagstauglich zu sein und für welche Aufgaben würden diese eingesetzt werden?<br>
                                   </p>
-                                  <a class="up" href="#question-container">Back up</a>
+<!--                                  <a class="up" href="#question-container">Back up</a>-->
+                                  <a class="up" href="#/faq/back">Back up</a>
                               </div>
                               <!--  Question 2  -->
                               <div class="inner">
@@ -504,7 +502,8 @@
                                       •	Der infolge der Lähmung auftretende Muskelabbau kann rückgängig gemacht werden.<br>
                                       •	Die Funktionsfähigkeit mechanischer Strukturen wie Sehnen und Gelenke kann erhalten werden; einer Einsteifung kann entgegengewirkt werden.<br>
                                   </p>
-                                  <a class="up" href="#question-container">Back up</a>
+<!--                                  <a class="up" href="#question-container">Back up</a>-->
+                                  <a class="up" href="#/faq/back">Back up</a>
                               </div>
                               <!--  Question 3  -->
                               <div class="inner">
@@ -516,7 +515,8 @@
                                       Ein wesentlicher Schwerpunkt des Projekts liegt in der Unter-suchung Ihrer Zufriedenheit mit dem technischen Hilfsmittel. Um diese wissenschaftlich erfassen zu können, werden regelmäßig eine Reihe von Interviews durchgeführt.<br><br>
                                       In den ersten Wochen der Studienteilnahme kann eine intensive Einarbeitung von 10 Stunden pro Woche erforderlich sein. Während der gesamten restlichen Studiendauer reduziert sich der Trainingsaufwand auf ca. 5 Stunden pro Woche.<br>
                                   </p>
-                                  <a class="up" href="#question-container">Back up</a>
+<!--                                  <a class="up" href="#question-container">Back up</a>-->
+                                  <a class="up" href="#/faq/back">Back up</a>
                               </div>
 
                               <!--  Question 4  -->
@@ -528,7 +528,8 @@
                                       •	Die Hauptbelastung für Sie als möglicher Studienteil-nehmer besteht im Zeitaufwand für die unterschiedlichen Trainingsphasen und für die ambulanten Kontroll- und Untersuchungstermine.<br><br>
                                       Selbstverständlich können Sie die Studienteilnahme jederzeit ohne Nachteile für Ihre medizinische Versorgung widerrufen. Ebenso werden Ihre Daten absolut vertraulich behandelt und nur verschlüsselt, ohne Hinweise auf Ihre Identität weitergegeben.<br>
                                   </p>
-                                  <a class="up" href="#question-container">Back up</a>
+<!--                                  <a class="up" href="#question-container">Back up</a>-->
+                                  <a class="up" href="#/faq/back">Back up</a>
                                 </div>
                               <!--  Question 5  -->
                               <div class="inner">
@@ -550,7 +551,8 @@
                                       Vor Beginn der Studie ist die Einwilligung der Ethikkommission der Universität Heidelberg schriftlich erfolgt.<br><br>
                                       Weitere Informationen zum Projekt sind unter http://moregrasp.dev.webtourismus.at/ zu finden.<br>
                                   </p>
-                                  <a class="up" href="#question-container">Back up</a>
+<!--                                  <a class="up" href="#question-container">Back up</a>-->
+                                  <a class="up" href="#/faq/back">Back up</a>
                               </div>
                               <!-- End questions-->
                           </div>
@@ -593,10 +595,12 @@
     <script src="bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
     <script src="bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
     <script src="bower_components/jquery-upload-file-for-bower/js/jquery.uploadfile.js"></script>
+    <script src="bower_components/sammy/lib/sammy.js"></script>
     <!-- endbower -->
-    <!-- endbuild -->
     <!-- injector:js -->
     <!-- endinjector -->
+    <!-- endbuild -->
+
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -609,6 +613,7 @@
     </script>
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/scrollto.js"></script>
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
 </body>
