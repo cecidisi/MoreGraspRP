@@ -81,12 +81,12 @@
                       <!--  Terms & Conditions -->
                       <div class="input-panel center-aligned" id="panel-0">
                           <div class="row">
-                              <h4>Terms and Conditions</h4>
+                              <h4 id="titleTermsAndConditions">Terms and Conditions</h4>
                               <div class="terms-container">
-                                  <p class="explanation">[List of terms and conditions here]</p>
+                                  <p class="explanation" id="listTermsAndConditions">[List of terms and conditions here]</p>
                               </div>
                               <div class="alert alert-danger sizable">
-                                  <p><strong>Disclaimer:</strong> Participation in our trials does not entail the loss of ellegilibilty for economical support</p>
+                                  <p id="pDisclaimer"><strong>Disclaimer:</strong> Participation in our trials does not entail the loss of ellegilibilty for economical support</p>
                               </div>
                               <div class="accept-terms-container">
                                 <input type="checkbox" id="cbxTermsAccepted">
@@ -518,7 +518,6 @@
 <!--                                  <a class="up" href="#question-container">Back up</a>-->
                                   <a class="up" href="#/faq/back">Back up</a>
                               </div>
-
                               <!--  Question 4  -->
                               <div class="inner">
                                   <h4 id="q4"><i class="fa fa-check"></i>Welche Risiken oder Belastungen sind mit der Studienteilnahme verbunden?</h4>
@@ -614,6 +613,7 @@
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
         <script src="scripts/scrollto.js"></script>
+        <script src="scripts/langConfig.js"></script>
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
 </body>

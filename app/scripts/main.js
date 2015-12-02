@@ -198,6 +198,8 @@ var app = $.sammy(function(){
 //            context.app.setLocation('#question-container');
     });
 
+    console.log(window.langConfig);
+
 
     this.get('#/submission/complete', function(context){
         var $bgProcessing = $('<div/>', { class: 'bg-processing' }).appendTo($('body'));
