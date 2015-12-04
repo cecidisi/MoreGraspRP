@@ -322,6 +322,10 @@ header {
                 text-align: left;
             }
 
+            .toggle-off {
+                padding-left: 20px !important;
+            }
+
 
             div.answer-container {
                 @extend .col-xs-12, .col-sm-12, .col-md-4, .col-lg-4;
@@ -335,7 +339,7 @@ header {
 
                     i.edit-answer {
                         @extend .fa, .fa-pencil;
-                        margin-left: 3px;
+                        margin-left: 5px;
                         color: #333;
                         cursor: pointer;
                         &:hover {

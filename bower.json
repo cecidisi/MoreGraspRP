@@ -11,7 +11,9 @@
     "jquery-ui": "~1.11.4",
     "malihu-custom-scrollbar-plugin": "~3.0.9",
     "jquery-upload-file-for-bower": "~4.0.3",
-    "sammy": "~0.7.6"
+    "sammy": "~0.7.6",
+    "jquery-i18n-properties": "~1.2.0",
+    "jquery.i18n": "~1.0.4"
   },
   "devDependencies": {
     "chai": "~3.0.0",

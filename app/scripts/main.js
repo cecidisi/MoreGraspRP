@@ -12,21 +12,69 @@ var app = $.sammy(function(){
         $progress = $('.progress'),
         $progressSteps = $('.progress-steps-container');
 
-    /***  Create dynamic elements  ***/
-    /* checkboxes */
-    $('.cbx-toggle').bootstrapToggle({ on: 'Yes', off: 'No' }).change(function(){
-        var field = $(this).attr('id'),
-            value = $(this).prop('checked') ? 'Yes' : 'No';
-        $('p[field="' + field + '"]').text(value);
-    }).change();
+    var misc = [
+        { question: "mgrp-misc-q1", options: 6 }
+    ]
 
-    /* progress steps */
-    var stepWidth = parseFloat(100 / (numberPanels-1));
-    for(var i=1; i<=numberPanels-1; ++i) {
-        var stepName = $('#panel-' + i).attr('name');
-        var $step = $('<div/>', { class: 'progress-step', id: 'progress-step-'+i, style: 'width:'+stepWidth+'%;'}).appendTo($('.progress-steps-container'));
-        $('<a/>', { href: '#/register/'+i, class: 'step-label', text: stepName }).appendTo($step);
-    }
+    /***  Create dynamic elements after i18n locales are loaded  ***/
+    var buildDynamicDOM = function(){
+        /* checkboxes */
+        var cbxValue = { yes: $.i18nCustom.val("mgrp-toggle-on") || 'yes', no: $.i18nCustom.val("mgrp-toggle-off") || 'yes' };
+        $('.cbx-toggle').bootstrapToggle({ on: cbxValue.yes, off: cbxValue.no }).change(function(){
+            var field = $(this).attr('id'),
+                value = $(this).prop('checked') ? cbxValue.yes : cbxValue.no;
+            $('p[field="' + field + '"]').text(value);
+        }).change();
+
+        /* file uploader */
+        var uploadSettings = {
+            url: 'http://localhost/MoreGraspRP/server-test/upload.php',
+            dragDrop: true,
+            dragdropWidth: '100%',
+            statusBarWidth: '100%',
+            fileName: "myfile",
+            uploadStr: $.i18nCustom.val("mgrp-video-upload-btn-select") || 'Select',
+            dragDropStr: $.i18nCustom.val("mgrp-video-upload-drag-and-drop-msg") || 'Drag &amp; Drop',
+            acceptFiles: 'video/*',
+            maxFileSize: 1000000000,
+            showFileCounter: true,
+            showDone: false,
+            showDelete: true,
+            returnType: "json",
+            extraHTML: function(){
+                return "<div class='loading'></div>";
+            },
+            onSuccess: function(files,data,xhr, pd){
+                var video = "<video width='100%' height='100%' src='http://localhost/MoreGraspRP/server-test/uploads/" + files[0] + "' controls></video>";
+                $('.extrahtml').empty().html(video);
+            },
+            onError: function(files, status, message){
+                $('.extrahtml').empty();
+            },
+            deleteCallback: function(filesToDelete){},
+            afterUploadAll: function(){}
+        };
+        $('#mulitplefileuploader').uploadFile(uploadSettings);
+
+        /* progress step labels */
+        var stepWidth = parseFloat(100 / (numberPanels-1));
+        for(var i=1; i<=numberPanels-1; ++i) {
+            var key = $('#panel-' + i).attr('name');
+            var stepName = $.i18nCustom.val(key);
+            var $step = $('<div/>', { class: 'progress-step', id: 'progress-step-'+i, style: 'width:'+stepWidth+'%;'}).appendTo($('.progress-steps-container'));
+            $('<a/>', { href: '#/register/'+i, class: 'step-label', html: stepName }).appendTo($step);
+        }
+
+    };
+
+
+    $.i18nCustom({
+        path: 'i18n/',
+        languages: ['en', 'de'],
+        locale: 'de',
+        callback: buildDynamicDOM
+    });
+
 
     /*  Datetimepicker date of injury */
     $('#dtpDateInjury').datetimepicker({
@@ -42,7 +90,6 @@ var app = $.sammy(function(){
     });
 
     /***  Event handlers  ***/
-
     $('#cbxTermsAccepted').change(function(){
         $('#btn-start').prop('disabled', !$(this).prop('checked'));
     });
@@ -51,7 +98,8 @@ var app = $.sammy(function(){
         $('#cbxTermsAccepted').prop('checked', !$('#cbxTermsAccepted').prop('checked')).change();
     });
 
-    $('#btn-go-to-registration, #btn-start, #btn-previous, #btn-continue').click(function(event){
+    // $('#btn-go-to-registration, #btn-start, #btn-previous, #btn-continue')
+    $('button[type="button"].reg-navigation').click(function(event){
         if($(this).attr('move')){
             currentPanel = $(this).attr('move') === 'forward' ? currentPanel + 1 : currentPanel - 1;
         }
@@ -70,35 +118,7 @@ var app = $.sammy(function(){
     });
 
 
-    /* file uploader */
-    var uploadSettings = {
-        url: 'http://localhost/MoreGraspRP/server-test/upload.php',
-        dragDrop: true,
-        dragdropWidth: '100%',
-        statusBarWidth: '100%',
-        fileName: "myfile",
-        uploadStr: 'Select',
-        acceptFiles: 'video/*',
-        maxFileSize: 1000000000,
-        showFileCounter: true,
-        showDone: false,
-        showDelete: true,
-        returnType: "json",
-        extraHTML: function(){
-            return "<div class='loading'></div>";
-        },
-        onSuccess: function(files,data,xhr, pd){
-            var video = "<video width='100%' height='100%' src='http://localhost/MoreGraspRP/server-test/uploads/" + files[0] + "' controls></video>";
-            $('.extrahtml').empty().html(video);
-        },
-        onError: function(files, status, message){
-            $('.extrahtml').empty();
-        },
-        deleteCallback: function(filesToDelete){},
-        afterUploadAll: function(){}
-    };
 
-    $('#mulitplefileuploader').uploadFile(uploadSettings);
 
 
 
@@ -164,6 +184,9 @@ var app = $.sammy(function(){
 
     };
 
+
+
+
     /************************************************
      * Routing
      ************************************************/
@@ -175,6 +198,11 @@ var app = $.sammy(function(){
 
     this.get('#/:nav', function(context){
         moveToNavPanel('#'+context.params.nav);
+    });
+
+    this.get('#/lang/:locale', function(context){
+        $.i18nCustom.locale(context.params.locale);
+        $.i18nCustom.update();
     });
 
 
@@ -197,8 +225,6 @@ var app = $.sammy(function(){
 //        else
 //            context.app.setLocation('#question-container');
     });
-
-    console.log(window.langConfig);
 
 
     this.get('#/submission/complete', function(context){

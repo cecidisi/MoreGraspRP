@@ -75,45 +75,48 @@ module.exports = function (grunt) {
 
     // The actual grunt server settings
     connect: {
-      options: {
-        port: 9000,
-        open: true,
-        //livereload: 35729,
-        livereload: 35728,
-        // Change this to '0.0.0.0' to access the server from outside
-        hostname: 'localhost'
-      },
-      livereload: {
         options: {
-          middleware: function(connect) {
-            return [
-              connect.static('.tmp'),
-              connect().use('/bower_components', connect.static('./bower_components')),
-              connect.static(config.app),
-            ];
-          }
+            port: 9000,
+            open: true,
+            //livereload: 35729,
+            livereload: 35728,
+            // Change this to '0.0.0.0' to access the server from outside
+            hostname: 'localhost'
+        },
+        livereload: {
+            options: {
+                middleware: function(connect) {
+                    return [
+                    connect.static('.tmp'),
+                    connect().use('/bower_components', connect.static('./bower_components')),
+                    connect.static(config.app),
+                    // new
+                        connect().use('/locales/{,*/}*.{json,properties}', connect.static('<%= config.app %>/locales/{,*/}*.{json,properties}')),
+                        connect().use('/i18n/{,*/}*.json', connect.static('<%= config.app %>/i18n/{,*/}*.json')),
+                    ];
+                }
+            }
+        },
+        test: {
+            options: {
+                open: false,
+                port: 9001,
+                middleware: function(connect) {
+                    return [
+                    connect.static('.tmp'),
+                    connect.static('test'),
+                    connect().use('/bower_components', connect.static('./bower_components')),
+                    connect.static(config.app)
+                    ];
+                }
+            }
+        },
+        dist: {
+            options: {
+              base: '<%= config.dist %>',
+              livereload: false
+            }
         }
-      },
-      test: {
-        options: {
-          open: false,
-          port: 9001,
-          middleware: function(connect) {
-            return [
-              connect.static('.tmp'),
-              connect.static('test'),
-              connect().use('/bower_components', connect.static('./bower_components')),
-              connect.static(config.app)
-            ];
-          }
-        }
-      },
-      dist: {
-        options: {
-          base: '<%= config.dist %>',
-          livereload: false
-        }
-      }
     },
 
     // Empties folders to start fresh
@@ -245,7 +248,11 @@ module.exports = function (grunt) {
           options: {
           },
           files: {
-              '<%= config.app %>/index.html': ['bower_components/jquery-uploadfile/js/jquery.uploadfile.js', 'bower_components/jquery-uploadfile/css/uploadfile.css'],
+              '<%= config.app %>/index.html': [
+                  'bower_components/jquery-uploadfile/js/jquery.uploadfile.js',
+                  'bower_components/jquery-uploadfile/css/uploadfile.css',
+                  'bower_components/jquery.i18n/src/jquery.i18n.js'
+              ],
           }
       }
     },
@@ -458,6 +465,7 @@ module.exports = function (grunt) {
     grunt.task.run([
       'clean:server',
       'wiredep',
+      'injector',
       'concurrent:server',
       'autoprefixer',
       'connect:livereload',
