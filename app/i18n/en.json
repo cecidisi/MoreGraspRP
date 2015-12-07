@@ -56,7 +56,8 @@
     "mgrp-header-video-explanation": "Please upload a demo video. This will give us a better idea of your condition.",
     "mgrp-header-video-guidelines": "[Guidelines go here]",
     "mgrp-video-upload-btn-select": "Select",
-    "mgrp-video-upload-drag-and-drop-msg": "<span><b>Drag &amp; Drop Datei</b></span>",
+    "mgrp-video-upload-drag-and-drop-msg": "<span><b>Drag &amp; Drop Files</b></span>",
+    "mgrp-video-upload-btn-delete": "Delete",
 
     "mgrp-header-misc": "Miscellaneous",
     "mgrp-header-misc-short": "Miscellaneous",

@@ -221,9 +221,9 @@ th {
   .table th {
     background-color: #fff !important; }
   .btn > .caret,
-  .ajax-upload-dragdrop .ajax-file-upload > .caret,
-  .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red > .caret, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green > .caret, .ajax-file-upload-statusbar .ajax-file-upload > .caret,
-  .ajax-file-upload-statusbar .ajax-file-upload-red > .caret, .ajax-file-upload-statusbar .ajax-file-upload-green > .caret, .dropup > .btn > .caret, .ajax-upload-dragdrop .dropup > .ajax-file-upload > .caret, .ajax-file-upload-statusbar .ajax-upload-dragdrop .dropup > .ajax-file-upload-red > .caret, .ajax-file-upload-statusbar .ajax-upload-dragdrop .dropup > .ajax-file-upload-green > .caret, .ajax-file-upload-statusbar .dropup > .ajax-file-upload > .caret, .ajax-file-upload-statusbar .dropup > .ajax-file-upload-red > .caret, .ajax-file-upload-statusbar .dropup > .ajax-file-upload-green > .caret {
+  .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload > .caret,
+  .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload > .caret, .nav-panel#register .form-section .input-panel output#file-list .btn-file-output > .caret,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output > .caret, .dropup > .btn > .caret, .nav-panel#register .form-section .input-panel div#file-uploader .dropup > div.btn-file-upload > .caret, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .dropup > div.btn-file-upload > .caret, .nav-panel#register .form-section .input-panel output#file-list .dropup > .btn-file-output > .caret, .nav-panel#register .form-section .input-panel-submitted output#file-list .dropup > .btn-file-output > .caret {
     border-top-color: #000 !important; }
   .label {
     border: 1px solid #000; }
@@ -2161,38 +2161,38 @@ input[type="month"] {
   .input-group-sm > input[type="date"].form-control,
   .input-group-sm > input[type="date"].input-group-addon,
   .input-group-sm > .input-group-btn > input[type="date"].btn,
-  .ajax-upload-dragdrop .input-group-sm > .input-group-btn > input[type="date"].ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > input[type="date"].ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > input[type="date"].ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > input[type="date"].ajax-file-upload, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > input[type="date"].ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > input[type="date"].ajax-file-upload-green, input[type="time"].input-sm,
+  .nav-panel#register .form-section .input-panel output#file-list .input-group-sm > .input-group-btn > input[type="date"].btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-sm > .input-group-btn > input[type="date"].btn-file-output, input[type="time"].input-sm,
   .form-horizontal .form-group-sm input[type="time"].form-control,
   .input-group-sm > input[type="time"].form-control,
   .input-group-sm > input[type="time"].input-group-addon,
   .input-group-sm > .input-group-btn > input[type="time"].btn,
-  .ajax-upload-dragdrop .input-group-sm > .input-group-btn > input[type="time"].ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > input[type="time"].ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > input[type="time"].ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > input[type="time"].ajax-file-upload, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > input[type="time"].ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > input[type="time"].ajax-file-upload-green, input[type="datetime-local"].input-sm,
+  .nav-panel#register .form-section .input-panel output#file-list .input-group-sm > .input-group-btn > input[type="time"].btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-sm > .input-group-btn > input[type="time"].btn-file-output, input[type="datetime-local"].input-sm,
   .form-horizontal .form-group-sm input[type="datetime-local"].form-control,
   .input-group-sm > input[type="datetime-local"].form-control,
   .input-group-sm > input[type="datetime-local"].input-group-addon,
   .input-group-sm > .input-group-btn > input[type="datetime-local"].btn,
-  .ajax-upload-dragdrop .input-group-sm > .input-group-btn > input[type="datetime-local"].ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > input[type="datetime-local"].ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > input[type="datetime-local"].ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > input[type="datetime-local"].ajax-file-upload, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > input[type="datetime-local"].ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > input[type="datetime-local"].ajax-file-upload-green, input[type="month"].input-sm, .form-horizontal .form-group-sm input[type="month"].form-control, .input-group-sm > input[type="month"].form-control,
+  .nav-panel#register .form-section .input-panel output#file-list .input-group-sm > .input-group-btn > input[type="datetime-local"].btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-sm > .input-group-btn > input[type="datetime-local"].btn-file-output, input[type="month"].input-sm, .form-horizontal .form-group-sm input[type="month"].form-control, .input-group-sm > input[type="month"].form-control,
   .input-group-sm > input[type="month"].input-group-addon,
-  .input-group-sm > .input-group-btn > input[type="month"].btn, .ajax-upload-dragdrop .input-group-sm > .input-group-btn > input[type="month"].ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > input[type="month"].ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > input[type="month"].ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > input[type="month"].ajax-file-upload, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > input[type="month"].ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > input[type="month"].ajax-file-upload-green {
+  .input-group-sm > .input-group-btn > input[type="month"].btn, .nav-panel#register .form-section .input-panel output#file-list .input-group-sm > .input-group-btn > input[type="month"].btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-sm > .input-group-btn > input[type="month"].btn-file-output {
     line-height: 30px; }
   input[type="date"].input-lg,
   .form-horizontal .form-group-lg input[type="date"].form-control,
   .input-group-lg > input[type="date"].form-control,
   .input-group-lg > input[type="date"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="date"].btn,
-  .ajax-upload-dragdrop .input-group-lg > .input-group-btn > input[type="date"].ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > input[type="date"].ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > input[type="date"].ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > input[type="date"].ajax-file-upload, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > input[type="date"].ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > input[type="date"].ajax-file-upload-green, input[type="time"].input-lg,
+  .nav-panel#register .form-section .input-panel output#file-list .input-group-lg > .input-group-btn > input[type="date"].btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-lg > .input-group-btn > input[type="date"].btn-file-output, input[type="time"].input-lg,
   .form-horizontal .form-group-lg input[type="time"].form-control,
   .input-group-lg > input[type="time"].form-control,
   .input-group-lg > input[type="time"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="time"].btn,
-  .ajax-upload-dragdrop .input-group-lg > .input-group-btn > input[type="time"].ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > input[type="time"].ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > input[type="time"].ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > input[type="time"].ajax-file-upload, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > input[type="time"].ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > input[type="time"].ajax-file-upload-green, input[type="datetime-local"].input-lg,
+  .nav-panel#register .form-section .input-panel output#file-list .input-group-lg > .input-group-btn > input[type="time"].btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-lg > .input-group-btn > input[type="time"].btn-file-output, input[type="datetime-local"].input-lg,
   .form-horizontal .form-group-lg input[type="datetime-local"].form-control,
   .input-group-lg > input[type="datetime-local"].form-control,
   .input-group-lg > input[type="datetime-local"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="datetime-local"].btn,
-  .ajax-upload-dragdrop .input-group-lg > .input-group-btn > input[type="datetime-local"].ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > input[type="datetime-local"].ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > input[type="datetime-local"].ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > input[type="datetime-local"].ajax-file-upload, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > input[type="datetime-local"].ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > input[type="datetime-local"].ajax-file-upload-green, input[type="month"].input-lg, .form-horizontal .form-group-lg input[type="month"].form-control, .input-group-lg > input[type="month"].form-control,
+  .nav-panel#register .form-section .input-panel output#file-list .input-group-lg > .input-group-btn > input[type="datetime-local"].btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-lg > .input-group-btn > input[type="datetime-local"].btn-file-output, input[type="month"].input-lg, .form-horizontal .form-group-lg input[type="month"].form-control, .input-group-lg > input[type="month"].form-control,
   .input-group-lg > input[type="month"].input-group-addon,
-  .input-group-lg > .input-group-btn > input[type="month"].btn, .ajax-upload-dragdrop .input-group-lg > .input-group-btn > input[type="month"].ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > input[type="month"].ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > input[type="month"].ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > input[type="month"].ajax-file-upload, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > input[type="month"].ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > input[type="month"].ajax-file-upload-green {
+  .input-group-lg > .input-group-btn > input[type="month"].btn, .nav-panel#register .form-section .input-panel output#file-list .input-group-lg > .input-group-btn > input[type="month"].btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-lg > .input-group-btn > input[type="month"].btn-file-output {
     line-height: 46px; }
 
 .form-group {
@@ -2267,15 +2267,15 @@ fieldset[disabled] .checkbox label {
   .input-group-lg > .form-control-static.form-control,
   .input-group-lg > .form-control-static.input-group-addon,
   .input-group-lg > .input-group-btn > .form-control-static.btn,
-  .ajax-upload-dragdrop .input-group-lg > .input-group-btn > .form-control-static.ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > .form-control-static.ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > .form-control-static.ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > .form-control-static.ajax-file-upload, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > .form-control-static.ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > .form-control-static.ajax-file-upload-green, .form-control-static.input-sm, .form-horizontal .form-group-sm .form-control-static.form-control, .input-group-sm > .form-control-static.form-control,
+  .nav-panel#register .form-section .input-panel div#file-uploader .input-group-lg > .input-group-btn > div.form-control-static.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-lg > .input-group-btn > div.form-control-static.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .input-group-lg > .input-group-btn > .form-control-static.btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-lg > .input-group-btn > .form-control-static.btn-file-output, .form-control-static.input-sm, .form-horizontal .form-group-sm .form-control-static.form-control, .input-group-sm > .form-control-static.form-control,
   .input-group-sm > .form-control-static.input-group-addon,
-  .input-group-sm > .input-group-btn > .form-control-static.btn, .ajax-upload-dragdrop .input-group-sm > .input-group-btn > .form-control-static.ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > .form-control-static.ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > .form-control-static.ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > .form-control-static.ajax-file-upload, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > .form-control-static.ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > .form-control-static.ajax-file-upload-green {
+  .input-group-sm > .input-group-btn > .form-control-static.btn, .nav-panel#register .form-section .input-panel div#file-uploader .input-group-sm > .input-group-btn > div.form-control-static.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-sm > .input-group-btn > div.form-control-static.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .input-group-sm > .input-group-btn > .form-control-static.btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-sm > .input-group-btn > .form-control-static.btn-file-output {
     padding-left: 0;
     padding-right: 0; }
 
 .input-sm, .form-horizontal .form-group-sm .form-control, .input-group-sm > .form-control,
 .input-group-sm > .input-group-addon,
-.input-group-sm > .input-group-btn > .btn, .ajax-upload-dragdrop .input-group-sm > .input-group-btn > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > .ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > .ajax-file-upload, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > .ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > .ajax-file-upload-green {
+.input-group-sm > .input-group-btn > .btn, .nav-panel#register .form-section .input-panel div#file-uploader .input-group-sm > .input-group-btn > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-sm > .input-group-btn > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .input-group-sm > .input-group-btn > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-sm > .input-group-btn > .btn-file-output {
   height: 30px;
   padding: 5px 10px;
   font-size: 12px;
@@ -2284,7 +2284,7 @@ fieldset[disabled] .checkbox label {
 
 select.input-sm, .form-horizontal .form-group-sm select.form-control, .input-group-sm > select.form-control,
 .input-group-sm > select.input-group-addon,
-.input-group-sm > .input-group-btn > select.btn, .ajax-upload-dragdrop .input-group-sm > .input-group-btn > select.ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > select.ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > select.ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > select.ajax-file-upload, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > select.ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > select.ajax-file-upload-green {
+.input-group-sm > .input-group-btn > select.btn, .nav-panel#register .form-section .input-panel output#file-list .input-group-sm > .input-group-btn > select.btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-sm > .input-group-btn > select.btn-file-output {
   height: 30px;
   line-height: 30px; }
 
@@ -2293,14 +2293,14 @@ textarea.input-sm,
 .input-group-sm > textarea.form-control,
 .input-group-sm > textarea.input-group-addon,
 .input-group-sm > .input-group-btn > textarea.btn,
-.ajax-upload-dragdrop .input-group-sm > .input-group-btn > textarea.ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > textarea.ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > textarea.ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > textarea.ajax-file-upload, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > textarea.ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > textarea.ajax-file-upload-green, select[multiple].input-sm, .form-horizontal .form-group-sm select[multiple].form-control, .input-group-sm > select[multiple].form-control,
+.nav-panel#register .form-section .input-panel output#file-list .input-group-sm > .input-group-btn > textarea.btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-sm > .input-group-btn > textarea.btn-file-output, select[multiple].input-sm, .form-horizontal .form-group-sm select[multiple].form-control, .input-group-sm > select[multiple].form-control,
 .input-group-sm > select[multiple].input-group-addon,
-.input-group-sm > .input-group-btn > select[multiple].btn, .ajax-upload-dragdrop .input-group-sm > .input-group-btn > select[multiple].ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > select[multiple].ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > select[multiple].ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > select[multiple].ajax-file-upload, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > select[multiple].ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > select[multiple].ajax-file-upload-green {
+.input-group-sm > .input-group-btn > select[multiple].btn, .nav-panel#register .form-section .input-panel output#file-list .input-group-sm > .input-group-btn > select[multiple].btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-sm > .input-group-btn > select[multiple].btn-file-output {
   height: auto; }
 
 .input-lg, .form-horizontal .form-group-lg .form-control, .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
-.input-group-lg > .input-group-btn > .btn, .ajax-upload-dragdrop .input-group-lg > .input-group-btn > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > .ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > .ajax-file-upload, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > .ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > .ajax-file-upload-green {
+.input-group-lg > .input-group-btn > .btn, .nav-panel#register .form-section .input-panel div#file-uploader .input-group-lg > .input-group-btn > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-lg > .input-group-btn > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .input-group-lg > .input-group-btn > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-lg > .input-group-btn > .btn-file-output {
   height: 46px;
   padding: 10px 16px;
   font-size: 18px;
@@ -2309,7 +2309,7 @@ textarea.input-sm,
 
 select.input-lg, .form-horizontal .form-group-lg select.form-control, .input-group-lg > select.form-control,
 .input-group-lg > select.input-group-addon,
-.input-group-lg > .input-group-btn > select.btn, .ajax-upload-dragdrop .input-group-lg > .input-group-btn > select.ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > select.ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > select.ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > select.ajax-file-upload, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > select.ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > select.ajax-file-upload-green {
+.input-group-lg > .input-group-btn > select.btn, .nav-panel#register .form-section .input-panel output#file-list .input-group-lg > .input-group-btn > select.btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-lg > .input-group-btn > select.btn-file-output {
   height: 46px;
   line-height: 46px; }
 
@@ -2318,9 +2318,9 @@ textarea.input-lg,
 .input-group-lg > textarea.form-control,
 .input-group-lg > textarea.input-group-addon,
 .input-group-lg > .input-group-btn > textarea.btn,
-.ajax-upload-dragdrop .input-group-lg > .input-group-btn > textarea.ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > textarea.ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > textarea.ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > textarea.ajax-file-upload, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > textarea.ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > textarea.ajax-file-upload-green, select[multiple].input-lg, .form-horizontal .form-group-lg select[multiple].form-control, .input-group-lg > select[multiple].form-control,
+.nav-panel#register .form-section .input-panel output#file-list .input-group-lg > .input-group-btn > textarea.btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-lg > .input-group-btn > textarea.btn-file-output, select[multiple].input-lg, .form-horizontal .form-group-lg select[multiple].form-control, .input-group-lg > select[multiple].form-control,
 .input-group-lg > select[multiple].input-group-addon,
-.input-group-lg > .input-group-btn > select[multiple].btn, .ajax-upload-dragdrop .input-group-lg > .input-group-btn > select[multiple].ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > select[multiple].ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > select[multiple].ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > select[multiple].ajax-file-upload, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > select[multiple].ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > select[multiple].ajax-file-upload-green {
+.input-group-lg > .input-group-btn > select[multiple].btn, .nav-panel#register .form-section .input-panel output#file-list .input-group-lg > .input-group-btn > select[multiple].btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-lg > .input-group-btn > select[multiple].btn-file-output {
   height: auto; }
 
 .has-feedback {
@@ -2341,14 +2341,14 @@ textarea.input-lg,
 
 .input-lg + .form-control-feedback, .form-horizontal .form-group-lg .form-control + .form-control-feedback, .input-group-lg > .form-control + .form-control-feedback,
 .input-group-lg > .input-group-addon + .form-control-feedback,
-.input-group-lg > .input-group-btn > .btn + .form-control-feedback, .ajax-upload-dragdrop .input-group-lg > .input-group-btn > .ajax-file-upload + .form-control-feedback, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > .ajax-file-upload-red + .form-control-feedback, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > .ajax-file-upload-green + .form-control-feedback, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > .ajax-file-upload + .form-control-feedback, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > .ajax-file-upload-red + .form-control-feedback, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > .ajax-file-upload-green + .form-control-feedback {
+.input-group-lg > .input-group-btn > .btn + .form-control-feedback, .nav-panel#register .form-section .input-panel div#file-uploader .input-group-lg > .input-group-btn > div.btn-file-upload + .form-control-feedback, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-lg > .input-group-btn > div.btn-file-upload + .form-control-feedback, .nav-panel#register .form-section .input-panel output#file-list .input-group-lg > .input-group-btn > .btn-file-output + .form-control-feedback, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-lg > .input-group-btn > .btn-file-output + .form-control-feedback {
   width: 46px;
   height: 46px;
   line-height: 46px; }
 
 .input-sm + .form-control-feedback, .form-horizontal .form-group-sm .form-control + .form-control-feedback, .input-group-sm > .form-control + .form-control-feedback,
 .input-group-sm > .input-group-addon + .form-control-feedback,
-.input-group-sm > .input-group-btn > .btn + .form-control-feedback, .ajax-upload-dragdrop .input-group-sm > .input-group-btn > .ajax-file-upload + .form-control-feedback, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > .ajax-file-upload-red + .form-control-feedback, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > .ajax-file-upload-green + .form-control-feedback, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > .ajax-file-upload + .form-control-feedback, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > .ajax-file-upload-red + .form-control-feedback, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > .ajax-file-upload-green + .form-control-feedback {
+.input-group-sm > .input-group-btn > .btn + .form-control-feedback, .nav-panel#register .form-section .input-panel div#file-uploader .input-group-sm > .input-group-btn > div.btn-file-upload + .form-control-feedback, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-sm > .input-group-btn > div.btn-file-upload + .form-control-feedback, .nav-panel#register .form-section .input-panel output#file-list .input-group-sm > .input-group-btn > .btn-file-output + .form-control-feedback, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-sm > .input-group-btn > .btn-file-output + .form-control-feedback {
   width: 30px;
   height: 30px;
   line-height: 30px; }
@@ -2519,7 +2519,7 @@ textarea.input-lg,
   .form-horizontal .form-group-sm .control-label {
     padding-top: 6px; } }
 
-.btn, .ajax-upload-dragdrop .ajax-file-upload, .ajax-file-upload-statusbar .ajax-file-upload, .ajax-file-upload-statusbar .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-file-upload-green {
+.btn, .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output {
   display: inline-block;
   margin-bottom: 0;
   font-weight: normal;
@@ -2538,36 +2538,36 @@ textarea.input-lg,
   -ms-user-select: none;
   user-select: none; }
   .btn:focus,
-  .ajax-upload-dragdrop .ajax-file-upload:focus,
-  .ajax-file-upload-statusbar .ajax-file-upload:focus,
-  .ajax-file-upload-statusbar .ajax-file-upload-red:focus, .ajax-file-upload-statusbar .ajax-file-upload-green:focus, .btn:active:focus,
-  .ajax-upload-dragdrop .ajax-file-upload:active:focus,
-  .ajax-file-upload-statusbar .ajax-file-upload:active:focus,
-  .ajax-file-upload-statusbar .ajax-file-upload-red:active:focus, .ajax-file-upload-statusbar .ajax-file-upload-green:active:focus, .btn.active:focus, .ajax-upload-dragdrop .active.ajax-file-upload:focus, .ajax-file-upload-statusbar .active.ajax-file-upload:focus, .ajax-file-upload-statusbar .active.ajax-file-upload-red:focus, .ajax-file-upload-statusbar .active.ajax-file-upload-green:focus {
+  .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload:focus,
+  .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload:focus, .nav-panel#register .form-section .input-panel output#file-list .btn-file-output:focus,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output:focus, .btn:active:focus,
+  .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload:active:focus,
+  .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload:active:focus, .nav-panel#register .form-section .input-panel output#file-list .btn-file-output:active:focus,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output:active:focus, .btn.active:focus, .nav-panel#register .form-section .input-panel div#file-uploader div.active.btn-file-upload:focus, .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.active.btn-file-upload:focus, .nav-panel#register .form-section .input-panel output#file-list .active.btn-file-output:focus, .nav-panel#register .form-section .input-panel-submitted output#file-list .active.btn-file-output:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
   .btn:hover,
-  .ajax-upload-dragdrop .ajax-file-upload:hover,
-  .ajax-file-upload-statusbar .ajax-file-upload:hover,
-  .ajax-file-upload-statusbar .ajax-file-upload-red:hover, .ajax-file-upload-statusbar .ajax-file-upload-green:hover, .btn:focus, .ajax-upload-dragdrop .ajax-file-upload:focus, .ajax-file-upload-statusbar .ajax-file-upload:focus, .ajax-file-upload-statusbar .ajax-file-upload-red:focus, .ajax-file-upload-statusbar .ajax-file-upload-green:focus {
+  .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload:hover,
+  .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload:hover, .nav-panel#register .form-section .input-panel output#file-list .btn-file-output:hover,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output:hover, .btn:focus, .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload:focus, .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload:focus, .nav-panel#register .form-section .input-panel output#file-list .btn-file-output:focus, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output:focus {
     color: #333;
     text-decoration: none; }
   .btn:active,
-  .ajax-upload-dragdrop .ajax-file-upload:active,
-  .ajax-file-upload-statusbar .ajax-file-upload:active,
-  .ajax-file-upload-statusbar .ajax-file-upload-red:active, .ajax-file-upload-statusbar .ajax-file-upload-green:active, .btn.active, .ajax-upload-dragdrop .active.ajax-file-upload, .ajax-file-upload-statusbar .active.ajax-file-upload, .ajax-file-upload-statusbar .active.ajax-file-upload-red, .ajax-file-upload-statusbar .active.ajax-file-upload-green {
+  .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload:active,
+  .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload:active, .nav-panel#register .form-section .input-panel output#file-list .btn-file-output:active,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output:active, .btn.active, .nav-panel#register .form-section .input-panel div#file-uploader div.active.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.active.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .active.btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .active.btn-file-output {
     outline: 0;
     background-image: none;
     -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
   .btn.disabled,
-  .ajax-upload-dragdrop .disabled.ajax-file-upload,
-  .ajax-file-upload-statusbar .disabled.ajax-file-upload,
-  .ajax-file-upload-statusbar .disabled.ajax-file-upload-red, .ajax-file-upload-statusbar .disabled.ajax-file-upload-green, .btn[disabled],
-  .ajax-upload-dragdrop [disabled].ajax-file-upload,
-  .ajax-file-upload-statusbar [disabled].ajax-file-upload,
-  .ajax-file-upload-statusbar [disabled].ajax-file-upload-red, .ajax-file-upload-statusbar [disabled].ajax-file-upload-green, fieldset[disabled] .btn, fieldset[disabled] .ajax-upload-dragdrop .ajax-file-upload, .ajax-upload-dragdrop fieldset[disabled] .ajax-file-upload, fieldset[disabled] .ajax-file-upload-statusbar .ajax-file-upload, .ajax-file-upload-statusbar fieldset[disabled] .ajax-file-upload, fieldset[disabled] .ajax-file-upload-statusbar .ajax-file-upload-red, .ajax-file-upload-statusbar fieldset[disabled] .ajax-file-upload-red, fieldset[disabled] .ajax-file-upload-statusbar .ajax-file-upload-green, .ajax-file-upload-statusbar fieldset[disabled] .ajax-file-upload-green {
+  .nav-panel#register .form-section .input-panel div#file-uploader div.disabled.btn-file-upload,
+  .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.disabled.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .disabled.btn-file-output,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list .disabled.btn-file-output, .btn[disabled],
+  .nav-panel#register .form-section .input-panel div#file-uploader div[disabled].btn-file-upload,
+  .nav-panel#register .form-section .input-panel-submitted div#file-uploader div[disabled].btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list [disabled].btn-file-output,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list [disabled].btn-file-output, fieldset[disabled] .btn, fieldset[disabled] .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload, .nav-panel#register .form-section .input-panel div#file-uploader fieldset[disabled] div.btn-file-upload, fieldset[disabled] .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader fieldset[disabled] div.btn-file-upload, fieldset[disabled] .nav-panel#register .form-section .input-panel output#file-list .btn-file-output, .nav-panel#register .form-section .input-panel output#file-list fieldset[disabled] .btn-file-output, fieldset[disabled] .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list fieldset[disabled] .btn-file-output {
     cursor: not-allowed;
     pointer-events: none;
     opacity: 0.65;
@@ -2649,60 +2649,40 @@ textarea.input-lg,
     color: #428bca;
     background-color: #fff; }
 
-.btn-success, .ajax-file-upload-statusbar .ajax-file-upload-green {
+.btn-success {
   color: #fff;
   background-color: #5cb85c;
   border-color: #4cae4c; }
   .btn-success:hover,
-  .ajax-file-upload-statusbar .ajax-file-upload-green:hover,
   .btn-success:focus,
-  .ajax-file-upload-statusbar .ajax-file-upload-green:focus,
   .btn-success:active,
-  .ajax-file-upload-statusbar .ajax-file-upload-green:active,
   .btn-success.active,
-  .ajax-file-upload-statusbar .active.ajax-file-upload-green,
-  .open > .btn-success.dropdown-toggle, .ajax-file-upload-statusbar .open > .dropdown-toggle.ajax-file-upload-green {
+  .open > .btn-success.dropdown-toggle {
     color: #fff;
     background-color: #449d44;
     border-color: #398439; }
   .btn-success:active,
-  .ajax-file-upload-statusbar .ajax-file-upload-green:active,
   .btn-success.active,
-  .ajax-file-upload-statusbar .active.ajax-file-upload-green,
-  .open > .btn-success.dropdown-toggle, .ajax-file-upload-statusbar .open > .dropdown-toggle.ajax-file-upload-green {
+  .open > .btn-success.dropdown-toggle {
     background-image: none; }
   .btn-success.disabled,
-  .ajax-file-upload-statusbar .disabled.ajax-file-upload-green,
   .btn-success.disabled:hover,
-  .ajax-file-upload-statusbar .disabled.ajax-file-upload-green:hover,
   .btn-success.disabled:focus,
-  .ajax-file-upload-statusbar .disabled.ajax-file-upload-green:focus,
   .btn-success.disabled:active,
-  .ajax-file-upload-statusbar .disabled.ajax-file-upload-green:active,
   .btn-success.disabled.active,
-  .ajax-file-upload-statusbar .disabled.active.ajax-file-upload-green,
   .btn-success[disabled],
-  .ajax-file-upload-statusbar [disabled].ajax-file-upload-green,
   .btn-success[disabled]:hover,
-  .ajax-file-upload-statusbar [disabled].ajax-file-upload-green:hover,
   .btn-success[disabled]:focus,
-  .ajax-file-upload-statusbar [disabled].ajax-file-upload-green:focus,
   .btn-success[disabled]:active,
-  .ajax-file-upload-statusbar [disabled].ajax-file-upload-green:active,
   .btn-success[disabled].active,
-  .ajax-file-upload-statusbar [disabled].active.ajax-file-upload-green,
   fieldset[disabled] .btn-success,
-  fieldset[disabled] .ajax-file-upload-statusbar .ajax-file-upload-green,
-  .ajax-file-upload-statusbar fieldset[disabled] .ajax-file-upload-green, fieldset[disabled] .btn-success:hover,
-  fieldset[disabled] .ajax-file-upload-statusbar .ajax-file-upload-green:hover,
-  .ajax-file-upload-statusbar fieldset[disabled] .ajax-file-upload-green:hover, fieldset[disabled] .btn-success:focus,
-  fieldset[disabled] .ajax-file-upload-statusbar .ajax-file-upload-green:focus,
-  .ajax-file-upload-statusbar fieldset[disabled] .ajax-file-upload-green:focus, fieldset[disabled] .btn-success:active,
-  fieldset[disabled] .ajax-file-upload-statusbar .ajax-file-upload-green:active,
-  .ajax-file-upload-statusbar fieldset[disabled] .ajax-file-upload-green:active, fieldset[disabled] .btn-success.active, fieldset[disabled] .ajax-file-upload-statusbar .active.ajax-file-upload-green, .ajax-file-upload-statusbar fieldset[disabled] .active.ajax-file-upload-green {
+  fieldset[disabled] .btn-success:hover,
+  fieldset[disabled] .btn-success:focus,
+  fieldset[disabled] .btn-success:active,
+  fieldset[disabled] .btn-success.active {
     background-color: #5cb85c;
     border-color: #4cae4c; }
-  .btn-success .badge, .ajax-file-upload-statusbar .ajax-file-upload-green .badge {
+  .btn-success .badge {
     color: #5cb85c;
     background-color: #fff; }
 
@@ -2780,60 +2760,64 @@ textarea.input-lg,
     color: #f0ad4e;
     background-color: #fff; }
 
-.btn-danger, .ajax-file-upload-statusbar .ajax-file-upload-red {
+.btn-danger, .nav-panel#register .form-section .input-panel output#file-list .btn-file-output.red, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output.red {
   color: #fff;
   background-color: #d9534f;
   border-color: #d43f3a; }
   .btn-danger:hover,
-  .ajax-file-upload-statusbar .ajax-file-upload-red:hover,
-  .btn-danger:focus,
-  .ajax-file-upload-statusbar .ajax-file-upload-red:focus,
-  .btn-danger:active,
-  .ajax-file-upload-statusbar .ajax-file-upload-red:active,
-  .btn-danger.active,
-  .ajax-file-upload-statusbar .active.ajax-file-upload-red,
-  .open > .btn-danger.dropdown-toggle, .ajax-file-upload-statusbar .open > .dropdown-toggle.ajax-file-upload-red {
+  .nav-panel#register .form-section .input-panel output#file-list .btn-file-output.red:hover,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output.red:hover, .btn-danger:focus,
+  .nav-panel#register .form-section .input-panel output#file-list .btn-file-output.red:focus,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output.red:focus, .btn-danger:active,
+  .nav-panel#register .form-section .input-panel output#file-list .btn-file-output.red:active,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output.red:active, .btn-danger.active,
+  .nav-panel#register .form-section .input-panel output#file-list .active.btn-file-output.red,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list .active.btn-file-output.red, .open > .btn-danger.dropdown-toggle, .nav-panel#register .form-section .input-panel output#file-list .open > .dropdown-toggle.btn-file-output.red, .nav-panel#register .form-section .input-panel-submitted output#file-list .open > .dropdown-toggle.btn-file-output.red {
     color: #fff;
     background-color: #c9302c;
     border-color: #ac2925; }
   .btn-danger:active,
-  .ajax-file-upload-statusbar .ajax-file-upload-red:active,
-  .btn-danger.active,
-  .ajax-file-upload-statusbar .active.ajax-file-upload-red,
-  .open > .btn-danger.dropdown-toggle, .ajax-file-upload-statusbar .open > .dropdown-toggle.ajax-file-upload-red {
+  .nav-panel#register .form-section .input-panel output#file-list .btn-file-output.red:active,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output.red:active, .btn-danger.active,
+  .nav-panel#register .form-section .input-panel output#file-list .active.btn-file-output.red,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list .active.btn-file-output.red, .open > .btn-danger.dropdown-toggle, .nav-panel#register .form-section .input-panel output#file-list .open > .dropdown-toggle.btn-file-output.red, .nav-panel#register .form-section .input-panel-submitted output#file-list .open > .dropdown-toggle.btn-file-output.red {
     background-image: none; }
   .btn-danger.disabled,
-  .ajax-file-upload-statusbar .disabled.ajax-file-upload-red,
-  .btn-danger.disabled:hover,
-  .ajax-file-upload-statusbar .disabled.ajax-file-upload-red:hover,
-  .btn-danger.disabled:focus,
-  .ajax-file-upload-statusbar .disabled.ajax-file-upload-red:focus,
-  .btn-danger.disabled:active,
-  .ajax-file-upload-statusbar .disabled.ajax-file-upload-red:active,
-  .btn-danger.disabled.active,
-  .ajax-file-upload-statusbar .disabled.active.ajax-file-upload-red,
-  .btn-danger[disabled],
-  .ajax-file-upload-statusbar [disabled].ajax-file-upload-red,
-  .btn-danger[disabled]:hover,
-  .ajax-file-upload-statusbar [disabled].ajax-file-upload-red:hover,
-  .btn-danger[disabled]:focus,
-  .ajax-file-upload-statusbar [disabled].ajax-file-upload-red:focus,
-  .btn-danger[disabled]:active,
-  .ajax-file-upload-statusbar [disabled].ajax-file-upload-red:active,
-  .btn-danger[disabled].active,
-  .ajax-file-upload-statusbar [disabled].active.ajax-file-upload-red,
-  fieldset[disabled] .btn-danger,
-  fieldset[disabled] .ajax-file-upload-statusbar .ajax-file-upload-red,
-  .ajax-file-upload-statusbar fieldset[disabled] .ajax-file-upload-red, fieldset[disabled] .btn-danger:hover,
-  fieldset[disabled] .ajax-file-upload-statusbar .ajax-file-upload-red:hover,
-  .ajax-file-upload-statusbar fieldset[disabled] .ajax-file-upload-red:hover, fieldset[disabled] .btn-danger:focus,
-  fieldset[disabled] .ajax-file-upload-statusbar .ajax-file-upload-red:focus,
-  .ajax-file-upload-statusbar fieldset[disabled] .ajax-file-upload-red:focus, fieldset[disabled] .btn-danger:active,
-  fieldset[disabled] .ajax-file-upload-statusbar .ajax-file-upload-red:active,
-  .ajax-file-upload-statusbar fieldset[disabled] .ajax-file-upload-red:active, fieldset[disabled] .btn-danger.active, fieldset[disabled] .ajax-file-upload-statusbar .active.ajax-file-upload-red, .ajax-file-upload-statusbar fieldset[disabled] .active.ajax-file-upload-red {
+  .nav-panel#register .form-section .input-panel output#file-list .disabled.btn-file-output.red,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list .disabled.btn-file-output.red, .btn-danger.disabled:hover,
+  .nav-panel#register .form-section .input-panel output#file-list .disabled.btn-file-output.red:hover,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list .disabled.btn-file-output.red:hover, .btn-danger.disabled:focus,
+  .nav-panel#register .form-section .input-panel output#file-list .disabled.btn-file-output.red:focus,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list .disabled.btn-file-output.red:focus, .btn-danger.disabled:active,
+  .nav-panel#register .form-section .input-panel output#file-list .disabled.btn-file-output.red:active,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list .disabled.btn-file-output.red:active, .btn-danger.disabled.active,
+  .nav-panel#register .form-section .input-panel output#file-list .disabled.active.btn-file-output.red,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list .disabled.active.btn-file-output.red, .btn-danger[disabled],
+  .nav-panel#register .form-section .input-panel output#file-list [disabled].btn-file-output.red,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list [disabled].btn-file-output.red, .btn-danger[disabled]:hover,
+  .nav-panel#register .form-section .input-panel output#file-list [disabled].btn-file-output.red:hover,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list [disabled].btn-file-output.red:hover, .btn-danger[disabled]:focus,
+  .nav-panel#register .form-section .input-panel output#file-list [disabled].btn-file-output.red:focus,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list [disabled].btn-file-output.red:focus, .btn-danger[disabled]:active,
+  .nav-panel#register .form-section .input-panel output#file-list [disabled].btn-file-output.red:active,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list [disabled].btn-file-output.red:active, .btn-danger[disabled].active,
+  .nav-panel#register .form-section .input-panel output#file-list [disabled].active.btn-file-output.red,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list [disabled].active.btn-file-output.red, fieldset[disabled] .btn-danger,
+  fieldset[disabled] .nav-panel#register .form-section .input-panel output#file-list .btn-file-output.red,
+  .nav-panel#register .form-section .input-panel output#file-list fieldset[disabled] .btn-file-output.red, fieldset[disabled] .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output.red,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list fieldset[disabled] .btn-file-output.red, fieldset[disabled] .btn-danger:hover,
+  fieldset[disabled] .nav-panel#register .form-section .input-panel output#file-list .btn-file-output.red:hover,
+  .nav-panel#register .form-section .input-panel output#file-list fieldset[disabled] .btn-file-output.red:hover, fieldset[disabled] .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output.red:hover,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list fieldset[disabled] .btn-file-output.red:hover, fieldset[disabled] .btn-danger:focus,
+  fieldset[disabled] .nav-panel#register .form-section .input-panel output#file-list .btn-file-output.red:focus,
+  .nav-panel#register .form-section .input-panel output#file-list fieldset[disabled] .btn-file-output.red:focus, fieldset[disabled] .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output.red:focus,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list fieldset[disabled] .btn-file-output.red:focus, fieldset[disabled] .btn-danger:active,
+  fieldset[disabled] .nav-panel#register .form-section .input-panel output#file-list .btn-file-output.red:active,
+  .nav-panel#register .form-section .input-panel output#file-list fieldset[disabled] .btn-file-output.red:active, fieldset[disabled] .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output.red:active,
+  .nav-panel#register .form-section .input-panel-submitted output#file-list fieldset[disabled] .btn-file-output.red:active, fieldset[disabled] .btn-danger.active, fieldset[disabled] .nav-panel#register .form-section .input-panel output#file-list .active.btn-file-output.red, .nav-panel#register .form-section .input-panel output#file-list fieldset[disabled] .active.btn-file-output.red, fieldset[disabled] .nav-panel#register .form-section .input-panel-submitted output#file-list .active.btn-file-output.red, .nav-panel#register .form-section .input-panel-submitted output#file-list fieldset[disabled] .active.btn-file-output.red {
     background-color: #d9534f;
     border-color: #d43f3a; }
-  .btn-danger .badge, .ajax-file-upload-statusbar .ajax-file-upload-red .badge {
+  .btn-danger .badge, .nav-panel#register .form-section .input-panel output#file-list .btn-file-output.red .badge, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output.red .badge {
     color: #d9534f;
     background-color: #fff; }
 
@@ -2866,19 +2850,19 @@ textarea.input-lg,
     color: #777777;
     text-decoration: none; }
 
-.btn-lg, .btn-group-lg > .btn, .ajax-upload-dragdrop .btn-group-lg > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-lg > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-lg > .ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group-lg > .ajax-file-upload, .ajax-file-upload-statusbar .btn-group-lg > .ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group-lg > .ajax-file-upload-green {
+.btn-lg, .btn-group-lg > .btn, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-lg > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-lg > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .btn-group-lg > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-lg > .btn-file-output {
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33;
   border-radius: 6px; }
 
-.btn-sm, .btn-group-sm > .btn, .ajax-upload-dragdrop .btn-group-sm > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-sm > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-sm > .ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group-sm > .ajax-file-upload, .ajax-file-upload-statusbar .btn-group-sm > .ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group-sm > .ajax-file-upload-green {
+.btn-sm, .btn-group-sm > .btn, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-sm > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-sm > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .btn-group-sm > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-sm > .btn-file-output {
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 3px; }
 
-.btn-xs, .btn-group-xs > .btn, .ajax-upload-dragdrop .btn-group-xs > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-file-upload, .ajax-file-upload-statusbar .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-file-upload-green {
+.btn-xs, .btn-group-xs > .btn, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-xs > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-xs > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output {
   padding: 1px 5px;
   font-size: 12px;
   line-height: 1.5;
@@ -3063,68 +3047,54 @@ tbody.collapse.in {
   display: inline-block;
   vertical-align: middle; }
   .btn-group > .btn,
-  .ajax-upload-dragdrop .btn-group > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-green, .btn-group-vertical > .btn, .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-green {
+  .nav-panel#register .form-section .input-panel div#file-uploader .btn-group > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .btn-group > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group > .btn-file-output, .btn-group-vertical > .btn, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .btn-file-output {
     position: relative;
     float: left; }
     .btn-group > .btn:hover,
-    .ajax-upload-dragdrop .btn-group > .ajax-file-upload:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-red:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-green:hover, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload:hover, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-red:hover, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-green:hover, .btn-group > .btn:focus,
-    .ajax-upload-dragdrop .btn-group > .ajax-file-upload:focus, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-red:focus, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-green:focus, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload:focus, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-red:focus, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-green:focus, .btn-group > .btn:active,
-    .ajax-upload-dragdrop .btn-group > .ajax-file-upload:active, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-red:active, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-green:active, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload:active, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-red:active, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-green:active, .btn-group > .btn.active,
-    .ajax-upload-dragdrop .btn-group > .active.ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .active.ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .active.ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group > .active.ajax-file-upload, .ajax-file-upload-statusbar .btn-group > .active.ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group > .active.ajax-file-upload-green, .btn-group-vertical > .btn:hover,
-    .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-red:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-green:hover, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload:hover, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-red:hover, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-green:hover, .btn-group-vertical > .btn:focus,
-    .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload:focus, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-red:focus, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-green:focus, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload:focus, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-red:focus, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-green:focus, .btn-group-vertical > .btn:active,
-    .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload:active, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-red:active, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-green:active, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload:active, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-red:active, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-green:active, .btn-group-vertical > .btn.active, .ajax-upload-dragdrop .btn-group-vertical > .active.ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .active.ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .active.ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group-vertical > .active.ajax-file-upload, .ajax-file-upload-statusbar .btn-group-vertical > .active.ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group-vertical > .active.ajax-file-upload-green {
+    .nav-panel#register .form-section .input-panel div#file-uploader .btn-group > div.btn-file-upload:hover, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group > div.btn-file-upload:hover, .nav-panel#register .form-section .input-panel output#file-list .btn-group > .btn-file-output:hover, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group > .btn-file-output:hover, .btn-group > .btn:focus,
+    .nav-panel#register .form-section .input-panel div#file-uploader .btn-group > div.btn-file-upload:focus, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group > div.btn-file-upload:focus, .nav-panel#register .form-section .input-panel output#file-list .btn-group > .btn-file-output:focus, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group > .btn-file-output:focus, .btn-group > .btn:active,
+    .nav-panel#register .form-section .input-panel div#file-uploader .btn-group > div.btn-file-upload:active, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group > div.btn-file-upload:active, .nav-panel#register .form-section .input-panel output#file-list .btn-group > .btn-file-output:active, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group > .btn-file-output:active, .btn-group > .btn.active,
+    .nav-panel#register .form-section .input-panel div#file-uploader .btn-group > div.active.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group > div.active.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .btn-group > .active.btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group > .active.btn-file-output, .btn-group-vertical > .btn:hover,
+    .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > div.btn-file-upload:hover, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > div.btn-file-upload:hover, .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .btn-file-output:hover, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .btn-file-output:hover, .btn-group-vertical > .btn:focus,
+    .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > div.btn-file-upload:focus, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > div.btn-file-upload:focus, .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .btn-file-output:focus, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .btn-file-output:focus, .btn-group-vertical > .btn:active,
+    .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > div.btn-file-upload:active, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > div.btn-file-upload:active, .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .btn-file-output:active, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .btn-file-output:active, .btn-group-vertical > .btn.active, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > div.active.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > div.active.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .active.btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .active.btn-file-output {
       z-index: 2; }
     .btn-group > .btn:focus,
-    .ajax-upload-dragdrop .btn-group > .ajax-file-upload:focus, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-red:focus, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-green:focus, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload:focus, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-red:focus, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-green:focus, .btn-group-vertical > .btn:focus, .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload:focus, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-red:focus, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-green:focus, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload:focus, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-red:focus, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-green:focus {
+    .nav-panel#register .form-section .input-panel div#file-uploader .btn-group > div.btn-file-upload:focus, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group > div.btn-file-upload:focus, .nav-panel#register .form-section .input-panel output#file-list .btn-group > .btn-file-output:focus, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group > .btn-file-output:focus, .btn-group-vertical > .btn:focus, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > div.btn-file-upload:focus, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > div.btn-file-upload:focus, .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .btn-file-output:focus, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .btn-file-output:focus {
       outline: 0; }
 
 .btn-group .btn + .btn,
-.btn-group .ajax-upload-dragdrop .ajax-file-upload + .btn,
-.ajax-upload-dragdrop .btn-group .ajax-file-upload + .btn, .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red + .btn,
-.btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green + .btn,
-.btn-group .ajax-file-upload-statusbar .ajax-file-upload + .btn,
-.ajax-file-upload-statusbar .btn-group .ajax-file-upload + .btn, .btn-group .ajax-file-upload-statusbar .ajax-file-upload-red + .btn,
-.ajax-file-upload-statusbar .btn-group .ajax-file-upload-red + .btn, .btn-group .ajax-file-upload-statusbar .ajax-file-upload-green + .btn,
-.ajax-file-upload-statusbar .btn-group .ajax-file-upload-green + .btn, .btn-group .ajax-upload-dragdrop .btn + .ajax-file-upload,
-.ajax-upload-dragdrop .btn-group .btn + .ajax-file-upload, .btn-group .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload,
-.ajax-upload-dragdrop .btn-group .ajax-file-upload + .ajax-file-upload, .ajax-file-upload-statusbar .btn-group .ajax-upload-dragdrop .ajax-file-upload-red + .ajax-file-upload, .ajax-file-upload-statusbar .btn-group .ajax-upload-dragdrop .ajax-file-upload-green + .ajax-file-upload, .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn + .ajax-file-upload-red,
-.btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload-red,
-.ajax-file-upload-statusbar .btn-group .ajax-upload-dragdrop .ajax-file-upload-red + .ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group .ajax-upload-dragdrop .ajax-file-upload-green + .ajax-file-upload-red, .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn + .ajax-file-upload-green,
-.btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload-green,
-.ajax-file-upload-statusbar .btn-group .ajax-upload-dragdrop .ajax-file-upload-red + .ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group .ajax-upload-dragdrop .ajax-file-upload-green + .ajax-file-upload-green, .btn-group .ajax-file-upload-statusbar .btn + .ajax-file-upload,
-.ajax-file-upload-statusbar .btn-group .btn + .ajax-file-upload, .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red + .ajax-file-upload,
-.btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green + .ajax-file-upload,
-.btn-group .ajax-file-upload-statusbar .ajax-file-upload + .ajax-file-upload,
-.ajax-file-upload-statusbar .btn-group .ajax-file-upload + .ajax-file-upload, .btn-group .ajax-file-upload-statusbar .ajax-file-upload-red + .ajax-file-upload,
-.ajax-file-upload-statusbar .btn-group .ajax-file-upload-red + .ajax-file-upload, .btn-group .ajax-file-upload-statusbar .ajax-file-upload-green + .ajax-file-upload,
-.ajax-file-upload-statusbar .btn-group .ajax-file-upload-green + .ajax-file-upload, .btn-group .ajax-file-upload-statusbar .btn + .ajax-file-upload-red,
-.ajax-file-upload-statusbar .btn-group .btn + .ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload-red, .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red + .ajax-file-upload-red,
-.btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green + .ajax-file-upload-red,
-.btn-group .ajax-file-upload-statusbar .ajax-file-upload + .ajax-file-upload-red,
-.ajax-file-upload-statusbar .btn-group .ajax-file-upload + .ajax-file-upload-red, .btn-group .ajax-file-upload-statusbar .ajax-file-upload-red + .ajax-file-upload-red,
-.ajax-file-upload-statusbar .btn-group .ajax-file-upload-red + .ajax-file-upload-red, .btn-group .ajax-file-upload-statusbar .ajax-file-upload-green + .ajax-file-upload-red,
-.ajax-file-upload-statusbar .btn-group .ajax-file-upload-green + .ajax-file-upload-red, .btn-group .ajax-file-upload-statusbar .btn + .ajax-file-upload-green,
-.ajax-file-upload-statusbar .btn-group .btn + .ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload-green, .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red + .ajax-file-upload-green,
-.btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green + .ajax-file-upload-green,
-.btn-group .ajax-file-upload-statusbar .ajax-file-upload + .ajax-file-upload-green,
-.ajax-file-upload-statusbar .btn-group .ajax-file-upload + .ajax-file-upload-green, .btn-group .ajax-file-upload-statusbar .ajax-file-upload-red + .ajax-file-upload-green,
-.ajax-file-upload-statusbar .btn-group .ajax-file-upload-red + .ajax-file-upload-green, .btn-group .ajax-file-upload-statusbar .ajax-file-upload-green + .ajax-file-upload-green,
-.ajax-file-upload-statusbar .btn-group .ajax-file-upload-green + .ajax-file-upload-green, .btn-group .btn + .btn-group,
-.btn-group .ajax-upload-dragdrop .ajax-file-upload + .btn-group,
-.ajax-upload-dragdrop .btn-group .ajax-file-upload + .btn-group, .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red + .btn-group,
-.btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green + .btn-group,
-.btn-group .ajax-file-upload-statusbar .ajax-file-upload + .btn-group,
-.ajax-file-upload-statusbar .btn-group .ajax-file-upload + .btn-group, .btn-group .ajax-file-upload-statusbar .ajax-file-upload-red + .btn-group,
-.ajax-file-upload-statusbar .btn-group .ajax-file-upload-red + .btn-group, .btn-group .ajax-file-upload-statusbar .ajax-file-upload-green + .btn-group,
-.ajax-file-upload-statusbar .btn-group .ajax-file-upload-green + .btn-group, .btn-group .btn-group + .btn,
-.btn-group .ajax-upload-dragdrop .btn-group + .ajax-file-upload,
-.ajax-upload-dragdrop .btn-group .btn-group + .ajax-file-upload, .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group + .ajax-file-upload-red,
-.btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group + .ajax-file-upload-green,
-.btn-group .ajax-file-upload-statusbar .btn-group + .ajax-file-upload,
-.ajax-file-upload-statusbar .btn-group .btn-group + .ajax-file-upload, .btn-group .ajax-file-upload-statusbar .btn-group + .ajax-file-upload-red,
-.ajax-file-upload-statusbar .btn-group .btn-group + .ajax-file-upload-red, .btn-group .ajax-file-upload-statusbar .btn-group + .ajax-file-upload-green,
-.ajax-file-upload-statusbar .btn-group .btn-group + .ajax-file-upload-green, .btn-group .btn-group + .btn-group {
+.btn-group .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload + .btn,
+.nav-panel#register .form-section .input-panel div#file-uploader .btn-group div.btn-file-upload + .btn, .btn-group .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload + .btn,
+.nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group div.btn-file-upload + .btn, .btn-group .nav-panel#register .form-section .input-panel output#file-list .btn-file-output + .btn,
+.nav-panel#register .form-section .input-panel output#file-list .btn-group .btn-file-output + .btn, .btn-group .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output + .btn,
+.nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group .btn-file-output + .btn, .btn-group .nav-panel#register .form-section .input-panel div#file-uploader .btn + div.btn-file-upload,
+.nav-panel#register .form-section .input-panel div#file-uploader .btn-group .btn + div.btn-file-upload, .btn-group .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload + div.btn-file-upload,
+.nav-panel#register .form-section .input-panel div#file-uploader .btn-group div.btn-file-upload + div.btn-file-upload, .btn-group .nav-panel#register .form-section .input-panel output#file-list div#file-uploader .btn-file-output + div.btn-file-upload,
+.btn-group .nav-panel#register .form-section .input-panel div#file-uploader output#file-list .btn-file-output + div.btn-file-upload,
+.nav-panel#register .form-section .input-panel output#file-list .btn-group div#file-uploader .btn-file-output + div.btn-file-upload, .nav-panel#register .form-section .input-panel div#file-uploader output#file-list .btn-group .btn-file-output + div.btn-file-upload, .btn-group .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn + div.btn-file-upload,
+.nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group .btn + div.btn-file-upload, .btn-group .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload + div.btn-file-upload,
+.nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group div.btn-file-upload + div.btn-file-upload, .btn-group .nav-panel#register .form-section .input-panel-submitted output#file-list div#file-uploader .btn-file-output + div.btn-file-upload,
+.btn-group .nav-panel#register .form-section .input-panel-submitted div#file-uploader output#file-list .btn-file-output + div.btn-file-upload,
+.nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group div#file-uploader .btn-file-output + div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader output#file-list .btn-group .btn-file-output + div.btn-file-upload, .btn-group .nav-panel#register .form-section .input-panel output#file-list .btn + .btn-file-output,
+.nav-panel#register .form-section .input-panel output#file-list .btn-group .btn + .btn-file-output, .btn-group .nav-panel#register .form-section .input-panel div#file-uploader output#file-list div.btn-file-upload + .btn-file-output,
+.btn-group .nav-panel#register .form-section .input-panel output#file-list div#file-uploader div.btn-file-upload + .btn-file-output,
+.nav-panel#register .form-section .input-panel div#file-uploader .btn-group output#file-list div.btn-file-upload + .btn-file-output, .nav-panel#register .form-section .input-panel output#file-list div#file-uploader .btn-group div.btn-file-upload + .btn-file-output, .btn-group .nav-panel#register .form-section .input-panel output#file-list .btn-file-output + .btn-file-output,
+.nav-panel#register .form-section .input-panel output#file-list .btn-group .btn-file-output + .btn-file-output, .btn-group .nav-panel#register .form-section .input-panel-submitted output#file-list .btn + .btn-file-output,
+.nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group .btn + .btn-file-output, .btn-group .nav-panel#register .form-section .input-panel-submitted div#file-uploader output#file-list div.btn-file-upload + .btn-file-output,
+.btn-group .nav-panel#register .form-section .input-panel-submitted output#file-list div#file-uploader div.btn-file-upload + .btn-file-output,
+.nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group output#file-list div.btn-file-upload + .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list div#file-uploader .btn-group div.btn-file-upload + .btn-file-output, .btn-group .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output + .btn-file-output,
+.nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group .btn-file-output + .btn-file-output, .btn-group .btn + .btn-group,
+.btn-group .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload + .btn-group,
+.nav-panel#register .form-section .input-panel div#file-uploader .btn-group div.btn-file-upload + .btn-group, .btn-group .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload + .btn-group,
+.nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group div.btn-file-upload + .btn-group, .btn-group .nav-panel#register .form-section .input-panel output#file-list .btn-file-output + .btn-group,
+.nav-panel#register .form-section .input-panel output#file-list .btn-group .btn-file-output + .btn-group, .btn-group .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output + .btn-group,
+.nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group .btn-file-output + .btn-group, .btn-group .btn-group + .btn,
+.btn-group .nav-panel#register .form-section .input-panel div#file-uploader .btn-group + div.btn-file-upload,
+.nav-panel#register .form-section .input-panel div#file-uploader .btn-group .btn-group + div.btn-file-upload, .btn-group .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group + div.btn-file-upload,
+.nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group .btn-group + div.btn-file-upload, .btn-group .nav-panel#register .form-section .input-panel output#file-list .btn-group + .btn-file-output,
+.nav-panel#register .form-section .input-panel output#file-list .btn-group .btn-group + .btn-file-output, .btn-group .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group + .btn-file-output,
+.nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group .btn-group + .btn-file-output, .btn-group .btn-group + .btn-group {
   margin-left: -1px; }
 
 .btn-toolbar {
@@ -3139,36 +3109,36 @@ tbody.collapse.in {
   .btn-toolbar .input-group {
     float: left; }
   .btn-toolbar > .btn,
-  .ajax-upload-dragdrop .btn-toolbar > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-toolbar > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-toolbar > .ajax-file-upload-green, .ajax-file-upload-statusbar .btn-toolbar > .ajax-file-upload, .ajax-file-upload-statusbar .btn-toolbar > .ajax-file-upload-red, .ajax-file-upload-statusbar .btn-toolbar > .ajax-file-upload-green, .btn-toolbar > .btn-group,
+  .nav-panel#register .form-section .input-panel div#file-uploader .btn-toolbar > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-toolbar > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .btn-toolbar > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-toolbar > .btn-file-output, .btn-toolbar > .btn-group,
   .btn-toolbar > .input-group {
     margin-left: 5px; }
 
-.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle), .ajax-upload-dragdrop .btn-group > .ajax-file-upload:not(:first-child):not(:last-child):not(.dropdown-toggle), .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-red:not(:first-child):not(:last-child):not(.dropdown-toggle), .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-green:not(:first-child):not(:last-child):not(.dropdown-toggle), .ajax-file-upload-statusbar .btn-group > .ajax-file-upload:not(:first-child):not(:last-child):not(.dropdown-toggle), .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-red:not(:first-child):not(:last-child):not(.dropdown-toggle), .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-green:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle), .nav-panel#register .form-section .input-panel div#file-uploader .btn-group > div.btn-file-upload:not(:first-child):not(:last-child):not(.dropdown-toggle), .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group > div.btn-file-upload:not(:first-child):not(:last-child):not(.dropdown-toggle), .nav-panel#register .form-section .input-panel output#file-list .btn-group > .btn-file-output:not(:first-child):not(:last-child):not(.dropdown-toggle), .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group > .btn-file-output:not(:first-child):not(:last-child):not(.dropdown-toggle) {
   border-radius: 0; }
 
-.btn-group > .btn:first-child, .ajax-upload-dragdrop .btn-group > .ajax-file-upload:first-child, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-red:first-child, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-green:first-child, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload:first-child, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-red:first-child, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-green:first-child {
+.btn-group > .btn:first-child, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group > div.btn-file-upload:first-child, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group > div.btn-file-upload:first-child, .nav-panel#register .form-section .input-panel output#file-list .btn-group > .btn-file-output:first-child, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group > .btn-file-output:first-child {
   margin-left: 0; }
-  .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle), .ajax-upload-dragdrop .btn-group > .ajax-file-upload:first-child:not(:last-child):not(.dropdown-toggle), .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-red:first-child:not(:last-child):not(.dropdown-toggle), .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-green:first-child:not(:last-child):not(.dropdown-toggle), .ajax-file-upload-statusbar .btn-group > .ajax-file-upload:first-child:not(:last-child):not(.dropdown-toggle), .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-red:first-child:not(:last-child):not(.dropdown-toggle), .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-green:first-child:not(:last-child):not(.dropdown-toggle) {
+  .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle), .nav-panel#register .form-section .input-panel div#file-uploader .btn-group > div.btn-file-upload:first-child:not(:last-child):not(.dropdown-toggle), .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group > div.btn-file-upload:first-child:not(:last-child):not(.dropdown-toggle), .nav-panel#register .form-section .input-panel output#file-list .btn-group > .btn-file-output:first-child:not(:last-child):not(.dropdown-toggle), .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group > .btn-file-output:first-child:not(:last-child):not(.dropdown-toggle) {
     border-bottom-right-radius: 0;
     border-top-right-radius: 0; }
 
 .btn-group > .btn:last-child:not(:first-child),
-.ajax-upload-dragdrop .btn-group > .ajax-file-upload:last-child:not(:first-child), .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-red:last-child:not(:first-child), .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-green:last-child:not(:first-child), .ajax-file-upload-statusbar .btn-group > .ajax-file-upload:last-child:not(:first-child), .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-red:last-child:not(:first-child), .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-green:last-child:not(:first-child), .btn-group > .dropdown-toggle:not(:first-child) {
+.nav-panel#register .form-section .input-panel div#file-uploader .btn-group > div.btn-file-upload:last-child:not(:first-child), .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group > div.btn-file-upload:last-child:not(:first-child), .nav-panel#register .form-section .input-panel output#file-list .btn-group > .btn-file-output:last-child:not(:first-child), .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group > .btn-file-output:last-child:not(:first-child), .btn-group > .dropdown-toggle:not(:first-child) {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0; }
 
 .btn-group > .btn-group {
   float: left; }
 
-.btn-group > .btn-group:not(:first-child):not(:last-child) > .btn, .ajax-upload-dragdrop .btn-group > .btn-group:not(:first-child):not(:last-child) > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .btn-group:not(:first-child):not(:last-child) > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .btn-group:not(:first-child):not(:last-child) > .ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group > .btn-group:not(:first-child):not(:last-child) > .ajax-file-upload, .ajax-file-upload-statusbar .btn-group > .btn-group:not(:first-child):not(:last-child) > .ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group > .btn-group:not(:first-child):not(:last-child) > .ajax-file-upload-green {
+.btn-group > .btn-group:not(:first-child):not(:last-child) > .btn, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group > .btn-group:not(:first-child):not(:last-child) > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group > .btn-group:not(:first-child):not(:last-child) > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .btn-group > .btn-group:not(:first-child):not(:last-child) > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group > .btn-group:not(:first-child):not(:last-child) > .btn-file-output {
   border-radius: 0; }
 
 .btn-group > .btn-group:first-child > .btn:last-child,
-.ajax-upload-dragdrop .btn-group > .btn-group:first-child > .ajax-file-upload:last-child, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .btn-group:first-child > .ajax-file-upload-red:last-child, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .btn-group:first-child > .ajax-file-upload-green:last-child, .ajax-file-upload-statusbar .btn-group > .btn-group:first-child > .ajax-file-upload:last-child, .ajax-file-upload-statusbar .btn-group > .btn-group:first-child > .ajax-file-upload-red:last-child, .ajax-file-upload-statusbar .btn-group > .btn-group:first-child > .ajax-file-upload-green:last-child, .btn-group > .btn-group:first-child > .dropdown-toggle {
+.nav-panel#register .form-section .input-panel div#file-uploader .btn-group > .btn-group:first-child > div.btn-file-upload:last-child, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group > .btn-group:first-child > div.btn-file-upload:last-child, .nav-panel#register .form-section .input-panel output#file-list .btn-group > .btn-group:first-child > .btn-file-output:last-child, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group > .btn-group:first-child > .btn-file-output:last-child, .btn-group > .btn-group:first-child > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0; }
 
-.btn-group > .btn-group:last-child > .btn:first-child, .ajax-upload-dragdrop .btn-group > .btn-group:last-child > .ajax-file-upload:first-child, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .btn-group:last-child > .ajax-file-upload-red:first-child, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .btn-group:last-child > .ajax-file-upload-green:first-child, .ajax-file-upload-statusbar .btn-group > .btn-group:last-child > .ajax-file-upload:first-child, .ajax-file-upload-statusbar .btn-group > .btn-group:last-child > .ajax-file-upload-red:first-child, .ajax-file-upload-statusbar .btn-group > .btn-group:last-child > .ajax-file-upload-green:first-child {
+.btn-group > .btn-group:last-child > .btn:first-child, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group > .btn-group:last-child > div.btn-file-upload:first-child, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group > .btn-group:last-child > div.btn-file-upload:first-child, .nav-panel#register .form-section .input-panel output#file-list .btn-group > .btn-group:last-child > .btn-file-output:first-child, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group > .btn-group:last-child > .btn-file-output:first-child {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0; }
 
@@ -3176,11 +3146,11 @@ tbody.collapse.in {
 .btn-group.open .dropdown-toggle {
   outline: 0; }
 
-.btn-group > .btn + .dropdown-toggle, .ajax-upload-dragdrop .btn-group > .ajax-file-upload + .dropdown-toggle, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-red + .dropdown-toggle, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group > .ajax-file-upload-green + .dropdown-toggle, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload + .dropdown-toggle, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-red + .dropdown-toggle, .ajax-file-upload-statusbar .btn-group > .ajax-file-upload-green + .dropdown-toggle {
+.btn-group > .btn + .dropdown-toggle, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group > div.btn-file-upload + .dropdown-toggle, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group > div.btn-file-upload + .dropdown-toggle, .nav-panel#register .form-section .input-panel output#file-list .btn-group > .btn-file-output + .dropdown-toggle, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group > .btn-file-output + .dropdown-toggle {
   padding-left: 8px;
   padding-right: 8px; }
 
-.btn-group > .btn-lg + .dropdown-toggle, .btn-group-lg.btn-group > .btn + .dropdown-toggle, .ajax-upload-dragdrop .btn-group-lg.btn-group > .ajax-file-upload + .dropdown-toggle, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-lg.btn-group > .ajax-file-upload-red + .dropdown-toggle, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-lg.btn-group > .ajax-file-upload-green + .dropdown-toggle, .ajax-file-upload-statusbar .btn-group-lg.btn-group > .ajax-file-upload + .dropdown-toggle, .ajax-file-upload-statusbar .btn-group-lg.btn-group > .ajax-file-upload-red + .dropdown-toggle, .ajax-file-upload-statusbar .btn-group-lg.btn-group > .ajax-file-upload-green + .dropdown-toggle {
+.btn-group > .btn-lg + .dropdown-toggle, .btn-group-lg.btn-group > .btn + .dropdown-toggle, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-lg.btn-group > div.btn-file-upload + .dropdown-toggle, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-lg.btn-group > div.btn-file-upload + .dropdown-toggle, .nav-panel#register .form-section .input-panel output#file-list .btn-group-lg.btn-group > .btn-file-output + .dropdown-toggle, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-lg.btn-group > .btn-file-output + .dropdown-toggle {
   padding-left: 12px;
   padding-right: 12px; }
 
@@ -3191,19 +3161,19 @@ tbody.collapse.in {
     -webkit-box-shadow: none;
     box-shadow: none; }
 
-.btn .caret, .ajax-upload-dragdrop .ajax-file-upload .caret, .ajax-file-upload-statusbar .ajax-file-upload .caret, .ajax-file-upload-statusbar .ajax-file-upload-red .caret, .ajax-file-upload-statusbar .ajax-file-upload-green .caret {
+.btn .caret, .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload .caret, .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload .caret, .nav-panel#register .form-section .input-panel output#file-list .btn-file-output .caret, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output .caret {
   margin-left: 0; }
 
-.btn-lg .caret, .btn-group-lg > .btn .caret, .ajax-upload-dragdrop .btn-group-lg > .ajax-file-upload .caret, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-lg > .ajax-file-upload-red .caret, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-lg > .ajax-file-upload-green .caret, .ajax-file-upload-statusbar .btn-group-lg > .ajax-file-upload .caret, .ajax-file-upload-statusbar .btn-group-lg > .ajax-file-upload-red .caret, .ajax-file-upload-statusbar .btn-group-lg > .ajax-file-upload-green .caret {
+.btn-lg .caret, .btn-group-lg > .btn .caret, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-lg > div.btn-file-upload .caret, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-lg > div.btn-file-upload .caret, .nav-panel#register .form-section .input-panel output#file-list .btn-group-lg > .btn-file-output .caret, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-lg > .btn-file-output .caret {
   border-width: 5px 5px 0;
   border-bottom-width: 0; }
 
-.dropup .btn-lg .caret, .dropup .btn-group-lg > .btn .caret, .dropup .ajax-upload-dragdrop .btn-group-lg > .ajax-file-upload .caret, .ajax-upload-dragdrop .dropup .btn-group-lg > .ajax-file-upload .caret, .dropup .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-lg > .ajax-file-upload-red .caret, .dropup .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-lg > .ajax-file-upload-green .caret, .dropup .ajax-file-upload-statusbar .btn-group-lg > .ajax-file-upload .caret, .ajax-file-upload-statusbar .dropup .btn-group-lg > .ajax-file-upload .caret, .dropup .ajax-file-upload-statusbar .btn-group-lg > .ajax-file-upload-red .caret, .ajax-file-upload-statusbar .dropup .btn-group-lg > .ajax-file-upload-red .caret, .dropup .ajax-file-upload-statusbar .btn-group-lg > .ajax-file-upload-green .caret, .ajax-file-upload-statusbar .dropup .btn-group-lg > .ajax-file-upload-green .caret {
+.dropup .btn-lg .caret, .dropup .btn-group-lg > .btn .caret, .dropup .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-lg > div.btn-file-upload .caret, .nav-panel#register .form-section .input-panel div#file-uploader .dropup .btn-group-lg > div.btn-file-upload .caret, .dropup .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-lg > div.btn-file-upload .caret, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .dropup .btn-group-lg > div.btn-file-upload .caret, .dropup .nav-panel#register .form-section .input-panel output#file-list .btn-group-lg > .btn-file-output .caret, .nav-panel#register .form-section .input-panel output#file-list .dropup .btn-group-lg > .btn-file-output .caret, .dropup .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-lg > .btn-file-output .caret, .nav-panel#register .form-section .input-panel-submitted output#file-list .dropup .btn-group-lg > .btn-file-output .caret {
   border-width: 0 5px 5px; }
 
 .btn-group-vertical > .btn,
-.ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-green, .btn-group-vertical > .btn-group,
-.btn-group-vertical > .btn-group > .btn, .ajax-upload-dragdrop .btn-group-vertical > .btn-group > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .btn-group > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .btn-group > .ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group-vertical > .btn-group > .ajax-file-upload, .ajax-file-upload-statusbar .btn-group-vertical > .btn-group > .ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group-vertical > .btn-group > .ajax-file-upload-green {
+.nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .btn-file-output, .btn-group-vertical > .btn-group,
+.btn-group-vertical > .btn-group > .btn, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > .btn-group > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > .btn-group > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .btn-group > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .btn-group > .btn-file-output {
   display: block;
   float: none;
   width: 100%;
@@ -3217,38 +3187,38 @@ tbody.collapse.in {
 .btn-group-vertical > .btn-group:after {
   clear: both; }
 
-.btn-group-vertical > .btn-group > .btn, .ajax-upload-dragdrop .btn-group-vertical > .btn-group > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .btn-group > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .btn-group > .ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group-vertical > .btn-group > .ajax-file-upload, .ajax-file-upload-statusbar .btn-group-vertical > .btn-group > .ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group-vertical > .btn-group > .ajax-file-upload-green {
+.btn-group-vertical > .btn-group > .btn, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > .btn-group > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > .btn-group > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .btn-group > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .btn-group > .btn-file-output {
   float: none; }
 
 .btn-group-vertical > .btn + .btn,
-.ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload + .btn, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-red + .btn, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-green + .btn, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload + .btn, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-red + .btn, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-green + .btn, .ajax-upload-dragdrop .btn-group-vertical > .btn + .ajax-file-upload, .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload + .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .btn + .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .btn + .ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group-vertical > .btn + .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-red + .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-green + .ajax-file-upload, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload + .ajax-file-upload, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-red + .ajax-file-upload, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-green + .ajax-file-upload, .ajax-file-upload-statusbar .btn-group-vertical > .btn + .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload + .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-red + .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-green + .ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload + .ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-red + .ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-green + .ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group-vertical > .btn + .ajax-file-upload-green, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload + .ajax-file-upload-green, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-red + .ajax-file-upload-green, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-green + .ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload + .ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-red + .ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-green + .ajax-file-upload-green, .btn-group-vertical > .btn + .btn-group,
-.ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload + .btn-group, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-red + .btn-group, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-green + .btn-group, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload + .btn-group, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-red + .btn-group, .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-green + .btn-group, .btn-group-vertical > .btn-group + .btn,
-.ajax-upload-dragdrop .btn-group-vertical > .btn-group + .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .btn-group + .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .btn-group + .ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group-vertical > .btn-group + .ajax-file-upload, .ajax-file-upload-statusbar .btn-group-vertical > .btn-group + .ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group-vertical > .btn-group + .ajax-file-upload-green, .btn-group-vertical > .btn-group + .btn-group {
+.nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > div.btn-file-upload + .btn, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > div.btn-file-upload + .btn, .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .btn-file-output + .btn, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .btn-file-output + .btn, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > .btn + div.btn-file-upload, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > div.btn-file-upload + div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list div#file-uploader .btn-group-vertical > .btn-file-output + div.btn-file-upload, .nav-panel#register .form-section .input-panel div#file-uploader output#file-list .btn-group-vertical > .btn-file-output + div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > .btn + div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > div.btn-file-upload + div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted output#file-list div#file-uploader .btn-group-vertical > .btn-file-output + div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader output#file-list .btn-group-vertical > .btn-file-output + div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .btn + .btn-file-output, .nav-panel#register .form-section .input-panel div#file-uploader output#file-list .btn-group-vertical > div.btn-file-upload + .btn-file-output, .nav-panel#register .form-section .input-panel output#file-list div#file-uploader .btn-group-vertical > div.btn-file-upload + .btn-file-output, .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .btn-file-output + .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .btn + .btn-file-output, .nav-panel#register .form-section .input-panel-submitted div#file-uploader output#file-list .btn-group-vertical > div.btn-file-upload + .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list div#file-uploader .btn-group-vertical > div.btn-file-upload + .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .btn-file-output + .btn-file-output, .btn-group-vertical > .btn + .btn-group,
+.nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > div.btn-file-upload + .btn-group, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > div.btn-file-upload + .btn-group, .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .btn-file-output + .btn-group, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .btn-file-output + .btn-group, .btn-group-vertical > .btn-group + .btn,
+.nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > .btn-group + div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > .btn-group + div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .btn-group + .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .btn-group + .btn-file-output, .btn-group-vertical > .btn-group + .btn-group {
   margin-top: -1px;
   margin-left: 0; }
 
-.btn-group-vertical > .btn:not(:first-child):not(:last-child), .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload:not(:first-child):not(:last-child), .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-red:not(:first-child):not(:last-child), .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-green:not(:first-child):not(:last-child), .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload:not(:first-child):not(:last-child), .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-red:not(:first-child):not(:last-child), .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-green:not(:first-child):not(:last-child) {
+.btn-group-vertical > .btn:not(:first-child):not(:last-child), .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > div.btn-file-upload:not(:first-child):not(:last-child), .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > div.btn-file-upload:not(:first-child):not(:last-child), .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .btn-file-output:not(:first-child):not(:last-child), .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .btn-file-output:not(:first-child):not(:last-child) {
   border-radius: 0; }
 
-.btn-group-vertical > .btn:first-child:not(:last-child), .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload:first-child:not(:last-child), .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-red:first-child:not(:last-child), .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-green:first-child:not(:last-child), .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload:first-child:not(:last-child), .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-red:first-child:not(:last-child), .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-green:first-child:not(:last-child) {
+.btn-group-vertical > .btn:first-child:not(:last-child), .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > div.btn-file-upload:first-child:not(:last-child), .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > div.btn-file-upload:first-child:not(:last-child), .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .btn-file-output:first-child:not(:last-child), .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .btn-file-output:first-child:not(:last-child) {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
 
-.btn-group-vertical > .btn:last-child:not(:first-child), .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload:last-child:not(:first-child), .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-red:last-child:not(:first-child), .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload-green:last-child:not(:first-child), .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload:last-child:not(:first-child), .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-red:last-child:not(:first-child), .ajax-file-upload-statusbar .btn-group-vertical > .ajax-file-upload-green:last-child:not(:first-child) {
+.btn-group-vertical > .btn:last-child:not(:first-child), .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > div.btn-file-upload:last-child:not(:first-child), .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > div.btn-file-upload:last-child:not(:first-child), .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .btn-file-output:last-child:not(:first-child), .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .btn-file-output:last-child:not(:first-child) {
   border-bottom-left-radius: 4px;
   border-top-right-radius: 0;
   border-top-left-radius: 0; }
 
-.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn, .ajax-upload-dragdrop .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .ajax-file-upload, .ajax-file-upload-statusbar .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .ajax-file-upload-green {
+.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn-file-output {
   border-radius: 0; }
 
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,
-.ajax-upload-dragdrop .btn-group-vertical > .btn-group:first-child:not(:last-child) > .ajax-file-upload:last-child, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .btn-group:first-child:not(:last-child) > .ajax-file-upload-red:last-child, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .btn-group:first-child:not(:last-child) > .ajax-file-upload-green:last-child, .ajax-file-upload-statusbar .btn-group-vertical > .btn-group:first-child:not(:last-child) > .ajax-file-upload:last-child, .ajax-file-upload-statusbar .btn-group-vertical > .btn-group:first-child:not(:last-child) > .ajax-file-upload-red:last-child, .ajax-file-upload-statusbar .btn-group-vertical > .btn-group:first-child:not(:last-child) > .ajax-file-upload-green:last-child, .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
+.nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > .btn-group:first-child:not(:last-child) > div.btn-file-upload:last-child, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > .btn-group:first-child:not(:last-child) > div.btn-file-upload:last-child, .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn-file-output:last-child, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn-file-output:last-child, .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
 
-.btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child, .ajax-upload-dragdrop .btn-group-vertical > .btn-group:last-child:not(:first-child) > .ajax-file-upload:first-child, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .btn-group:last-child:not(:first-child) > .ajax-file-upload-red:first-child, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-vertical > .btn-group:last-child:not(:first-child) > .ajax-file-upload-green:first-child, .ajax-file-upload-statusbar .btn-group-vertical > .btn-group:last-child:not(:first-child) > .ajax-file-upload:first-child, .ajax-file-upload-statusbar .btn-group-vertical > .btn-group:last-child:not(:first-child) > .ajax-file-upload-red:first-child, .ajax-file-upload-statusbar .btn-group-vertical > .btn-group:last-child:not(:first-child) > .ajax-file-upload-green:first-child {
+.btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-vertical > .btn-group:last-child:not(:first-child) > div.btn-file-upload:first-child, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-vertical > .btn-group:last-child:not(:first-child) > div.btn-file-upload:first-child, .nav-panel#register .form-section .input-panel output#file-list .btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn-file-output:first-child, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn-file-output:first-child {
   border-top-right-radius: 0;
   border-top-left-radius: 0; }
 
@@ -3258,17 +3228,17 @@ tbody.collapse.in {
   table-layout: fixed;
   border-collapse: separate; }
   .btn-group-justified > .btn,
-  .ajax-upload-dragdrop .btn-group-justified > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-justified > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-justified > .ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group-justified > .ajax-file-upload, .ajax-file-upload-statusbar .btn-group-justified > .ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group-justified > .ajax-file-upload-green, .btn-group-justified > .btn-group {
+  .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-justified > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-justified > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .btn-group-justified > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-justified > .btn-file-output, .btn-group-justified > .btn-group {
     float: none;
     display: table-cell;
     width: 1%; }
-  .btn-group-justified > .btn-group .btn, .btn-group-justified > .btn-group .ajax-upload-dragdrop .ajax-file-upload, .ajax-upload-dragdrop .btn-group-justified > .btn-group .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-justified > .btn-group .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-justified > .btn-group .ajax-file-upload-green, .btn-group-justified > .btn-group .ajax-file-upload-statusbar .ajax-file-upload, .ajax-file-upload-statusbar .btn-group-justified > .btn-group .ajax-file-upload, .btn-group-justified > .btn-group .ajax-file-upload-statusbar .ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group-justified > .btn-group .ajax-file-upload-red, .btn-group-justified > .btn-group .ajax-file-upload-statusbar .ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group-justified > .btn-group .ajax-file-upload-green {
+  .btn-group-justified > .btn-group .btn, .btn-group-justified > .btn-group .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-justified > .btn-group div.btn-file-upload, .btn-group-justified > .btn-group .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-justified > .btn-group div.btn-file-upload, .btn-group-justified > .btn-group .nav-panel#register .form-section .input-panel output#file-list .btn-file-output, .nav-panel#register .form-section .input-panel output#file-list .btn-group-justified > .btn-group .btn-file-output, .btn-group-justified > .btn-group .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-justified > .btn-group .btn-file-output {
     width: 100%; }
   .btn-group-justified > .btn-group .dropdown-menu {
     left: auto; }
 
 [data-toggle="buttons"] > .btn > input[type="radio"],
-.ajax-upload-dragdrop [data-toggle="buttons"] > .ajax-file-upload > input[type="radio"], .ajax-file-upload-statusbar .ajax-upload-dragdrop [data-toggle="buttons"] > .ajax-file-upload-red > input[type="radio"], .ajax-file-upload-statusbar .ajax-upload-dragdrop [data-toggle="buttons"] > .ajax-file-upload-green > input[type="radio"], .ajax-file-upload-statusbar [data-toggle="buttons"] > .ajax-file-upload > input[type="radio"], .ajax-file-upload-statusbar [data-toggle="buttons"] > .ajax-file-upload-red > input[type="radio"], .ajax-file-upload-statusbar [data-toggle="buttons"] > .ajax-file-upload-green > input[type="radio"], [data-toggle="buttons"] > .btn > input[type="checkbox"], .ajax-upload-dragdrop [data-toggle="buttons"] > .ajax-file-upload > input[type="checkbox"], .ajax-file-upload-statusbar .ajax-upload-dragdrop [data-toggle="buttons"] > .ajax-file-upload-red > input[type="checkbox"], .ajax-file-upload-statusbar .ajax-upload-dragdrop [data-toggle="buttons"] > .ajax-file-upload-green > input[type="checkbox"], .ajax-file-upload-statusbar [data-toggle="buttons"] > .ajax-file-upload > input[type="checkbox"], .ajax-file-upload-statusbar [data-toggle="buttons"] > .ajax-file-upload-red > input[type="checkbox"], .ajax-file-upload-statusbar [data-toggle="buttons"] > .ajax-file-upload-green > input[type="checkbox"] {
+.nav-panel#register .form-section .input-panel div#file-uploader [data-toggle="buttons"] > div.btn-file-upload > input[type="radio"], .nav-panel#register .form-section .input-panel-submitted div#file-uploader [data-toggle="buttons"] > div.btn-file-upload > input[type="radio"], .nav-panel#register .form-section .input-panel output#file-list [data-toggle="buttons"] > .btn-file-output > input[type="radio"], .nav-panel#register .form-section .input-panel-submitted output#file-list [data-toggle="buttons"] > .btn-file-output > input[type="radio"], [data-toggle="buttons"] > .btn > input[type="checkbox"], .nav-panel#register .form-section .input-panel div#file-uploader [data-toggle="buttons"] > div.btn-file-upload > input[type="checkbox"], .nav-panel#register .form-section .input-panel-submitted div#file-uploader [data-toggle="buttons"] > div.btn-file-upload > input[type="checkbox"], .nav-panel#register .form-section .input-panel output#file-list [data-toggle="buttons"] > .btn-file-output > input[type="checkbox"], .nav-panel#register .form-section .input-panel-submitted output#file-list [data-toggle="buttons"] > .btn-file-output > input[type="checkbox"] {
   position: absolute;
   z-index: -1;
   opacity: 0;
@@ -3315,12 +3285,12 @@ tbody.collapse.in {
   border: 1px solid #ccc;
   border-radius: 4px; }
   .input-group-addon.input-sm, .form-horizontal .form-group-sm .input-group-addon.form-control, .input-group-sm > .input-group-addon,
-  .input-group-sm > .input-group-btn > .input-group-addon.btn, .ajax-upload-dragdrop .input-group-sm > .input-group-btn > .input-group-addon.ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > .input-group-addon.ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-sm > .input-group-btn > .input-group-addon.ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > .input-group-addon.ajax-file-upload, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > .input-group-addon.ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-sm > .input-group-btn > .input-group-addon.ajax-file-upload-green {
+  .input-group-sm > .input-group-btn > .input-group-addon.btn, .nav-panel#register .form-section .input-panel div#file-uploader .input-group-sm > .input-group-btn > div.input-group-addon.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-sm > .input-group-btn > div.input-group-addon.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .input-group-sm > .input-group-btn > .input-group-addon.btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-sm > .input-group-btn > .input-group-addon.btn-file-output {
     padding: 5px 10px;
     font-size: 12px;
     border-radius: 3px; }
   .input-group-addon.input-lg, .form-horizontal .form-group-lg .input-group-addon.form-control, .input-group-lg > .input-group-addon,
-  .input-group-lg > .input-group-btn > .input-group-addon.btn, .ajax-upload-dragdrop .input-group-lg > .input-group-btn > .input-group-addon.ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > .input-group-addon.ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-lg > .input-group-btn > .input-group-addon.ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > .input-group-addon.ajax-file-upload, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > .input-group-addon.ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-lg > .input-group-btn > .input-group-addon.ajax-file-upload-green {
+  .input-group-lg > .input-group-btn > .input-group-addon.btn, .nav-panel#register .form-section .input-panel div#file-uploader .input-group-lg > .input-group-btn > div.input-group-addon.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-lg > .input-group-btn > div.input-group-addon.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .input-group-lg > .input-group-btn > .input-group-addon.btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-lg > .input-group-btn > .input-group-addon.btn-file-output {
     padding: 10px 16px;
     font-size: 18px;
     border-radius: 6px; }
@@ -3331,10 +3301,10 @@ tbody.collapse.in {
 .input-group .form-control:first-child,
 .input-group-addon:first-child,
 .input-group-btn:first-child > .btn,
-.ajax-upload-dragdrop .input-group-btn:first-child > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:first-child > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:first-child > .ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-btn:first-child > .ajax-file-upload, .ajax-file-upload-statusbar .input-group-btn:first-child > .ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-btn:first-child > .ajax-file-upload-green, .input-group-btn:first-child > .btn-group > .btn,
-.ajax-upload-dragdrop .input-group-btn:first-child > .btn-group > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:first-child > .btn-group > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:first-child > .btn-group > .ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-btn:first-child > .btn-group > .ajax-file-upload, .ajax-file-upload-statusbar .input-group-btn:first-child > .btn-group > .ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-btn:first-child > .btn-group > .ajax-file-upload-green, .input-group-btn:first-child > .dropdown-toggle,
+.nav-panel#register .form-section .input-panel div#file-uploader .input-group-btn:first-child > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-btn:first-child > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .input-group-btn:first-child > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-btn:first-child > .btn-file-output, .input-group-btn:first-child > .btn-group > .btn,
+.nav-panel#register .form-section .input-panel div#file-uploader .input-group-btn:first-child > .btn-group > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-btn:first-child > .btn-group > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .input-group-btn:first-child > .btn-group > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-btn:first-child > .btn-group > .btn-file-output, .input-group-btn:first-child > .dropdown-toggle,
 .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
-.ajax-upload-dragdrop .input-group-btn:last-child > .ajax-file-upload:not(:last-child):not(.dropdown-toggle), .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:last-child > .ajax-file-upload-red:not(:last-child):not(.dropdown-toggle), .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:last-child > .ajax-file-upload-green:not(:last-child):not(.dropdown-toggle), .ajax-file-upload-statusbar .input-group-btn:last-child > .ajax-file-upload:not(:last-child):not(.dropdown-toggle), .ajax-file-upload-statusbar .input-group-btn:last-child > .ajax-file-upload-red:not(:last-child):not(.dropdown-toggle), .ajax-file-upload-statusbar .input-group-btn:last-child > .ajax-file-upload-green:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn, .ajax-upload-dragdrop .input-group-btn:last-child > .btn-group:not(:last-child) > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:last-child > .btn-group:not(:last-child) > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:last-child > .btn-group:not(:last-child) > .ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-btn:last-child > .btn-group:not(:last-child) > .ajax-file-upload, .ajax-file-upload-statusbar .input-group-btn:last-child > .btn-group:not(:last-child) > .ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-btn:last-child > .btn-group:not(:last-child) > .ajax-file-upload-green {
+.nav-panel#register .form-section .input-panel div#file-uploader .input-group-btn:last-child > div.btn-file-upload:not(:last-child):not(.dropdown-toggle), .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-btn:last-child > div.btn-file-upload:not(:last-child):not(.dropdown-toggle), .nav-panel#register .form-section .input-panel output#file-list .input-group-btn:last-child > .btn-file-output:not(:last-child):not(.dropdown-toggle), .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-btn:last-child > .btn-file-output:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn, .nav-panel#register .form-section .input-panel div#file-uploader .input-group-btn:last-child > .btn-group:not(:last-child) > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-btn:last-child > .btn-group:not(:last-child) > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .input-group-btn:last-child > .btn-group:not(:last-child) > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-btn:last-child > .btn-group:not(:last-child) > .btn-file-output {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0; }
 
@@ -3344,10 +3314,10 @@ tbody.collapse.in {
 .input-group .form-control:last-child,
 .input-group-addon:last-child,
 .input-group-btn:last-child > .btn,
-.ajax-upload-dragdrop .input-group-btn:last-child > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:last-child > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:last-child > .ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-btn:last-child > .ajax-file-upload, .ajax-file-upload-statusbar .input-group-btn:last-child > .ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-btn:last-child > .ajax-file-upload-green, .input-group-btn:last-child > .btn-group > .btn,
-.ajax-upload-dragdrop .input-group-btn:last-child > .btn-group > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:last-child > .btn-group > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:last-child > .btn-group > .ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-btn:last-child > .btn-group > .ajax-file-upload, .ajax-file-upload-statusbar .input-group-btn:last-child > .btn-group > .ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-btn:last-child > .btn-group > .ajax-file-upload-green, .input-group-btn:last-child > .dropdown-toggle,
+.nav-panel#register .form-section .input-panel div#file-uploader .input-group-btn:last-child > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-btn:last-child > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .input-group-btn:last-child > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-btn:last-child > .btn-file-output, .input-group-btn:last-child > .btn-group > .btn,
+.nav-panel#register .form-section .input-panel div#file-uploader .input-group-btn:last-child > .btn-group > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-btn:last-child > .btn-group > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .input-group-btn:last-child > .btn-group > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-btn:last-child > .btn-group > .btn-file-output, .input-group-btn:last-child > .dropdown-toggle,
 .input-group-btn:first-child > .btn:not(:first-child),
-.ajax-upload-dragdrop .input-group-btn:first-child > .ajax-file-upload:not(:first-child), .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:first-child > .ajax-file-upload-red:not(:first-child), .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:first-child > .ajax-file-upload-green:not(:first-child), .ajax-file-upload-statusbar .input-group-btn:first-child > .ajax-file-upload:not(:first-child), .ajax-file-upload-statusbar .input-group-btn:first-child > .ajax-file-upload-red:not(:first-child), .ajax-file-upload-statusbar .input-group-btn:first-child > .ajax-file-upload-green:not(:first-child), .input-group-btn:first-child > .btn-group:not(:first-child) > .btn, .ajax-upload-dragdrop .input-group-btn:first-child > .btn-group:not(:first-child) > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:first-child > .btn-group:not(:first-child) > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:first-child > .btn-group:not(:first-child) > .ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-btn:first-child > .btn-group:not(:first-child) > .ajax-file-upload, .ajax-file-upload-statusbar .input-group-btn:first-child > .btn-group:not(:first-child) > .ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-btn:first-child > .btn-group:not(:first-child) > .ajax-file-upload-green {
+.nav-panel#register .form-section .input-panel div#file-uploader .input-group-btn:first-child > div.btn-file-upload:not(:first-child), .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-btn:first-child > div.btn-file-upload:not(:first-child), .nav-panel#register .form-section .input-panel output#file-list .input-group-btn:first-child > .btn-file-output:not(:first-child), .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-btn:first-child > .btn-file-output:not(:first-child), .input-group-btn:first-child > .btn-group:not(:first-child) > .btn, .nav-panel#register .form-section .input-panel div#file-uploader .input-group-btn:first-child > .btn-group:not(:first-child) > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-btn:first-child > .btn-group:not(:first-child) > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .input-group-btn:first-child > .btn-group:not(:first-child) > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-btn:first-child > .btn-group:not(:first-child) > .btn-file-output {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0; }
 
@@ -3358,19 +3328,19 @@ tbody.collapse.in {
   position: relative;
   font-size: 0;
   white-space: nowrap; }
-  .input-group-btn > .btn, .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload-green {
+  .input-group-btn > .btn, .nav-panel#register .form-section .input-panel div#file-uploader .input-group-btn > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-btn > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .input-group-btn > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-btn > .btn-file-output {
     position: relative; }
-    .input-group-btn > .btn + .btn, .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload + .btn, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload-red + .btn, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload-green + .btn, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload + .btn, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload-red + .btn, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload-green + .btn, .ajax-upload-dragdrop .input-group-btn > .btn + .ajax-file-upload, .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload + .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .btn + .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .btn + .ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-btn > .btn + .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload-red + .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload-green + .ajax-file-upload, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload + .ajax-file-upload, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload-red + .ajax-file-upload, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload-green + .ajax-file-upload, .ajax-file-upload-statusbar .input-group-btn > .btn + .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload + .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload-red + .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload-green + .ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload + .ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload-red + .ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload-green + .ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-btn > .btn + .ajax-file-upload-green, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload + .ajax-file-upload-green, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload-red + .ajax-file-upload-green, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload-green + .ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload + .ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload-red + .ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload-green + .ajax-file-upload-green {
+    .input-group-btn > .btn + .btn, .nav-panel#register .form-section .input-panel div#file-uploader .input-group-btn > div.btn-file-upload + .btn, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-btn > div.btn-file-upload + .btn, .nav-panel#register .form-section .input-panel output#file-list .input-group-btn > .btn-file-output + .btn, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-btn > .btn-file-output + .btn, .nav-panel#register .form-section .input-panel div#file-uploader .input-group-btn > .btn + div.btn-file-upload, .nav-panel#register .form-section .input-panel div#file-uploader .input-group-btn > div.btn-file-upload + div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list div#file-uploader .input-group-btn > .btn-file-output + div.btn-file-upload, .nav-panel#register .form-section .input-panel div#file-uploader output#file-list .input-group-btn > .btn-file-output + div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-btn > .btn + div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-btn > div.btn-file-upload + div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted output#file-list div#file-uploader .input-group-btn > .btn-file-output + div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader output#file-list .input-group-btn > .btn-file-output + div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .input-group-btn > .btn + .btn-file-output, .nav-panel#register .form-section .input-panel div#file-uploader output#file-list .input-group-btn > div.btn-file-upload + .btn-file-output, .nav-panel#register .form-section .input-panel output#file-list div#file-uploader .input-group-btn > div.btn-file-upload + .btn-file-output, .nav-panel#register .form-section .input-panel output#file-list .input-group-btn > .btn-file-output + .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-btn > .btn + .btn-file-output, .nav-panel#register .form-section .input-panel-submitted div#file-uploader output#file-list .input-group-btn > div.btn-file-upload + .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list div#file-uploader .input-group-btn > div.btn-file-upload + .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-btn > .btn-file-output + .btn-file-output {
       margin-left: -1px; }
     .input-group-btn > .btn:hover,
-    .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload-red:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload-green:hover, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload:hover, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload-red:hover, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload-green:hover, .input-group-btn > .btn:focus,
-    .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload:focus, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload-red:focus, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload-green:focus, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload:focus, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload-red:focus, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload-green:focus, .input-group-btn > .btn:active, .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload:active, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload-red:active, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn > .ajax-file-upload-green:active, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload:active, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload-red:active, .ajax-file-upload-statusbar .input-group-btn > .ajax-file-upload-green:active {
+    .nav-panel#register .form-section .input-panel div#file-uploader .input-group-btn > div.btn-file-upload:hover, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-btn > div.btn-file-upload:hover, .nav-panel#register .form-section .input-panel output#file-list .input-group-btn > .btn-file-output:hover, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-btn > .btn-file-output:hover, .input-group-btn > .btn:focus,
+    .nav-panel#register .form-section .input-panel div#file-uploader .input-group-btn > div.btn-file-upload:focus, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-btn > div.btn-file-upload:focus, .nav-panel#register .form-section .input-panel output#file-list .input-group-btn > .btn-file-output:focus, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-btn > .btn-file-output:focus, .input-group-btn > .btn:active, .nav-panel#register .form-section .input-panel div#file-uploader .input-group-btn > div.btn-file-upload:active, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-btn > div.btn-file-upload:active, .nav-panel#register .form-section .input-panel output#file-list .input-group-btn > .btn-file-output:active, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-btn > .btn-file-output:active {
       z-index: 2; }
   .input-group-btn:first-child > .btn,
-  .ajax-upload-dragdrop .input-group-btn:first-child > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:first-child > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:first-child > .ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-btn:first-child > .ajax-file-upload, .ajax-file-upload-statusbar .input-group-btn:first-child > .ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-btn:first-child > .ajax-file-upload-green, .input-group-btn:first-child > .btn-group {
+  .nav-panel#register .form-section .input-panel div#file-uploader .input-group-btn:first-child > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-btn:first-child > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .input-group-btn:first-child > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-btn:first-child > .btn-file-output, .input-group-btn:first-child > .btn-group {
     margin-right: -1px; }
   .input-group-btn:last-child > .btn,
-  .ajax-upload-dragdrop .input-group-btn:last-child > .ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:last-child > .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .input-group-btn:last-child > .ajax-file-upload-green, .ajax-file-upload-statusbar .input-group-btn:last-child > .ajax-file-upload, .ajax-file-upload-statusbar .input-group-btn:last-child > .ajax-file-upload-red, .ajax-file-upload-statusbar .input-group-btn:last-child > .ajax-file-upload-green, .input-group-btn:last-child > .btn-group {
+  .nav-panel#register .form-section .input-panel div#file-uploader .input-group-btn:last-child > div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .input-group-btn:last-child > div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .input-group-btn:last-child > .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .input-group-btn:last-child > .btn-file-output, .input-group-btn:last-child > .btn-group {
     margin-left: -1px; }
 
 .nav {
@@ -3728,10 +3698,10 @@ tbody.collapse.in {
 .navbar-btn {
   margin-top: 8px;
   margin-bottom: 8px; }
-  .navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn, .ajax-upload-dragdrop .btn-group-sm > .navbar-btn.ajax-file-upload, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-sm > .navbar-btn.ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn-group-sm > .navbar-btn.ajax-file-upload-green, .ajax-file-upload-statusbar .btn-group-sm > .navbar-btn.ajax-file-upload, .ajax-file-upload-statusbar .btn-group-sm > .navbar-btn.ajax-file-upload-red, .ajax-file-upload-statusbar .btn-group-sm > .navbar-btn.ajax-file-upload-green {
+  .navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-sm > div.navbar-btn.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-sm > div.navbar-btn.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .btn-group-sm > .navbar-btn.btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-group-sm > .navbar-btn.btn-file-output {
     margin-top: 10px;
     margin-bottom: 10px; }
-  .navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn, .ajax-upload-dragdrop .btn-group-xs > .navbar-btn.ajax-file-upload, .ajax-file-upload-statusbar .navbar-btn.ajax-file-upload, .ajax-file-upload-statusbar .navbar-btn.ajax-file-upload-red, .ajax-file-upload-statusbar .navbar-btn.ajax-file-upload-green {
+  .navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-xs > div.navbar-btn.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-xs > div.navbar-btn.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .navbar-btn.btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .navbar-btn.btn-file-output {
     margin-top: 14px;
     margin-bottom: 14px; }
 
@@ -4050,7 +4020,7 @@ tbody.collapse.in {
   border-radius: .25em; }
   .label:empty {
     display: none; }
-  .btn .label, .ajax-upload-dragdrop .ajax-file-upload .label, .ajax-file-upload-statusbar .ajax-file-upload .label, .ajax-file-upload-statusbar .ajax-file-upload-red .label, .ajax-file-upload-statusbar .ajax-file-upload-green .label {
+  .btn .label, .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload .label, .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload .label, .nav-panel#register .form-section .input-panel output#file-list .btn-file-output .label, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output .label {
     position: relative;
     top: -1px; }
 
@@ -4111,10 +4081,10 @@ a.label:focus {
   border-radius: 10px; }
   .badge:empty {
     display: none; }
-  .btn .badge, .ajax-upload-dragdrop .ajax-file-upload .badge, .ajax-file-upload-statusbar .ajax-file-upload .badge, .ajax-file-upload-statusbar .ajax-file-upload-red .badge, .ajax-file-upload-statusbar .ajax-file-upload-green .badge {
+  .btn .badge, .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload .badge, .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload .badge, .nav-panel#register .form-section .input-panel output#file-list .btn-file-output .badge, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output .badge {
     position: relative;
     top: -1px; }
-  .btn-xs .badge, .btn-group-xs > .btn .badge, .ajax-upload-dragdrop .btn-group-xs > .ajax-file-upload .badge, .ajax-file-upload-statusbar .ajax-file-upload .badge, .ajax-file-upload-statusbar .ajax-file-upload-red .badge, .ajax-file-upload-statusbar .ajax-file-upload-green .badge {
+  .btn-xs .badge, .btn-group-xs > .btn .badge, .nav-panel#register .form-section .input-panel div#file-uploader .btn-group-xs > div.btn-file-upload .badge, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn-group-xs > div.btn-file-upload .badge, .nav-panel#register .form-section .input-panel output#file-list .btn-file-output .badge, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output .badge {
     top: 0;
     padding: 1px 5px; }
   a.list-group-item.active > .badge,
@@ -4259,7 +4229,7 @@ a.thumbnail.active {
   to {
     background-position: 0 0; } }
 
-.progress, .ajax-file-upload-statusbar .ajax-file-upload-progress {
+.progress {
   overflow: hidden;
   height: 20px;
   margin-bottom: 20px;
@@ -4268,7 +4238,7 @@ a.thumbnail.active {
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); }
 
-.progress-bar, .ajax-file-upload-statusbar .ajax-file-upload-bar {
+.progress-bar {
   float: left;
   width: 0%;
   height: 100%;
@@ -4284,27 +4254,23 @@ a.thumbnail.active {
   transition: width 0.6s ease; }
 
 .progress-striped .progress-bar,
-.progress-striped .ajax-file-upload-statusbar .ajax-file-upload-bar,
-.ajax-file-upload-statusbar .progress-striped .ajax-file-upload-bar, .progress-bar-striped {
+.progress-bar-striped {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 40px 40px; }
 
 .progress.active .progress-bar,
-.ajax-file-upload-statusbar .active.ajax-file-upload-progress .progress-bar,
-.progress.active .ajax-file-upload-statusbar .ajax-file-upload-bar,
-.ajax-file-upload-statusbar .progress.active .ajax-file-upload-bar, .ajax-file-upload-statusbar .active.ajax-file-upload-progress .ajax-file-upload-bar, .progress-bar.active, .ajax-file-upload-statusbar .active.ajax-file-upload-bar {
+.progress-bar.active {
   -webkit-animation: progress-bar-stripes 2s linear infinite;
   -o-animation: progress-bar-stripes 2s linear infinite;
   animation: progress-bar-stripes 2s linear infinite; }
 
 .progress-bar[aria-valuenow="1"],
-.ajax-file-upload-statusbar [aria-valuenow="1"].ajax-file-upload-bar,
-.progress-bar[aria-valuenow="2"], .ajax-file-upload-statusbar [aria-valuenow="2"].ajax-file-upload-bar {
+.progress-bar[aria-valuenow="2"] {
   min-width: 30px; }
 
-.progress-bar[aria-valuenow="0"], .ajax-file-upload-statusbar [aria-valuenow="0"].ajax-file-upload-bar {
+.progress-bar[aria-valuenow="0"] {
   color: #777777;
   min-width: 30px;
   background-color: transparent;
@@ -4944,10 +4910,10 @@ button.close {
     display: table; }
   .modal-footer:after {
     clear: both; }
-  .modal-footer .btn + .btn, .modal-footer .ajax-upload-dragdrop .ajax-file-upload + .btn, .ajax-upload-dragdrop .modal-footer .ajax-file-upload + .btn, .modal-footer .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red + .btn, .modal-footer .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green + .btn, .modal-footer .ajax-file-upload-statusbar .ajax-file-upload + .btn, .ajax-file-upload-statusbar .modal-footer .ajax-file-upload + .btn, .modal-footer .ajax-file-upload-statusbar .ajax-file-upload-red + .btn, .ajax-file-upload-statusbar .modal-footer .ajax-file-upload-red + .btn, .modal-footer .ajax-file-upload-statusbar .ajax-file-upload-green + .btn, .ajax-file-upload-statusbar .modal-footer .ajax-file-upload-green + .btn, .modal-footer .ajax-upload-dragdrop .btn + .ajax-file-upload, .ajax-upload-dragdrop .modal-footer .btn + .ajax-file-upload, .modal-footer .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload, .ajax-upload-dragdrop .modal-footer .ajax-file-upload + .ajax-file-upload, .ajax-file-upload-statusbar .modal-footer .ajax-upload-dragdrop .ajax-file-upload-red + .ajax-file-upload, .ajax-file-upload-statusbar .modal-footer .ajax-upload-dragdrop .ajax-file-upload-green + .ajax-file-upload, .modal-footer .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn + .ajax-file-upload-red, .modal-footer .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload-red, .ajax-file-upload-statusbar .modal-footer .ajax-upload-dragdrop .ajax-file-upload-red + .ajax-file-upload-red, .ajax-file-upload-statusbar .modal-footer .ajax-upload-dragdrop .ajax-file-upload-green + .ajax-file-upload-red, .modal-footer .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn + .ajax-file-upload-green, .modal-footer .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload-green, .ajax-file-upload-statusbar .modal-footer .ajax-upload-dragdrop .ajax-file-upload-red + .ajax-file-upload-green, .ajax-file-upload-statusbar .modal-footer .ajax-upload-dragdrop .ajax-file-upload-green + .ajax-file-upload-green, .modal-footer .ajax-file-upload-statusbar .btn + .ajax-file-upload, .ajax-file-upload-statusbar .modal-footer .btn + .ajax-file-upload, .modal-footer .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red + .ajax-file-upload, .modal-footer .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green + .ajax-file-upload, .modal-footer .ajax-file-upload-statusbar .ajax-file-upload + .ajax-file-upload, .ajax-file-upload-statusbar .modal-footer .ajax-file-upload + .ajax-file-upload, .modal-footer .ajax-file-upload-statusbar .ajax-file-upload-red + .ajax-file-upload, .ajax-file-upload-statusbar .modal-footer .ajax-file-upload-red + .ajax-file-upload, .modal-footer .ajax-file-upload-statusbar .ajax-file-upload-green + .ajax-file-upload, .ajax-file-upload-statusbar .modal-footer .ajax-file-upload-green + .ajax-file-upload, .modal-footer .ajax-file-upload-statusbar .btn + .ajax-file-upload-red, .ajax-file-upload-statusbar .modal-footer .btn + .ajax-file-upload-red, .ajax-file-upload-statusbar .modal-footer .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload-red, .modal-footer .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red + .ajax-file-upload-red, .modal-footer .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green + .ajax-file-upload-red, .modal-footer .ajax-file-upload-statusbar .ajax-file-upload + .ajax-file-upload-red, .ajax-file-upload-statusbar .modal-footer .ajax-file-upload + .ajax-file-upload-red, .modal-footer .ajax-file-upload-statusbar .ajax-file-upload-red + .ajax-file-upload-red, .ajax-file-upload-statusbar .modal-footer .ajax-file-upload-red + .ajax-file-upload-red, .modal-footer .ajax-file-upload-statusbar .ajax-file-upload-green + .ajax-file-upload-red, .ajax-file-upload-statusbar .modal-footer .ajax-file-upload-green + .ajax-file-upload-red, .modal-footer .ajax-file-upload-statusbar .btn + .ajax-file-upload-green, .ajax-file-upload-statusbar .modal-footer .btn + .ajax-file-upload-green, .ajax-file-upload-statusbar .modal-footer .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload-green, .modal-footer .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red + .ajax-file-upload-green, .modal-footer .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green + .ajax-file-upload-green, .modal-footer .ajax-file-upload-statusbar .ajax-file-upload + .ajax-file-upload-green, .ajax-file-upload-statusbar .modal-footer .ajax-file-upload + .ajax-file-upload-green, .modal-footer .ajax-file-upload-statusbar .ajax-file-upload-red + .ajax-file-upload-green, .ajax-file-upload-statusbar .modal-footer .ajax-file-upload-red + .ajax-file-upload-green, .modal-footer .ajax-file-upload-statusbar .ajax-file-upload-green + .ajax-file-upload-green, .ajax-file-upload-statusbar .modal-footer .ajax-file-upload-green + .ajax-file-upload-green {
+  .modal-footer .btn + .btn, .modal-footer .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload + .btn, .nav-panel#register .form-section .input-panel div#file-uploader .modal-footer div.btn-file-upload + .btn, .modal-footer .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload + .btn, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .modal-footer div.btn-file-upload + .btn, .modal-footer .nav-panel#register .form-section .input-panel output#file-list .btn-file-output + .btn, .nav-panel#register .form-section .input-panel output#file-list .modal-footer .btn-file-output + .btn, .modal-footer .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output + .btn, .nav-panel#register .form-section .input-panel-submitted output#file-list .modal-footer .btn-file-output + .btn, .modal-footer .nav-panel#register .form-section .input-panel div#file-uploader .btn + div.btn-file-upload, .nav-panel#register .form-section .input-panel div#file-uploader .modal-footer .btn + div.btn-file-upload, .modal-footer .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload + div.btn-file-upload, .nav-panel#register .form-section .input-panel div#file-uploader .modal-footer div.btn-file-upload + div.btn-file-upload, .modal-footer .nav-panel#register .form-section .input-panel output#file-list div#file-uploader .btn-file-output + div.btn-file-upload, .modal-footer .nav-panel#register .form-section .input-panel div#file-uploader output#file-list .btn-file-output + div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .modal-footer div#file-uploader .btn-file-output + div.btn-file-upload, .nav-panel#register .form-section .input-panel div#file-uploader output#file-list .modal-footer .btn-file-output + div.btn-file-upload, .modal-footer .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn + div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .modal-footer .btn + div.btn-file-upload, .modal-footer .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload + div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .modal-footer div.btn-file-upload + div.btn-file-upload, .modal-footer .nav-panel#register .form-section .input-panel-submitted output#file-list div#file-uploader .btn-file-output + div.btn-file-upload, .modal-footer .nav-panel#register .form-section .input-panel-submitted div#file-uploader output#file-list .btn-file-output + div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted output#file-list .modal-footer div#file-uploader .btn-file-output + div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader output#file-list .modal-footer .btn-file-output + div.btn-file-upload, .modal-footer .nav-panel#register .form-section .input-panel output#file-list .btn + .btn-file-output, .nav-panel#register .form-section .input-panel output#file-list .modal-footer .btn + .btn-file-output, .modal-footer .nav-panel#register .form-section .input-panel div#file-uploader output#file-list div.btn-file-upload + .btn-file-output, .modal-footer .nav-panel#register .form-section .input-panel output#file-list div#file-uploader div.btn-file-upload + .btn-file-output, .nav-panel#register .form-section .input-panel div#file-uploader .modal-footer output#file-list div.btn-file-upload + .btn-file-output, .nav-panel#register .form-section .input-panel output#file-list div#file-uploader .modal-footer div.btn-file-upload + .btn-file-output, .modal-footer .nav-panel#register .form-section .input-panel output#file-list .btn-file-output + .btn-file-output, .nav-panel#register .form-section .input-panel output#file-list .modal-footer .btn-file-output + .btn-file-output, .modal-footer .nav-panel#register .form-section .input-panel-submitted output#file-list .btn + .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .modal-footer .btn + .btn-file-output, .modal-footer .nav-panel#register .form-section .input-panel-submitted div#file-uploader output#file-list div.btn-file-upload + .btn-file-output, .modal-footer .nav-panel#register .form-section .input-panel-submitted output#file-list div#file-uploader div.btn-file-upload + .btn-file-output, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .modal-footer output#file-list div.btn-file-upload + .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list div#file-uploader .modal-footer div.btn-file-upload + .btn-file-output, .modal-footer .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output + .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .modal-footer .btn-file-output + .btn-file-output {
     margin-left: 5px;
     margin-bottom: 0; }
-  .modal-footer .btn-group .btn + .btn, .modal-footer .btn-group .ajax-upload-dragdrop .ajax-file-upload + .btn, .ajax-upload-dragdrop .modal-footer .btn-group .ajax-file-upload + .btn, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red + .btn, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green + .btn, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-file-upload + .btn, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-file-upload + .btn, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-file-upload-red + .btn, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-file-upload-red + .btn, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-file-upload-green + .btn, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-file-upload-green + .btn, .modal-footer .btn-group .ajax-upload-dragdrop .btn + .ajax-file-upload, .ajax-upload-dragdrop .modal-footer .btn-group .btn + .ajax-file-upload, .modal-footer .btn-group .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload, .ajax-upload-dragdrop .modal-footer .btn-group .ajax-file-upload + .ajax-file-upload, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-upload-dragdrop .ajax-file-upload-red + .ajax-file-upload, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-upload-dragdrop .ajax-file-upload-green + .ajax-file-upload, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn + .ajax-file-upload-red, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload-red, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-upload-dragdrop .ajax-file-upload-red + .ajax-file-upload-red, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-upload-dragdrop .ajax-file-upload-green + .ajax-file-upload-red, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .btn + .ajax-file-upload-green, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload-green, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-upload-dragdrop .ajax-file-upload-red + .ajax-file-upload-green, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-upload-dragdrop .ajax-file-upload-green + .ajax-file-upload-green, .modal-footer .btn-group .ajax-file-upload-statusbar .btn + .ajax-file-upload, .ajax-file-upload-statusbar .modal-footer .btn-group .btn + .ajax-file-upload, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red + .ajax-file-upload, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green + .ajax-file-upload, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-file-upload + .ajax-file-upload, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-file-upload + .ajax-file-upload, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-file-upload-red + .ajax-file-upload, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-file-upload-red + .ajax-file-upload, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-file-upload-green + .ajax-file-upload, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-file-upload-green + .ajax-file-upload, .modal-footer .btn-group .ajax-file-upload-statusbar .btn + .ajax-file-upload-red, .ajax-file-upload-statusbar .modal-footer .btn-group .btn + .ajax-file-upload-red, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload-red, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red + .ajax-file-upload-red, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green + .ajax-file-upload-red, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-file-upload + .ajax-file-upload-red, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-file-upload + .ajax-file-upload-red, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-file-upload-red + .ajax-file-upload-red, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-file-upload-red + .ajax-file-upload-red, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-file-upload-green + .ajax-file-upload-red, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-file-upload-green + .ajax-file-upload-red, .modal-footer .btn-group .ajax-file-upload-statusbar .btn + .ajax-file-upload-green, .ajax-file-upload-statusbar .modal-footer .btn-group .btn + .ajax-file-upload-green, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload-green, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red + .ajax-file-upload-green, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green + .ajax-file-upload-green, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-file-upload + .ajax-file-upload-green, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-file-upload + .ajax-file-upload-green, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-file-upload-red + .ajax-file-upload-green, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-file-upload-red + .ajax-file-upload-green, .modal-footer .btn-group .ajax-file-upload-statusbar .ajax-file-upload-green + .ajax-file-upload-green, .ajax-file-upload-statusbar .modal-footer .btn-group .ajax-file-upload-green + .ajax-file-upload-green {
+  .modal-footer .btn-group .btn + .btn, .modal-footer .btn-group .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload + .btn, .nav-panel#register .form-section .input-panel div#file-uploader .modal-footer .btn-group div.btn-file-upload + .btn, .modal-footer .btn-group .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload + .btn, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .modal-footer .btn-group div.btn-file-upload + .btn, .modal-footer .btn-group .nav-panel#register .form-section .input-panel output#file-list .btn-file-output + .btn, .nav-panel#register .form-section .input-panel output#file-list .modal-footer .btn-group .btn-file-output + .btn, .modal-footer .btn-group .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output + .btn, .nav-panel#register .form-section .input-panel-submitted output#file-list .modal-footer .btn-group .btn-file-output + .btn, .modal-footer .btn-group .nav-panel#register .form-section .input-panel div#file-uploader .btn + div.btn-file-upload, .nav-panel#register .form-section .input-panel div#file-uploader .modal-footer .btn-group .btn + div.btn-file-upload, .modal-footer .btn-group .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload + div.btn-file-upload, .nav-panel#register .form-section .input-panel div#file-uploader .modal-footer .btn-group div.btn-file-upload + div.btn-file-upload, .modal-footer .btn-group .nav-panel#register .form-section .input-panel output#file-list div#file-uploader .btn-file-output + div.btn-file-upload, .modal-footer .btn-group .nav-panel#register .form-section .input-panel div#file-uploader output#file-list .btn-file-output + div.btn-file-upload, .nav-panel#register .form-section .input-panel output#file-list .modal-footer .btn-group div#file-uploader .btn-file-output + div.btn-file-upload, .nav-panel#register .form-section .input-panel div#file-uploader output#file-list .modal-footer .btn-group .btn-file-output + div.btn-file-upload, .modal-footer .btn-group .nav-panel#register .form-section .input-panel-submitted div#file-uploader .btn + div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .modal-footer .btn-group .btn + div.btn-file-upload, .modal-footer .btn-group .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload + div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .modal-footer .btn-group div.btn-file-upload + div.btn-file-upload, .modal-footer .btn-group .nav-panel#register .form-section .input-panel-submitted output#file-list div#file-uploader .btn-file-output + div.btn-file-upload, .modal-footer .btn-group .nav-panel#register .form-section .input-panel-submitted div#file-uploader output#file-list .btn-file-output + div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted output#file-list .modal-footer .btn-group div#file-uploader .btn-file-output + div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader output#file-list .modal-footer .btn-group .btn-file-output + div.btn-file-upload, .modal-footer .btn-group .nav-panel#register .form-section .input-panel output#file-list .btn + .btn-file-output, .nav-panel#register .form-section .input-panel output#file-list .modal-footer .btn-group .btn + .btn-file-output, .modal-footer .btn-group .nav-panel#register .form-section .input-panel div#file-uploader output#file-list div.btn-file-upload + .btn-file-output, .modal-footer .btn-group .nav-panel#register .form-section .input-panel output#file-list div#file-uploader div.btn-file-upload + .btn-file-output, .nav-panel#register .form-section .input-panel div#file-uploader .modal-footer .btn-group output#file-list div.btn-file-upload + .btn-file-output, .nav-panel#register .form-section .input-panel output#file-list div#file-uploader .modal-footer .btn-group div.btn-file-upload + .btn-file-output, .modal-footer .btn-group .nav-panel#register .form-section .input-panel output#file-list .btn-file-output + .btn-file-output, .nav-panel#register .form-section .input-panel output#file-list .modal-footer .btn-group .btn-file-output + .btn-file-output, .modal-footer .btn-group .nav-panel#register .form-section .input-panel-submitted output#file-list .btn + .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .modal-footer .btn-group .btn + .btn-file-output, .modal-footer .btn-group .nav-panel#register .form-section .input-panel-submitted div#file-uploader output#file-list div.btn-file-upload + .btn-file-output, .modal-footer .btn-group .nav-panel#register .form-section .input-panel-submitted output#file-list div#file-uploader div.btn-file-upload + .btn-file-output, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .modal-footer .btn-group output#file-list div.btn-file-upload + .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list div#file-uploader .modal-footer .btn-group div.btn-file-upload + .btn-file-output, .modal-footer .btn-group .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output + .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .modal-footer .btn-group .btn-file-output + .btn-file-output {
     margin-left: -1px; }
   .modal-footer .btn-block + .btn-block {
     margin-left: 0; }
@@ -5318,7 +5284,7 @@ button.close {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
-  .carousel-caption .btn, .carousel-caption .ajax-upload-dragdrop .ajax-file-upload, .ajax-upload-dragdrop .carousel-caption .ajax-file-upload, .carousel-caption .ajax-file-upload-statusbar .ajax-file-upload, .ajax-file-upload-statusbar .carousel-caption .ajax-file-upload, .carousel-caption .ajax-file-upload-statusbar .ajax-file-upload-red, .ajax-file-upload-statusbar .carousel-caption .ajax-file-upload-red, .carousel-caption .ajax-file-upload-statusbar .ajax-file-upload-green, .ajax-file-upload-statusbar .carousel-caption .ajax-file-upload-green {
+  .carousel-caption .btn, .carousel-caption .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload, .nav-panel#register .form-section .input-panel div#file-uploader .carousel-caption div.btn-file-upload, .carousel-caption .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader .carousel-caption div.btn-file-upload, .carousel-caption .nav-panel#register .form-section .input-panel output#file-list .btn-file-output, .nav-panel#register .form-section .input-panel output#file-list .carousel-caption .btn-file-output, .carousel-caption .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .carousel-caption .btn-file-output {
     text-shadow: none; }
 
 @media screen and (min-width: 768px) {
@@ -7570,89 +7536,6 @@ button.close {
 .fa-fonticons:before {
   content: ""; }
 
-.ajax-file-upload-container {
-  margin: auto;
-  width: 80%; }
-
-.ajax-upload-dragdrop {
-  border: 2px dotted #ddd;
-  /*color: #DADCE3;*/
-  color: #bbb;
-  text-align: left;
-  vertical-align: middle;
-  padding: 15px 10px;
-  border-radius: 4px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-  .ajax-upload-dragdrop .ajax-file-upload, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green {
-    height: 34px;
-    margin: 0px 20px 0px 0px;
-    box-shadow: none; }
-
-.ajax-file-upload-statusbar {
-  width: 100%;
-  height: 130px;
-  margin: 5px;
-  padding: 5px;
-  border: 1px solid #ddd;
-  background-color: #eee;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-  .ajax-file-upload-statusbar .ajax-file-upload-filename {
-    display: inline-block;
-    width: calc(100% - 70px);
-    height: auto;
-    margin: 0px 5px 5px 10px;
-    font-size: .9em;
-    text-align: left; }
-  .ajax-file-upload-statusbar .extrahtml {
-    display: inline-block;
-    margin: 2px 12px;
-    width: 130px;
-    height: 88px;
-    float: left; }
-    .ajax-file-upload-statusbar .extrahtml div.loading {
-      width: 100%;
-      height: 100%;
-      background-image: url(../media/preload.gif);
-      background-position: -42px -38px;
-      background-color: white;
-      border: 1px solid #ddd; }
-  .ajax-file-upload-statusbar .ajax-file-upload-progress {
-    position: relative;
-    float: left;
-    top: 11px;
-    width: calc(100% - 164px); }
-  .ajax-file-upload-statusbar .ajax-file-upload-bar {
-    background-color: #555 !important; }
-  .ajax-file-upload-statusbar .ajax-file-upload-percent {
-    position: absolute;
-    display: inline-block;
-    top: 3px;
-    left: 48%; }
-  .ajax-file-upload-statusbar .ajax-file-upload, .ajax-file-upload-statusbar .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-file-upload-green {
-    display: inline-block;
-    position: relative;
-    float: left;
-    margin-left: 2px;
-    box-shadow: none;
-    color: #fff; }
-
-@media screen and (min-width: 400px) {
-  .ajax-file-upload-statusbar {
-    height: 160px; }
-  .extrahtml {
-    height: 120px !important;
-    width: 180px !important; }
-  .ajax-file-upload-progress {
-    top: 37px !important;
-    width: calc(100% - 226px) !important;
-    max-width: 250px; }
-  .ajax-file-upload-red, .ajax-file-upload-green {
-    top: 36px; } }
-
 html {
   position: relative;
   height: 100%;
@@ -7804,7 +7687,8 @@ header {
     margin-top: 15px; }
     .nav-panel#register .form-section .input-panel, .nav-panel#register .form-section .input-panel-submitted {
       margin-bottom: 10px;
-      text-align: left; }
+      text-align: left;
+      /* html5 file uploader*/ }
       .nav-panel#register .form-section .input-panel .row, .nav-panel#register .form-section .input-panel-submitted .row {
         margin-top: 5px;
         margin: 5px 0px 0px 0px; }
@@ -7851,6 +7735,47 @@ header {
         font-size: .9em; }
         .nav-panel#register .form-section .input-panel label.answer.secondary, .nav-panel#register .form-section .input-panel-submitted label.answer.secondary {
           font-weight: normal; }
+      .nav-panel#register .form-section .input-panel div#file-uploader, .nav-panel#register .form-section .input-panel-submitted div#file-uploader {
+        width: 80%;
+        margin: auto; }
+        .nav-panel#register .form-section .input-panel div#file-uploader #file-drop-zone, .nav-panel#register .form-section .input-panel-submitted div#file-uploader #file-drop-zone {
+          border: 2px dotted #ddd;
+          /*color: #DADCE3;*/
+          color: #bbb;
+          text-align: left;
+          vertical-align: middle;
+          padding: 15px 10px;
+          border-radius: 4px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto; }
+        .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload {
+          height: 34px;
+          position: relative;
+          margin: 0px 20px 0px 0px;
+          box-shadow: none;
+          cursor: pointer; }
+          .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload input[type="file"], .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload input[type="file"] {
+            display: inline-block !important;
+            position: absolute;
+            cursor: pointer;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            left: 0px;
+            z-index: 100;
+            opacity: 0; }
+      .nav-panel#register .form-section .input-panel output#file-list, .nav-panel#register .form-section .input-panel-submitted output#file-list {
+        width: 80%;
+        margin: auto; }
+        .nav-panel#register .form-section .input-panel output#file-list li, .nav-panel#register .form-section .input-panel-submitted output#file-list li {
+          display: block; }
+        .nav-panel#register .form-section .input-panel output#file-list .btn-file-output, .nav-panel#register .form-section .input-panel-submitted output#file-list .btn-file-output {
+          display: inline-block;
+          position: relative;
+          margin-left: 7px;
+          box-shadow: none;
+          color: #fff; }
       .nav-panel#register .form-section .input-panel #mulitplefileuploader, .nav-panel#register .form-section .input-panel-submitted #mulitplefileuploader {
         width: 80%;
         margin: auto; }
@@ -7884,7 +7809,7 @@ header {
     margin-top: 10px;
     padding: 10px 0px;
     text-align: center; }
-    .nav-panel#register .controls-section .progress, .nav-panel#register .controls-section .ajax-file-upload-statusbar .ajax-file-upload-progress, .ajax-file-upload-statusbar .nav-panel#register .controls-section .ajax-file-upload-progress {
+    .nav-panel#register .controls-section .progress {
       width: 60%;
       margin: auto; }
     .nav-panel#register .controls-section .progress-steps-container {
@@ -7932,17 +7857,17 @@ header {
   .button-area button {
     min-width: 83px; }
 
-.btn-primary-mg, .ajax-upload-dragdrop .ajax-file-upload, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green {
+.btn-primary-mg, .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload, .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload {
   color: #fff;
   background-color: #4d9d2a;
   border: 1px solid #4a9a27; }
-  .btn-primary-mg:hover, .ajax-upload-dragdrop .ajax-file-upload:hover, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red:hover, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green:hover {
+  .btn-primary-mg:hover, .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload:hover, .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload:hover {
     background-color: #459522;
     color: #eee; }
-  .btn-primary-mg a, .ajax-upload-dragdrop .ajax-file-upload a, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red a, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red a, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green a, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green a {
+  .btn-primary-mg a, .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload a, .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload a {
     color: inherit;
     text-decoration: none; }
-    .btn-primary-mg a:hover, .ajax-upload-dragdrop .ajax-file-upload a:hover, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-red a:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-red a:hover, .ajax-upload-dragdrop .ajax-file-upload-statusbar .ajax-file-upload-green a:hover, .ajax-file-upload-statusbar .ajax-upload-dragdrop .ajax-file-upload-green a:hover {
+    .btn-primary-mg a:hover, .nav-panel#register .form-section .input-panel div#file-uploader div.btn-file-upload a:hover, .nav-panel#register .form-section .input-panel-submitted div#file-uploader div.btn-file-upload a:hover {
       color: inherit; }
 
 div.bg-processing {

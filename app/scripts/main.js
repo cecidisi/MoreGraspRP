@@ -12,18 +12,62 @@ var app = $.sammy(function(){
         $progress = $('.progress'),
         $progressSteps = $('.progress-steps-container');
 
-    var misc = [
-        { question: "mgrp-misc-q1", options: 6 }
-    ]
+
+    //  HTML5 File uploader
+    var filesToUpload = {};
+    var $fileList = $('#file-list').find('ul');
+    var addSelectedFiles = function(files){
+        for(var i=0; i<files.length; ++i) {
+            var file = files[i];
+            if(!filesToUpload[file.name] && /^video\/\w+/.test(file.type)) {
+                filesToUpload[file.name] = file;
+                var $li = $('<li/>', { name: file.name, html: '<strong>'+escape(file.name)+'</strong> ('+(file.type || 'n/a')+') - '+bytesToSize(file.size) })
+                .appendTo($fileList);
+                $('<button/>', { class: 'btn-file-output red', 'data-i18n': 'mgrp-video-upload-btn-delete', html: $.i18nCustom.val('mgrp-video-upload-btn-delete') })
+                .appendTo($li).click(function(evt){
+                    evt.stopPropagation();
+                    var fileName = $(this).parent().attr('name');
+                    delete filesToUpload[fileName];
+                    $(this).parent().remove()
+                    console.log(filesToUpload);
+                });
+            }
+        }
+        $('#file-input').val('');
+    };
+
+    // input file -> Select button
+    $('#file-input').change(function(evt) {
+        var files = evt.target.files; // FileList object
+        addSelectedFiles(files);
+    });
+
+    // File Drop Area
+    $('#file-drop-zone').on({
+        'dragover': function(evt){
+            evt.stopPropagation();
+            evt.preventDefault();
+            evt.originalEvent.dataTransfer.dropEffect = 'copy';
+        },
+        'drop': function(evt){
+            evt.stopPropagation();
+            evt.preventDefault();
+            var files = evt.originalEvent.dataTransfer.files;
+            addSelectedFiles(files);
+        }});
+
 
     /***  Create dynamic elements after i18n locales are loaded  ***/
     var buildDynamicDOM = function(){
         /* checkboxes */
-        var cbxValue = { yes: $.i18nCustom.val("mgrp-toggle-on") || 'yes', no: $.i18nCustom.val("mgrp-toggle-off") || 'yes' };
+        var cbxValue = { yes: $.i18nCustom.val("mgrp-toggle-on") || 'yes', no: $.i18nCustom.val("mgrp-toggle-off") || 'no' };
+
         $('.cbx-toggle').bootstrapToggle({ on: cbxValue.yes, off: cbxValue.no }).change(function(){
             var field = $(this).attr('id'),
-                value = $(this).prop('checked') ? cbxValue.yes : cbxValue.no;
-            $('p[field="' + field + '"]').text(value);
+                value = $(this).prop('checked') ? cbxValue.yes : cbxValue.no,
+                i18nKey = $(this).prop('checked') ? 'mgrp-toggle-on' : 'mgrp-toggle-off';
+
+            $('p[field="' + field + '"]').attr('data-i18n', i18nKey).text(value);
         }).change();
 
         /* file uploader */
@@ -66,7 +110,6 @@ var app = $.sammy(function(){
         }
 
     };
-
 
     $.i18nCustom({
         path: 'i18n/',
@@ -116,6 +159,7 @@ var app = $.sammy(function(){
     $('#btn-submit').click(function(){
         window.location.href = '#/submission/complete';
     });
+
 
 
 
@@ -203,6 +247,9 @@ var app = $.sammy(function(){
     this.get('#/lang/:locale', function(context){
         $.i18nCustom.locale(context.params.locale);
         $.i18nCustom.update();
+
+        $('.toggle-on').html($.i18nCustom.val('mgrp-toggle-on'));
+        $('.toggle-off').html($.i18nCustom.val('mgrp-toggle-off'));
     });
 
 

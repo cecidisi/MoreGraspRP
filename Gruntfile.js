@@ -417,6 +417,13 @@ module.exports = function (grunt) {
 //          src: 'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*',
           src: '<%= config.app %>/fonts/{,*/}*.*',
           dest: '<%= config.dist %>/fonts/'
+        }, {
+            expand: true,
+            dot: true,
+            cwd: '.',
+            flatten: true,
+            src: '<%= config.app %>/i18n/{,*/}*.json',
+            dest: '<%= config.dist %>/i18n/'
         }]
       },
       styles: {
@@ -432,6 +439,12 @@ module.exports = function (grunt) {
           cwd: '.tmp/styles/',
           dest: '<%= config.app %>/styles',
           src: '{,*/}*.css'
+      }
+    },
+
+    'json-minify': {
+      build: {
+          files: '<%= config.dist %>/i18n/*.json'
       }
     },
 
@@ -503,6 +516,7 @@ module.exports = function (grunt) {
     'cssmin',
     'uglify',
     'copy:dist',
+    'json-minify:build',
     'rev',
     'usemin',
     'htmlmin',

@@ -4,7 +4,7 @@ $icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bo
 @import "../../bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
 
-@import "file-upload";
+//@import "file-upload";
 @import "mixins/custom-mixins";
 
 
@@ -297,6 +297,68 @@ header {
                     }
                 }
             }
+
+            /* html5 file uploader*/
+            div#file-uploader {
+                width: 80%;
+                margin: auto;
+
+                #file-drop-zone {
+                    border:2px dotted #ddd;
+                    /*color: #DADCE3;*/
+                    color: #bbb;
+                    text-align:left;
+                    vertical-align:middle;
+                    padding: 15px 10px;
+                    border-radius: 4px;
+                    //  margin: @line-height-computed;
+                    @include center-block();
+                }
+
+                div.btn-file-upload {
+                    @extend .btn, .btn-primary-mg;
+                    height: 34px;
+                    position: relative;
+                    margin: 0px 20px 0px 0px;
+                    box-shadow: none;
+                    cursor: pointer;
+
+                    input[type="file"] {
+                        display: inline-block !important;
+                        position: absolute;
+                        cursor: pointer;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                        left: 0px;
+                        z-index: 100;
+                        opacity: 0;
+                    }
+                }
+            }
+
+            output#file-list {
+                width: 80%;
+                margin: auto;
+
+                li {
+                    display: block;
+                }
+
+                .btn-file-output {
+                    @extend .btn, .btn-xs;
+                    display: inline-block;
+                    position: relative;
+                    margin-left: 7px;
+                    box-shadow: none;
+                    color: #fff;
+
+                    &.red {
+                        @extend .btn-danger;
+                    }
+                }
+            }
+
 
             #mulitplefileuploader {
                 width: 80%;

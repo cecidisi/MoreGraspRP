@@ -226,8 +226,24 @@
                           <h4 data-i18n="mgrp-header-video">Video</h4>
                           <p class="explanation" data-i18n="mgrp-header-video-explanation">Please upload a demo video. This will give us a better idea of your condition.</p>
                           <p class="explanation" data-i18n="mgrp-header-video-guidelines">[Guidelines go here]</p>
-                          <div id="mulitplefileuploader">Select</div>
-                          <div id="status"></div>
+
+
+                          <div id="file-uploader">
+                              <div id="file-drop-zone" class="ajax-upload-dragdrop">
+                                  <div class="btn-file-upload">
+                                      <span  data-i18n="mgrp-video-upload-btn-select"></span>
+                                      <input type="file" id="file-input" name="files[]" class="btn btn-primary-mg" accept="video/*" multiple />
+                                  </div>
+                                  <label data-i18n="mgrp-video-upload-drag-and-drop-msg">Drop files here</label>
+                              </div>
+                          </div>
+
+                          <output id="file-list"><ul></ul></output>
+
+
+<!--                          <div id="mulitplefileuploader">Select</div>
+                          <div id="status"></div>-->
+
                       </div>
 
                       <!--  Miscellaneous -->
@@ -291,7 +307,7 @@
                           <p class="explanation" data-i18n="mgrp-header-review-explanation">Please review your information carefully and press submit when ready</p><br>
 
                           <div class="answer-container large">
-                              <h5 data-i18n="mgrp-header-personal-data" no-replace>Personal Data <a href="#/register/1"><i class="edit-answer"></i></a></h5>
+                              <h5 data-i18n="mgrp-header-personal-data" data-i18n-noreplace>Personal Data <a href="#/register/1"><i class="edit-answer"></i></a></h5>
                               <div class="row">
                                   <label class="answer" data-i18n="mgrp-lbl-first-name">First Name:</label>
                                   <p class="form-answer" field="inputFirstname"></p>
@@ -331,7 +347,7 @@
                           </div>
 
                           <div class="answer-container large">
-                              <h5 data-i18n="mgrp-header-pre-injury" no-replace>Pre-Injury Conditions <a href="#/register/2"><i class="edit-answer"></i></a></h5>
+                              <h5 data-i18n="mgrp-header-pre-injury" data-i18n-noreplace>Pre-Injury Conditions <a href="#/register/2"><i class="edit-answer"></i></a></h5>
                               <div class="row">
                                   <label class="answer" data-i18n="mgrp-lbl-metal-implant">Metal Implant in Forearm:</label>
                                   <p class="form-answer" field="cbxImplant"></p>
@@ -359,7 +375,7 @@
                           </div>
 
                           <div class="answer-container large">
-                              <h5 data-i18n="mgrp-header-injury" no-replace>Injury Details <a href="#/register/3"><i class="edit-answer"></i></a></h5>
+                              <h5 data-i18n="mgrp-header-injury" data-i18n-noreplace>Injury Details <a href="#/register/3"><i class="edit-answer"></i></a></h5>
                               <div class="row">
                                   <label class="answer" data-i18n="mgrp-lbl-date-of-injury">Date of Injury</label>
                                   <p class="form-answer" field="dtpDateInjury"></p>
@@ -371,7 +387,7 @@
                           </div>
 
                           <div class="answer-container">
-                              <h5 data-i18n="mgrp-header-abilities" no-replace>Current Abilities <a href="#/register/4"><i class="edit-answer"></i></a></h5>
+                              <h5 data-i18n="mgrp-header-abilities" data-i18n-noreplace>Current Abilities <a href="#/register/4"><i class="edit-answer"></i></a></h5>
                               <div class="row">
                                   <label class="answer" data-i18n="mgrp-lbl-hand-to-mouth">Can you bring your hand to your mouth?</label>
                                   <p class="form-answer" field="cbxHandToMouth"></p>
@@ -391,7 +407,7 @@
                           </div>
 
                           <div class="answer-container">
-                              <h5 data-i18n="mgrp-header-video" no-replace>Video <a href="#/register/5"><i class="edit-answer"></i></a></h5>
+                              <h5 data-i18n="mgrp-header-video" data-i18n-noreplace>Video <a href="#/register/5"><i class="edit-answer"></i></a></h5>
                               <div class="row">
                                   <div class="extrahtml"></div>
                               </div>
@@ -399,7 +415,7 @@
 
                           <div class="answer-container">
 
-                              <h5 data-i18n="mgrp-header-misc" no-replace>Miscellaneous <a href="#/register/6"><i class="edit-answer"></i></a></h5>
+                              <h5 data-i18n="mgrp-header-misc" data-i18n-noreplace>Miscellaneous <a href="#/register/6"><i class="edit-answer"></i></a></h5>
                               <label class="answer" data-i18n="mgrp-misc-q1">How did you find us?</label>
                               <div class="row">
                                   <label class="answer secondary" data-i18n="mgrp-misc-q1-opt-doctor">My Doctor told me</label>:
@@ -601,6 +617,7 @@
     <script src="bower_components/jquery-i18n-properties/jquery.i18n.properties.js"></script>
     <!-- endbower -->
     <!-- injector:js -->
+    <script src="bower_components/jquery.i18n/src/jquery.i18n.js"></script>
     <!-- endinjector -->
     <!-- endbuild -->
 
@@ -618,7 +635,7 @@
         <!-- build:js({app,.tmp}) scripts/main.js -->
         <script src="scripts/scrollto.js"></script>
         <script src="scripts/i18n-handler.js"></script>
-        <script src="scripts/langConfig.js"></script>
+        <script src="scripts/helper.js"></script>
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
 </body>

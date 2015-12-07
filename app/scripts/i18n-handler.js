@@ -31,22 +31,7 @@
                         loadedFiles++;
                         if(loadedFiles === arrLang.length) {
                             // change locale string in dom
-                            $('['+_this.settings.attr+']').each(function(i, elem){
-                                var $elem = $(elem),
-                                    key = $elem.attr(_this.settings.attr),
-                                    val = _this.getValue(key);
-                                if(val) {
-                                   // console.log(key+' --> '+val);
-                                    if(typeof $elem.attr('no-replace') === undefined || $elem.attr('no-replace') === undefined) {
-                                        $elem.html(val);
-                                    }
-                                    else {
-                                        var $children = $elem.children().clone(true).detach();
-                                        $elem.html(val).append($children);
-                                    }
-                                }
-
-                            });
+                            _this.updateDOM();
                             _this.settings.callback.call(this);
                         }
                     }).fail(function(){
@@ -64,7 +49,7 @@
                     val = _this.getValue(key);
                 if(val) {
                     // console.log(key+' --> '+val);
-                    if(typeof $elem.attr('no-replace') === undefined || $elem.attr('no-replace') === undefined) {
+                    if(typeof $elem.attr(_this.settings.attr+'-noreplace') === undefined || $elem.attr(_this.settings.attr+'-noreplace') === undefined) {
                         $elem.html(val);
                     }
                     else {
