@@ -294,7 +294,7 @@ module.exports = function (grunt) {
         dest: '<%= config.dist %>'
       },
       html: '<%= config.app %>/index.html'
-//        html: ['<%= config.dist %>/{,*/}*.html']
+      //html: ['<%= config.dist %>/{,*/}*.html']
     },
 
     // Performs rewrites based on rev and the useminPrepare configuration
@@ -516,7 +516,7 @@ module.exports = function (grunt) {
     'cssmin',
     'uglify',
     'copy:dist',
-    'json-minify:build',
+//    'json-minify:build',
     'rev',
     'usemin',
     'htmlmin',

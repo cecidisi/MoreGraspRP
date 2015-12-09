@@ -12,6 +12,7 @@ var app = $.sammy(function(){
         $progress = $('.progress'),
         $progressSteps = $('.progress-steps-container');
 
+    var cbxValue = { yes: 'yes', no: 'no' };
 
     //  HTML5 File uploader
     var filesToUpload = {};
@@ -57,48 +58,69 @@ var app = $.sammy(function(){
         }});
 
 
+    $('.cbx-toggle').bootstrapToggle().change(function(){
+        var field = $(this).attr('id'),
+            value = $(this).prop('checked') ? cbxValue.yes : cbxValue.no,
+            i18nKey = $(this).prop('checked') ? 'mgrp-toggle-on' : 'mgrp-toggle-off';
+
+        $('p[field="' + field + '"]').attr('data-i18n', i18nKey).text(value);
+    }).change();
+
+
     /***  Create dynamic elements after i18n locales are loaded  ***/
     var buildDynamicDOM = function(){
         /* checkboxes */
-        var cbxValue = { yes: $.i18nCustom.val("mgrp-toggle-on") || 'yes', no: $.i18nCustom.val("mgrp-toggle-off") || 'no' };
+        cbxValue = { yes: $.i18nCustom.val("mgrp-toggle-on") || cbxValue.yes, no: $.i18nCustom.val("mgrp-toggle-off") || cbxValue.no };
+        $('.cbx-toggle').each(function(i, cbx){
+            $(cbx).attr('data-on', cbxValue.yes).attr('data-off', cbxValue.no);
+        });
+        $('label.toggle-on').each(function(i, lblYes){
+            $(lblYes).html(cbxValue.yes);
+        });
+        $('label.toggle-off').each(function(i, lblNo){
+            $(lblNo).html(cbxValue.yes);
+        });
 
+/*
         $('.cbx-toggle').bootstrapToggle({ on: cbxValue.yes, off: cbxValue.no }).change(function(){
             var field = $(this).attr('id'),
                 value = $(this).prop('checked') ? cbxValue.yes : cbxValue.no,
                 i18nKey = $(this).prop('checked') ? 'mgrp-toggle-on' : 'mgrp-toggle-off';
+                console.log()
 
             $('p[field="' + field + '"]').attr('data-i18n', i18nKey).text(value);
         }).change();
+*/
 
         /* file uploader */
-        var uploadSettings = {
-            url: 'http://localhost/MoreGraspRP/server-test/upload.php',
-            dragDrop: true,
-            dragdropWidth: '100%',
-            statusBarWidth: '100%',
-            fileName: "myfile",
-            uploadStr: $.i18nCustom.val("mgrp-video-upload-btn-select") || 'Select',
-            dragDropStr: $.i18nCustom.val("mgrp-video-upload-drag-and-drop-msg") || 'Drag &amp; Drop',
-            acceptFiles: 'video/*',
-            maxFileSize: 1000000000,
-            showFileCounter: true,
-            showDone: false,
-            showDelete: true,
-            returnType: "json",
-            extraHTML: function(){
-                return "<div class='loading'></div>";
-            },
-            onSuccess: function(files,data,xhr, pd){
-                var video = "<video width='100%' height='100%' src='http://localhost/MoreGraspRP/server-test/uploads/" + files[0] + "' controls></video>";
-                $('.extrahtml').empty().html(video);
-            },
-            onError: function(files, status, message){
-                $('.extrahtml').empty();
-            },
-            deleteCallback: function(filesToDelete){},
-            afterUploadAll: function(){}
-        };
-        $('#mulitplefileuploader').uploadFile(uploadSettings);
+//        var uploadSettings = {
+//            url: 'http://localhost/MoreGraspRP/server-test/upload.php',
+//            dragDrop: true,
+//            dragdropWidth: '100%',
+//            statusBarWidth: '100%',
+//            fileName: "myfile",
+//            uploadStr: $.i18nCustom.val("mgrp-video-upload-btn-select") || 'Select',
+//            dragDropStr: $.i18nCustom.val("mgrp-video-upload-drag-and-drop-msg") || 'Drag &amp; Drop',
+//            acceptFiles: 'video/*',
+//            maxFileSize: 1000000000,
+//            showFileCounter: true,
+//            showDone: false,
+//            showDelete: true,
+//            returnType: "json",
+//            extraHTML: function(){
+//                return "<div class='loading'></div>";
+//            },
+//            onSuccess: function(files,data,xhr, pd){
+//                var video = "<video width='100%' height='100%' src='http://localhost/MoreGraspRP/server-test/uploads/" + files[0] + "' controls></video>";
+//                $('.extrahtml').empty().html(video);
+//            },
+//            onError: function(files, status, message){
+//                $('.extrahtml').empty();
+//            },
+//            deleteCallback: function(filesToDelete){},
+//            afterUploadAll: function(){}
+//        };
+//        $('#mulitplefileuploader').uploadFile(uploadSettings);
 
         /* progress step labels */
         var stepWidth = parseFloat(100 / (numberPanels-1));
