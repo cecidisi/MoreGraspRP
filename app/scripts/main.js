@@ -78,7 +78,7 @@ var app = $.sammy(function(){
             $(lblYes).html(cbxValue.yes);
         });
         $('label.toggle-off').each(function(i, lblNo){
-            $(lblNo).html(cbxValue.yes);
+            $(lblNo).html(cbxValue.no);
         });
 
 /*
@@ -136,7 +136,7 @@ var app = $.sammy(function(){
     $.i18nCustom({
         path: 'i18n/',
         languages: ['en', 'de'],
-        locale: 'de',
+//        locale: 'de',
         callback: buildDynamicDOM
     });
 
