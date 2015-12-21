@@ -231,7 +231,9 @@
                               <div id="file-drop-zone" class="ajax-upload-dragdrop">
                                   <div class="btn-file-upload">
                                       <span  data-i18n="mgrp-video-upload-btn-select"></span>
-                                      <input type="file" id="file-input" name="files[]" class="btn btn-primary-mg" accept="video/*" multiple />
+                                      <form id="form-video-upload" method="post" action="http://localhost:3000/upload", enctype="multipart/form-data">
+                                          <input type="file" id="file-input" name="files[]" class="btn btn-primary-mg" accept="video/*" multiple />
+                                      </form>
                                   </div>
                                   <label data-i18n="mgrp-video-upload-drag-and-drop-msg">Drop files here</label>
                               </div>

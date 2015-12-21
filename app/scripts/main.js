@@ -247,6 +247,24 @@ var app = $.sammy(function(){
 
     var submitData = function(){
         // TODO submit data to server
+        console.log('submit data');
+        console.log(filesToUpload);
+        var key = Object.keys(filesToUpload)[0];
+        console.log(key);
+        console.log(filesToUpload[key]);
+        var file = filesToUpload[Object.keys(filesToUpload)[0]];
+        console.log(file);
+        $('#form-video-upload').submit();
+//        $.post({
+//            url: 'http:localhost:3000/upload',
+//            data: file,
+//            contentType: false,
+//            processData: false,
+//            'async': true,
+//            success: function(data){
+//                console.log('success');
+//            }
+//        })
 
     };
 
@@ -300,15 +318,16 @@ var app = $.sammy(function(){
         var $bgProcessing = $('<div/>', { class: 'bg-processing' }).appendTo($('body'));
         $('<div/>', { class: 'loading' }).appendTo($bgProcessing);
 
-        var onDataSubmitted = function(){
-            $bgProcessing.remove();
-            $('.input-panel').hide();
-            $('.controls-section').hide();
-            $('.input-panel-submitted').show();
-        };
-
-        // Replace timeout with actual server call
-        setTimeout(onDataSubmitted, 3000);
+        submitData();
+//        var onDataSubmitted = function(){
+//            $bgProcessing.remove();
+//            $('.input-panel').hide();
+//            $('.controls-section').hide();
+//            $('.input-panel-submitted').show();
+//        };
+//
+//        // Replace timeout with actual server call
+//        setTimeout(onDataSubmitted, 3000);
     });
 
 }).run('#/home');
