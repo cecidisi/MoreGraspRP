@@ -30,7 +30,6 @@ var app = $.sammy(function(){
                     var fileName = $(this).parent().attr('name');
                     delete filesToUpload[fileName];
                     $(this).parent().remove()
-                    console.log(filesToUpload);
                 });
             }
         }
@@ -81,16 +80,6 @@ var app = $.sammy(function(){
             $(lblNo).html(cbxValue.no);
         });
 
-/*
-        $('.cbx-toggle').bootstrapToggle({ on: cbxValue.yes, off: cbxValue.no }).change(function(){
-            var field = $(this).attr('id'),
-                value = $(this).prop('checked') ? cbxValue.yes : cbxValue.no,
-                i18nKey = $(this).prop('checked') ? 'mgrp-toggle-on' : 'mgrp-toggle-off';
-                console.log()
-
-            $('p[field="' + field + '"]').attr('data-i18n', i18nKey).text(value);
-        }).change();
-*/
 
         /* file uploader */
 //        var uploadSettings = {
@@ -179,7 +168,8 @@ var app = $.sammy(function(){
     }).change();
 
     $('#btn-submit').click(function(){
-        window.location.href = '#/submission/complete';
+//        window.location.href = '#/submission/complete';
+        submitData();
     });
 
 
@@ -248,23 +238,87 @@ var app = $.sammy(function(){
     var submitData = function(){
         // TODO submit data to server
         console.log('submit data');
-        console.log(filesToUpload);
-        var key = Object.keys(filesToUpload)[0];
-        console.log(key);
-        console.log(filesToUpload[key]);
-        var file = filesToUpload[Object.keys(filesToUpload)[0]];
-        console.log(file);
-        $('#form-video-upload').submit();
-//        $.post({
-//            url: 'http:localhost:3000/upload',
-//            data: file,
-//            contentType: false,
-//            processData: false,
-//            'async': true,
-//            success: function(data){
-//                console.log('success');
+        var $bgProcessing = $('<div/>', { class: 'bg-processing' }).appendTo($('body'));
+        $('<div/>', { class: 'loading' }).appendTo($bgProcessing);
+
+        var formData = new FormData();
+
+//      WORKS!
+//        formData.append('video', filesToUpload[Object.keys(filesToUpload)[0]], Object.keys(filesToUpload)[0]);
+
+//      DOESN'T WORK!
+//        Object.keys(filesToUpload).forEach(function(key){
+//            formData.append('videos[]', filesToUpload[key], key);
+//        });
+//
+//        var xhr = new XMLHttpRequest();
+//        xhr.onload = function (e) {
+//            // file upload is complete
+//            //console.log(xhr.responseText);
+//        };
+//        xhr.onerror = function(XMLHttpRequest, textStatus, errorThrown) {
+//            console.log('ajax call error');
+//            console.log(XMLHttpRequest);
+//            $bgProcessing.remove();
+//        };
+//        xhr.open("POST", "http://localhost:3000/upload", true);
+//
+//        xhr.onreadystatechange = function () {
+//            if (xhr.readyState === 4) {
+//                if (xhr.status === 200) {
+//                    console.log(xhr.responseText);
+//
+//                    $bgProcessing.remove();
+//                    $('.input-panel').hide();
+//                    $('.controls-section').hide();
+//                    $('.input-panel-submitted').show();
+//
+//                } else {
+//                    console.error(xhr.statusText);
+//                }
 //            }
-//        })
+//        };
+//
+//        xhr.send(formData);
+
+        var uploadFile = function(data){
+            var xhr = new XMLHttpRequest();
+            xhr.onload = function (e) {
+                // file upload is complete
+                //console.log(xhr.responseText);
+            };
+            xhr.onerror = function(XMLHttpRequest, textStatus, errorThrown) {
+                console.log('ajax call error');
+                console.log(XMLHttpRequest);
+                $bgProcessing.remove();
+            };
+            xhr.open("POST", "http://localhost:3000/upload", true);
+
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200) {
+                        console.log(xhr.responseText);
+
+                        $bgProcessing.remove();
+                        $('.input-panel').hide();
+                        $('.controls-section').hide();
+                        $('.input-panel-submitted').show();
+
+                    } else {
+                        console.error(xhr.statusText);
+                    }
+                }
+            };
+
+            xhr.send(data);
+
+        };
+
+        Object.keys(filesToUpload).forEach(function(key){
+            var formData = new FormData();
+            formData.append('video', filesToUpload[key], key);
+            uploadFile(formData);
+        });
 
     };
 

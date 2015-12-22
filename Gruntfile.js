@@ -91,7 +91,6 @@ module.exports = function (grunt) {
                     connect().use('/bower_components', connect.static('./bower_components')),
                     connect.static(config.app),
                     // new
-                        connect().use('/locales/{,*/}*.{json,properties}', connect.static('<%= config.app %>/locales/{,*/}*.{json,properties}')),
                         connect().use('/i18n/{,*/}*.json', connect.static('<%= config.app %>/i18n/{,*/}*.json')),
                     ];
                 }
@@ -250,8 +249,8 @@ module.exports = function (grunt) {
           files: {
               '<%= config.app %>/index.html': [
                   'bower_components/jquery-uploadfile/js/jquery.uploadfile.js',
-                  'bower_components/jquery-uploadfile/css/uploadfile.css',
-                  'bower_components/jquery.i18n/src/jquery.i18n.js'
+                  'bower_components/jquery-uploadfile/css/uploadfile.css'
+//                  'bower_components/jquery.i18n/src/jquery.i18n.js'
               ],
           }
       }
